@@ -1764,181 +1764,182 @@ return {
         },
         Tarot = {
             c_fool = {
-                name = "The Fool",
+                name = "Дурень",
                 text = {
-                    "Creates the last",
-                    "{C:tarot}Tarot{} or {C:planet}Planet{} card",
-                    "used during this run",
-                    "{s:0.8,C:tarot}The Fool{s:0.8} excluded"
+                    "Створює останню використану",
+					"під час забігу",
+                    "карту {C:tarot}Таро{} або {C:planet}Планети{}",
+                    "{s:0.8,C:tarot}Дурень{s:0.8} виключено"
                 }
             },
             c_magician = {
-                name = "The Magician",
+                name = "Маг",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Покращує {C:attention}#1#{} обрану",
+                    "карту до:",
                     "{C:attention}#2#"
                 }
             },
             c_high_priestess = {
-                name = "The High Priestess",
+                name = "Верховна жриця",
                 text = {
-                    "Creates up to {C:attention}#1#",
-                    "random {C:planet}Planet{} cards",
-                    "{C:inactive}(Must have room)"
+                    "Створює до {C:attention}#1#",
+                    "випаткових карт {C:planet}Планет{}",
+                    "{C:inactive}(Вимагає місце)"
                 }
             },
             c_empress = {
-                name = "The Empress",
+                name = "Імператриця",
                 text = {
-                    "Enhances {C:attention}#1#",
-                    "selected cards to",
+                    "Покращує {C:attention}#1#",
+                    "вибрану карту до:",
                     "{C:attention}#2#s"
                 }
             },
             c_emperor = {
-                name = "The Emperor",
+                name = "Імператор",
                 text = {
-                    "Creates up to {C:attention}#1#",
-                    "random {C:tarot}Tarot{} cards",
-                    "{C:inactive}(Must have room)"
+                    "Покращує до {C:attention}#1#",
+                    "випадкових карт {C:tarot}Таро{}",
+                    "{C:inactive}(Вимагає місце)"
                 }
             },
             c_heirophant = {
-                name = "The Hierophant",
+                name = "Ієрофант",
                 text = {
-                    "Enhances {C:attention}#1#",
-                    "selected cards to",
+                    "Покращує {C:attention}#1#",
+                    "вибрані карти до:",
                     "{C:attention}#2#s"
                 }
             },
             c_lovers = {
-                name = "The Lovers",
+                name = "Закохані",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Покращує {C:attention}#1#{} обрану",
+                    "карту до:",
                     "{C:attention}#2#"
                 }
             },
             c_chariot = {
-                name = "The Chariot",
+                name = "Колісниця",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Покращує {C:attention}#1#{} обрану",
+                    "карту до:",
                     "{C:attention}#2#"
                 }
             },
             c_justice = {
-                name = "Justice",
+                name = "Справедливість",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Покращує {C:attention}#1#{} обрану",
+                    "карту до:",
                     "{C:attention}#2#"
                 }
             },
             c_hermit = {
-                name = "The Hermit",
+                name = "Пустельник",
                 text = {
-                    "Doubles money",
-                    "{C:inactive}(Max of {C:money}$#1#{C:inactive})"
+                    "Подвоює гроші",
+                    "{C:inactive}(Максимум {C:money}$#1#{C:inactive})"
                 }
             },
             c_wheel_of_fortune = {
-                name = "The Wheel of Fortune",
+                name = "Колесо Фортуни",
                 text = {
-                    "{C:green}#1# in #2#{} chance to add",
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
-                    "{C:dark_edition}Polychrome{} edition",
-                    "to a random {C:attention}Joker"
+                    "{C:green}#1# з #2#{} шанс покращення",
+					"випадкового {C:attention}Джокера до:",
+                    "{C:dark_edition}Фольга{}, {C:dark_edition}Голографічний{}, або",
+                    "{C:dark_edition}Поліхромний{}",
+
                 }
             },
             c_strength = {
-                name = "Strength",
+                name = "Сила",
                 text = {
-                    "Increases rank of",
-                    "up to {C:attention}#1#{} selected",
-                    "cards by {C:attention}1"
+                    "Підвищує номінал",
+                    "до {C:attention}#1#{} обраних",
+                    "карт на {C:attention}1"
                 }
             },
             c_hanged_man = {
-                name = "The Hanged Man",
+                name = "Повішений",
                 text = {
-                    "Destroys up to",
-                    "{C:attention}#1#{} selected cards"
+                    "Знищеє до",
+                    "{C:attention}#1#{} обраних карт"
                 }
             },
             c_death = {
-                name = "Death",
+                name = "Смерть",
                 text = {
-                    "Select {C:attention}#1#{} cards,",
-                    "convert the {C:attention}left{} card",
-                    "into the {C:attention}right{} card",
-                    "{C:inactive}(Drag to rearrange)"
+                    "Оберіть {C:attention}#1#{} карт,",
+                    "конвертує {C:attention}ліву{} карту",
+                    "у карту {C:attention}справа{}",
+                    "{C:inactive}(Перетягуйте для зміни позиції)"
                 }
             },
             c_temperance = {
-                name = "Temperance",
+                name = "Поміреність",
                 text = {
-                    "Gives the total sell",
-                    "value of all current",
-                    "Jokers {C:inactive}(Max of {C:money}$#1#{C:inactive})",
-                    "{C:inactive}(Currently {C:money}$#2#{C:inactive})"
+                    "Дає загальну вартість",
+                    "усіх наявних",
+                    "Джокерів {C:inactive}(Макс. {C:money}$#1#{C:inactive})",
+                    "{C:inactive}(Зараз {C:money}$#2#{C:inactive})"
                 }
             },
             c_devil = {
-                name = "The Devil",
+                name = "Диявол",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Покращує {C:attention}#1#{} обрані",
+                    "карти до:",
                     "{C:attention}#2#"
                 }
             },
             c_tower = {
-                name = "The Tower",
+                name = "Башта",
                 text = {
-                    "Enhances {C:attention}#1#{} selected",
-                    "card into a",
+                    "Покращує {C:attention}#1#{} обрані",
+                    "карти до:",
                     "{C:attention}#2#"
                 }
             },
             c_star = {
-                name = "The Star",
+                name = "Зірка",
                 text = {
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}"
+                    "Конвертує до",
+                    "{C:attention}#1#{} обраних карт",
+                    "на {V:1}#2#{}"
                 }
             },
             c_moon = {
-                name = "The Moon",
+                name = "Місяць",
                 text = {
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}"
+                    "Конвертує до",
+                    "{C:attention}#1#{} обраних карт",
+                    "на {V:1}#2#{}"
                 }
             },
             c_sun = {
-                name = "The Sun",
+                name = "Сонце",
                 text = {
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}"
+                    "Конвертує до",
+                    "{C:attention}#1#{} обраних карт",
+                    "на {V:1}#2#{}"
                 }
             },
             c_judgement = {
-                name = "Judgement",
+                name = "Страшний суд",
                 text = {
-                    "Creates a random",
-                    "{C:attention}Joker{} card",
-                    "{C:inactive}(Must have room)"
+                    "Створює випадкового",
+                    "{C:attention}Джокера{}",
+                    "{C:inactive}(Вимагає містце)"
                 }
             },
             c_world = {
-                name = "The World",
+                name = "Світ",
                 text = {
-                    "Converts up to",
-                    "{C:attention}#1#{} selected cards",
-                    "to {V:1}#2#{}"
+                    "Конвертує до",
+                    "{C:attention}#1#{} обраних карт",
+                    "на {V:1}#2#{}"
                 }
             }
         },
