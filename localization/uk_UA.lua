@@ -1945,111 +1945,111 @@ return {
         },
         Planet = {
             c_mercury = {
-                name = "Mercury",
+                name = "Меркурій",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_venus = {
-                name = "Venus",
+                name = "Венера",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_earth = {
-                name = "Earth",
+                name = "Земля",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_mars = {
-                name = "Mars",
+                name = "Марс",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_jupiter = {
-                name = "Jupiter",
+                name = "Юпітер",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_saturn = {
-                name = "Saturn",
+                name = "Сатурн",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_uranus = {
-                name = "Uranus",
+                name = "Уран",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_neptune = {
-                name = "Neptune",
+                name = "Нептун",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_pluto = {
-                name = "Pluto",
+                name = "Плутон",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_ceres = {
-                name = "Ceres",
+                name = "Церера",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_planet_x = {
-                name = "Planet X",
+                name = "Планета X",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
             c_eris = {
-                name = "Eris",
+                name = "Еріс",
                 text = {
-                    "{S:0.8}({S:0.8,V:1}lvl.#1#{S:0.8}){} Level up",
+                    "{S:0.8}({S:0.8,V:1}рів.#1#{S:0.8}){} підвищує рівень",
                     "{C:attention}#2#",
-                    "{C:mult}+#3#{} Mult and",
-                    "{C:chips}+#4#{} chips"
+                    "{C:mult}+#3#{} множ. та",
+                    "{C:chips}+#4#{} фішок"
                 }
             },
         },
