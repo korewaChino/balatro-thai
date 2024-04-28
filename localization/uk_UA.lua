@@ -1436,329 +1436,329 @@ return {
         },
         Voucher = {
             v_overstock_norm = {
-                name = "Overstock",
+                name = "Затоварення",
                 text = {
-                    "{C:attention}+1{} card slot",
-                    "available in shop"
+                    "{C:attention}+1{} слот для карт",
+                    "доступних у магазині"
                 }
             },
             v_clearance_sale = {
-                name = "Clearance Sale",
+                name = "Розпродаж залишків",
                 text = {
-                    "All cards and packs in",
-                    "shop are {C:attention}#1#%{} off"
+                    "Всі карти та набори в",
+                    "магазині мають {C:attention}#1#%{} знижки"
                 }
             },
             v_tarot_merchant = {
-                name = "Tarot Merchant",
+                name = "Торговець Таро",
                 text = {
-                    "{C:tarot}Tarot{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "Карти {C:tarot}Таро{} з'являються на",
+                    "{C:attention}#1#X{} частіше",
+                    "в магазині"
                 }
             },
             v_planet_merchant = {
-                name = "Planet Merchant",
+                name = "Торговець Планет",
                 text = {
-                    "{C:planet}Planet{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "Карти {C:planet}Планет{} з'являються на",
+                    "{C:attention}#1#X{} частіше",
+                    "в магазині"
                 }
             },
             v_hone = {
-                name = "Hone",
+                name = "Відточення",
                 text = {
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
-                    "{C:dark_edition}Polychrome{} cards",
-                    "appear {C:attention}#1#X{} more often"
+                    "{C:dark_edition}Фольга{}, {C:dark_edition}Голографічні{}, та",
+                    "{C:dark_edition}Поліхромні{} карти",
+                    "з'являються частіше на {C:attention}#1#X{}"
                 }
             },
             v_reroll_surplus = {
-                name = "Reroll Surplus",
+                name = "Надлишок оновлення",
                 text = {
-                    "Rerolls cost",
-                    "{C:money}$#1#{} less"
+                    "Оновлення вартує на",
+                    "{C:money}$#1#{} менше"
                 }
             },
             v_crystal_ball = {
-                name = "Crystal Ball",
+                name = "Кришталева куля",
                 text = {
-                    "{C:attention}+1{} consumable slot"
+                    "{C:attention}+1{} до слотів споживання"
                 }
             },
             v_telescope = {
                 name = "Телескоп",
                 text = {
-                    "{C:attention}Celestial Packs{} always",
-                    "contain the {C:planet}Planet{}",
-                    "card for your most",
-                    "played {C:attention}poker hand"
+                    "{C:attention}Небесні набори{} завжди",
+                    "містять карту {C:planet}Планети{}",
+                    "яку ви найбільше",
+                    "зіграли як {C:attention}покерну руку"
                 }
             },
             v_grabber = {
-                name = "Grabber",
+                name = "Хапач",
                 text = {
-                    "Permanently",
-                    "gain {C:blue}+#1#{} hand",
-                    "per round"
+                    "Постійний ефект",
+                    "дає {C:blue}+#1#{} до",
+                    "кількості рук"
                 }
             },
             v_wasteful = {
-                name = "Wasteful",
+                name = "Марнотратний",
                 text = {
-                    "Permanently",
-                    "gain {C:red}+#1#{} discard",
-                    "per round"
+                    "Постійний ефект",
+                    "дає {C:red}+#1#{} до",
+                    "кількості скидань"
                 }
             },
             v_seed_money = {
-                name = "Seed Money",
+                name = "Початковий капітал",
                 text = {
-                    "Raise the cap on",
-                    "interest earned",
-                    "per round to {C:money}$#1#{}"
+                    "Збільшує ліміт",
+                    "отриманих відсотків",
+                    "за раунд до {C:money}$#1#{}"
                 }
             },
             v_blank = {
-                name = "Blank",
+                name = "Пусто",
                 text = {
-                    "{C:inactive}Does nothing?"
+                    "{C:inactive}Нічого не робить?"
                 }
             },
             v_magic_trick = {
-                name = "Magic Trick",
+                name = "Фокус",
                 text = {
-                    "{C:attention}Playing cards{} can",
-                    "be purchased",
-                    "from the {C:attention}shop"
+                    "{C:attention}Гральні карти{} можуть",
+                    "бути куплені",
+                    "у {C:attention}магазині"
                 }
             },
             v_hieroglyph = {
-                name = "Hieroglyph",
+                name = "Ієрогліф",
                 text = {
-                    "{C:attention}-#1#{} Ante,",
-                    "{C:blue}-#1#{} hand",
-                    "per round"
+                    "{C:attention}-#1#{} Анте,",
+                    "{C:blue}-#1#{} кількості рук",
+                    "на раунд"
                 }
             },
             v_directors_cut = {
-                name = "Director's Cut",
+                name = "Режисерська версія",
                 text = {
-                    "Reroll Boss Blind",
-                    "{C:attention}1{} time per Ante,",
-                    "{C:money}$#1#{} per roll"
+                    "Оновити Бос Блайнд",
+                    "{C:attention}1{} раз на анте,",
+                    "{C:money}$#1#{} за оновлення"
                 }
             },
             v_paint_brush = {
-                name = "Paint Brush",
+                name = "Пензель",
                 text = {
-                    "{C:attention}+#1#{} hand size",
+                    "{C:attention}+#1#{} до розміру руки",
                 }
             },
             v_overstock_plus = {
-                name = "Overstock Plus",
+                name = "Затоварення+",
                 text = {
-                    "{C:attention}+1{} card slot",
-                    "available in shop"
+                    "{C:attention}+1{} слот для карт",
+                    "доступних у магазині"
                 },
                 unlock = {
-                    "Spend a total of",
-                    "{C:money}$#1#{} at the shop",
+                    "Витратити у загальному",
+                    "{C:money}$#1#{} у магазині",
                     "{C:inactive}($#2#)"
                 }
             },
             v_liquidation = {
-                name = "Liquidation",
+                name = "Ліквідація",
                 text = {
-                    "All cards and packs in",
-                    "shop are {C:attention}#1#%{} off"
+					"Всі карти та набори в",
+                    "магазині мають {C:attention}#1#%{} знижки"
                 },
                 unlock = {
-                    "Використай хоча б",
+                    "Використати хоча б",
                     "{C:attention}#1#{C:voucher} купонів{}",
                     "в одному забігу"
                 }
             },
             v_tarot_tycoon = {
-                name = "Tarot Tycoon",
+                name = "Магнат Таро",
                 text = {
-                    "{C:tarot}Tarot{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+					"Карти {C:tarot}Таро{} з'являються на",
+                    "{C:attention}#1#X{} частіше",
+                    "в магазині"
                 },
                 unlock = {
-                    "Buy a total of",
-                    "{C:attention}#1#{C:tarot} Tarot{} cards",
-                    "from the shop",
+                    "Купити у загальному",
+                    "карт {C:attention}#1#{C:tarot} Таро{}",
+                    "у магазині",
                     "{C:inactive}(#2#)"
                 }
             },
             v_planet_tycoon = {
-                name = "Planet Tycoon",
+                name = "Магнат Планет",
                 text = {
-                    "{C:planet}Planet{} cards appear",
-                    "{C:attention}#1#X{} more frequently",
-                    "in the shop"
+                    "Карти {C:planet}Планет{} з'являються на",
+                    "{C:attention}#1#X{} частіше",
+                    "в магазині"
                 },
                 unlock = {
-                    "Buy a total of",
-                    "{C:attention}#1#{C:planet} Planet{} cards",
-                    "from the shop",
+                    "Купити у загальному",
+                    "карт {C:attention}#1#{C:planet} Планет{}",
+                    "у магазині",
                     "{C:inactive}(#2#)"
                 }
             },
             v_glow_up = {
-                name = "Glow Up",
+                name = "Осяяння",
                 text = {
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, and",
-                    "{C:dark_edition}Polychrome{} cards",
-                    "appear {C:attention}#1#X{} more often"
+					"{C:dark_edition}Фольга{}, {C:dark_edition}Голографічні{}, та",
+                    "{C:dark_edition}Поліхромні{} карти",
+                    "з'являються частіше на {C:attention}#1#X{}"
                 },
                 unlock = {
-                    "Have at least {C:attention}#1#",
-                    "{C:attention}Joker{} cards with",
-                    "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
-                    "{C:dark_edition}Polychrome{} edition"
+                    "Мати хоча б {C:attention}#1#",
+                    "карт {C:attention}Джокера{} з",
+                    "{C:dark_edition}Фольга{}, {C:dark_edition}Голографічним{}, або",
+                    "{C:dark_edition}Поліхромним{} виданням"
                 }
             },
             v_reroll_glut = {
-                name = "Reroll Glut",
+                name = "Перенасичення оновлення",
                 text = {
-                    "Rerolls cost",
-                    "{C:money}$#1#{} less"
+					"Оновлення вартує на",
+                    "{C:money}$#1#{} менше"
                 },
                 unlock = {
-                    "Reroll the shop a",
-                    "total of {C:attention}#1#{} times",
+                    "Оновити магазин",
+                    "в загальному {C:attention}#1#{} разів",
                     "{C:inactive}(#2#)"
                 }
             },
             v_omen_globe = {
-                name = "Omen Globe",
+                name = "Сфера Передвістя",
                 text = {
-                    "{C:spectral}Spectral{} cards may",
-                    "appear in any of",
-                    "the {C:attention}Arcana Packs"
+                    "{C:spectral}Примарні{} карти можуть",
+                    "з'являтися в будь-якому з",
+                    "{C:attention}Наборів Аркан"
                 },
                 unlock = {
-                    "Use a total of {C:attention}#1#",
-                    "{C:tarot}Tarot{} cards from any",
-                    "{C:tarot}Arcana Pack",
+                    "Використати в загальному {C:attention}#1#",
+                    "карт {C:tarot}Таро{} з будь-яких",
+                    "{C:tarot}Наборів Аркан",
                     "{C:inactive}(#2#)"
                 }
             },
             v_observatory = {
                 name = "Обсерваторія",
                 text = {
-                    "{C:planet}Planet{} cards in your",
-                    "{C:attention}consumable{} area give",
-                    "{X:red,C:white} X#1# {} Mult for their",
-                    "specified {C:attention}poker hand"
+                    "Карти {C:planet}Планет{} у вашій",
+                    "зоні {C:attention}споживання{} дають",
+                    "{X:red,C:white} X#1# {} множ. для їх",
+                    "визначених {C:attention}покерних рук"
                 },
                 unlock = {
-                    "Use a total of {C:attention}#1#",
-                    "{C:planet}Planet{} cards from any",
-                    "{C:planet}Celestial Pack",
+                    "Використати в загальному {C:attention}#1#",
+                    "карт {C:planet}Планет{} з будь-яких",
+                    "{C:planet}Небесних наборів",
                     "{C:inactive}(#2#)"
                 }
             },
             v_nacho_tong = {
                 name = "Nacho Tong",
                 text = {
-                    "Permanently",
-                    "gain {C:blue}+#1#{} hand",
-                    "per round"
+					"Постійний ефект",
+                    "дає {C:blue}+#1#{} до",
+                    "кількості рук"
                 },
                 unlock = {
-                    "Play a total",
-                    "of {C:attention}#1#{} cards",
+                    "Зіграти в загальному",
+                    "{C:attention}#1#{} карт",
                     "{C:inactive}(#2#)"
                 }
             },
             v_recyclomancy = {
-                name = "Recyclomancy",
+                name = "Рецикломантія",
                 text = {
-                    "Permanently",
-                    "gain {C:red}+#1#{} discard",
-                    "per round"
+                    "Постійний ефект",
+                    "дає {C:red}+#1#{} до",
+                    "кількості скидань"
                 },
                 unlock = {
-                    "Discard a total",
-                    "of {C:attention}#1#{} cards",
+                    "Скинути в загальному",
+                    "{C:attention}#1#{} карт",
                     "{C:inactive}(#2#)"
                 }
             },
             v_money_tree = {
                 name = "Грошове дерево",
                 text = {
-                    "Raise the cap on",
-                    "interest earned",
-                    "per round to {C:money}$#1#{}"
+					"Збільшує ліміт",
+                    "отриманих відсотків",
+                    "за раунд до {C:money}$#1#{}"
                 },
                 unlock = {
-                    "Max out the interest",
-                    "per round earnings for",
-                    "{C:attention}#1#{} consecutive rounds",
+                    "Максимізуйте свої відсотки",
+                    "отримані за раунд на",
+                    "{C:attention}#1#{} послідовних раундів",
                     "{C:inactive}(#2#)"
                 }
             },
             v_antimatter = {
                 name = "Антиматерія",
                 text = {
-                    "{C:dark_edition}+1{} Joker Slot"
+                    "{C:dark_edition}+1{} слот для Джокера"
                 },
                 unlock = {
-                    "Redeem {C:voucher}Blank{}",
-                    "{C:attention}#1#{} total times",
+                    "Використай {C:voucher}Пусто{}",
+                    "{C:attention}#1#{} разів у загальному",
                     "{C:inactive}(#2#)"
                 }
             },
             v_illusion = {
                 name = "Ілюзія",
                 text = {
-                    "{C:attention}Playing cards{} in shop",
-                    "may have an {C:enhanced}Enhancement{},",
-                    "{C:dark_edition}Edition{}, and/or a {C:attention}Seal{}"
+                    "{C:attention}Гральні карти{} у магазині",
+                    "можуть мати {C:enhanced}Покращення{},",
+                    "{C:dark_edition}Видання{}, та/або a {C:attention}Печатку{}"
                 },
                 unlock = {
-                    "Buy a total of",
-                    "{C:attention}#1#{} playing cards",
-                    "from the shop",
+                    "Купити у загальному",
+                    "{C:attention}#1#{} гральних карт",
+                    "у магазині",
                     "{C:inactive}(#2#)"
                 }
             },
             v_petroglyph = {
-                name = "Petroglyph",
+                name = "Петрогліф",
                 text = {
-                    "{C:attention}-#1#{} Ante,",
-                    "{C:red}-#1#{} discard",
-                    "per round"
+                    "{C:attention}-#1#{} анте,",
+                    "{C:red}-#1#{} скидань",
+                    "на раунд"
                 },
                 unlock = {
-                    "Reach Ante",
-                    "level {E:1,C:attention}#1#"
+                    "Досягнути рівня анте",
+                    "{E:1,C:attention}#1#"
                 }
             },
             v_retcon = {
-                name = "Retcon",
+                name = "Реткон",
                 text = {
-                    "Reroll Boss Blind",
-                    "{C:attention}unlimited{} times,",
-                    "{C:money}$#1#{} per roll"
+                    "Оновити Бос Блайнд",
+                    "{C:attention}необмежену{} кількість разів,",
+                    "{C:money}$#1#{} за оновлення"
                 },
                 unlock = {
-                    "Discover",
-                    "{C:attention}#1#{} Blinds"
+                    "Відкрити",
+                    "{C:attention}#1#{} блайндів"
                 }
             },
             v_palette = {
-                name = "Palette",
+                name = "Палітра",
                 text = {
-                    "{C:attention}+#1#{} hand size",
+					"{C:attention}+#1#{} до розміру руки",
                 },
                 unlock = {
-                    "Reduce hand size",
-                    "down to {C:attention}#1#{} cards"
+                    "Зменшити розмір руки",
+                    "до {C:attention}#1#{} карт"
                 }
             }
         },
