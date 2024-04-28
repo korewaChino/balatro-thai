@@ -1,0 +1,32 @@
+[manifest]
+version = "0.1"
+dump_lua = false
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''['en-us'] = {font = 1, label = "English", key = 'en-us', button = "Language Feedback", warning = {'This language is still in Beta. To help us','improve it, please click on the feedback button.', 'Click again to confirm'}},'''
+position = "at"
+payload = '''['en-us'] = {font = 1, label = "English", key = 'en-us', button = "Language Feedback", warning = {'This language is still in Beta. To help us','improve it, please click on the feedback button.', 'Click again to confirm'}},
+['uk_UA'] = {font = 6, label = "Українська", key = 'uk_UA', beta = true, button = "Відгук", warning = {'Це мова встановлена за допомогою моду', "Натисніть знову щоб підтвердити"}},'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''['ru'] = {font = 6, label = "Русский", key = 'ru', beta = true, button = "Отзыв о языке", warning = {'Этот язык все еще находится в Бета-версии. Чтобы помочь','нам его улучшить, пожалуйста, нажмите на кнопку обратной связи.', "Щелкните снова, чтобы подтвердить"}},'''
+position = "at"
+payload = ''''''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''{file = "resources/fonts/NotoSans-Bold.ttf", render_scale = self.TILESIZE*7, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.12, squish = 1, DESCSCALE = 1},'''
+position = "at"
+payload = '''{file = "resources/fonts/NotoSans-Bold.ttf", render_scale = self.TILESIZE*7, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.12, squish = 0.7, DESCSCALE = 1},'''
+overwrite = true
+match_indent = true
