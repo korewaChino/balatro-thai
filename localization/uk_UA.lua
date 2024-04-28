@@ -1799,7 +1799,7 @@ return {
             c_emperor = {
                 name = "Імператор",
                 text = {
-                    "Покращує до {C:attention}#1#",
+                    "Створює до {C:attention}#1#",
                     "випадкових карт {C:tarot}Таро{}",
                     "{C:inactive}(Вимагає місце)"
                 }
