@@ -1846,7 +1846,7 @@ return {
             c_wheel_of_fortune = {
                 name = "Колесо Фортуни",
                 text = {
-                    "{C:green}#1# з #2#{} шанс покращення",
+                    "{C:green}#1# з #2#{} ймовірність покращення",
 					"випадкового {C:attention}Джокера до:",
                     "{C:dark_edition}Фольга{}, {C:dark_edition}Голографічний{}, або",
                     "{C:dark_edition}Поліхромний{}",
@@ -2205,160 +2205,160 @@ return {
         },
         Edition = {
             e_base = {
-                name = "Base",
+                name = "Базова",
                 text = {
-                    "No extra effects"
+                    "Без додаткових ефектів"
                 }
             },
             e_foil = {
-                name = "Foil",
+                name = "Фольга",
                 text = {
-                    "{C:chips}+#1#{} chips"
+                    "{C:chips}+#1#{} фішок"
                 }
             },
             e_holo = {
-                name = "Holographic",
+                name = "Голографічна",
                 text = {
-                    "{C:mult}+#1#{} Mult"
+                    "{C:mult}+#1#{} множ."
                 }
             },
             e_polychrome = {
-                name = "Polychrome",
+                name = "Поліхромна",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult"
+                    "{X:mult,C:white} X#1# {} множ."
                 }
             },
             e_negative = {
-                name = "Negative",
+                name = "Негатив",
                 text = {
-                    "{C:dark_edition}+#1#{} Joker slot"
+                    "{C:dark_edition}+#1#{} слот Джокера"
                 }
             },
             e_negative_consumable = {
-                name = "Negative",
+                name = "Негатив",
                 text = {
-                    "{C:dark_edition}+#1#{} consumable slot"
+                    "{C:dark_edition}+#1#{} слот consumable"
                 }
             }
         },
         Enhanced = {
             m_bonus = {
-                name = "Bonus Card",
+                name = "Бонусна карта",
                 text = {}
             },
             m_mult = {
-                name = "Mult Card",
+                name = "Множник-карта",
                 text = {
-                    "{C:mult}+#1#{} Mult"
+                    "{C:mult}+#1#{} множ."
                 }
             },
             m_wild = {
-                name = "Wild Card",
+                name = "Дика карта",
                 text = {
-                    "Can be used",
-                    "as any suit"
+                    "Може бути використана",
+                    "як будь-яка масть"
                 }
             },
             m_glass = {
-                name = "Glass Card",
+                name = "Скляна карта",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult",
-                    "{C:green}#2# in #3#{} chance to",
-                    "destroy card"
+                    "{X:mult,C:white} X#1# {} множ.",
+                    "{C:green}#2# з #3#{} ймовірність",
+                    "знищити карту"
                 }
             },
             m_steel = {
-                name = "Steel Card",
+                name = "Сталева карта",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult",
-                    "while this card",
-                    "stays in hand"
+                    "{X:mult,C:white} X#1# {} множ.",
+                    "коли ця карта",
+                    "лишається в руці"
                 }
             },
             m_stone = {
-                name = "Stone Card",
+                name = "Кам'яна карта",
                 text = {
-                    "{C:chips}+#1#{} Chips",
-                    "no rank or suit"
+                    "{C:chips}+#1#{} фішок",
+                    "без рангу чи масті"
                 }
             },
             m_gold = {
-                name = "Gold Card",
+                name = "Золота карта",
                 text = {
-                    "{C:money}$#1#{} if this",
-                    "card is held in hand",
-                    "at end of round"
+                    "{C:money}$#1#{} якщо ця",
+                    "карта лишається у руці",
+                    "наприкінці раунду"
                 }
             },
             m_lucky = {
-                name = "Lucky Card",
+                name = "Щаслива карта",
                 text = {
-                    "{C:green}#1# in #3#{} chance",
-                    "for {C:mult}+#2#{} Mult",
-                    "{C:green}#1# in #5#{} chance",
-                    "to win {C:money}$#4#"
+                    "{C:green}#1# 3 #3#{} ймовірність",
+                    "для {C:mult}+#2#{} множ.",
+                    "{C:green}#1# in #5#{} ймовірність",
+                    "виграти {C:money}$#4#"
                 }
             }
         },
         Stake = {
             stake_white = {
-                name = "White Stake",
+                name = "Біла ставка",
                 text = {
-                    "Base Difficulty"
+                    "Стандартна складність"
                 }
             },
             stake_red = {
-                name = "Red Stake",
+                name = "Червона ставка",
                 text = {
-                    "{C:attention}Small Blind{} gives",
-                    "no reward money",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{C:attention}Малий блайнд{} не",
+                    "дає гроші у винагороду",
+                    "{s:0.8}Діє на всі попередні ставки"
                 }
             },
             stake_green = {
-                name = "Green Stake",
+                name = "Зелена ставка",
                 text = {
                     "Required score scales",
                     "faster for each {C:attention}Ante",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{s:0.8}Діє на всі попередні ставки"
                 }
             },
             stake_blue = {
-                name = "Blue Stake",
+                name = "Синя ставка",
                 text = {
                     "{C:red}-1{} Discard",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{s:0.8}Діє на всі попередні ставки"
                 }
             },
             stake_black = {
-                name = "Black Stake",
+                name = "Чорна ставка",
                 text = {
                     "Shop can have {C:attention}Eternal{} Jokers",
                     "{C:inactive,s:0.8}(Can't be sold or destroyed)",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{s:0.8}Діє на всі попередні ставки"
                 }
             },
             stake_purple = {
-                name = "Purple Stake",
+                name = "Фіолетова ставка",
                 text = {
                     "Required score scales",
                     "faster for each {C:attention}Ante",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{s:0.8}Діє на всі попередні ставки"
                 }
             },
             stake_orange = {
-                name = "Orange Stake",
+                name = "Помаранчева ставка",
                 text = {
-                    "{C:attention}Booster Packs{} cost",
-                    "{C:money}$1{} more per Ante",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{C:attention}Набори бустерів{} вартують на",
+                    "{C:money}$1{} кожного Анте",
+                    "{s:0.8}Діє на всі попередні ставки"
                 }
             },
             stake_gold = {
-                name = "Gold Stake",
+                name = "Золота ставка",
                 text = {
-                    "{C:red}-1{} hand size",
-                    "{s:0.8}Applies all previous Stakes"
+                    "{C:red}-1{} розмір руки",
+                    "{s:0.8}Діє на всі попередні ставки"
                 }
             }
         },
