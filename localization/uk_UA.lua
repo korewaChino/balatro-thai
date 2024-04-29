@@ -214,86 +214,86 @@ return {
                 }
             },
             j_mystic_summit = {
-                name = "Mystic Summit",
+                name = "Містична зустріч",
                 text = {
-                    "{C:mult}+#1#{} Mult when",
-                    "{C:attention}#2#{} discards",
-                    "remaining"
+                    "{C:mult}+#1#{} множ. коли",
+                    "{C:attention}#2#{} скидання",
+                    "лишилось"
                 }
             },
             j_marble = {
-                name = "Marble Joker",
+                name = "Мармуровий Джокер",
                 text = {
-                    "Adds one {C:attention}Stone{} card",
-                    "to deck when",
-                    "{C:attention}Blind{} is selected",
+                    "Додає одну {C:attention}Кам'яну{} карту",
+                    "до колоди щоразу коли обрано",
+                    "{C:attention}Блайнд{}",
                 }
             },
             j_loyalty_card = {
-                name = "Loyalty Card",
+                name = "Карта лояльності",
                 text = {
-                    "{X:red,C:white} X#1# {} Mult every",
-                    "{C:attention}#2#{} hands played",
+                    "{X:red,C:white} X#1# {} множ. кожні",
+                    "{C:attention}#2#{} зіграні руки",
                     "{C:inactive}#3#"
                 }
             },
             j_8_ball = {
                 name = "Куля №8",
                 text = {
-                    "Create a {C:planet}Planet{} card",
-                    "if played рука містить",
-                    "{C:attenetion}#1#{} or more {C:attention}8s{}",
-                    "{C:inactive}(Must have room)"
+                    "Створює карту {C:planet}Планети{}",
+                    "якщо зіграна рука містить",
+                    "{C:attenetion}#1#{} чи більше {C:attention}8{}",
+                    "{C:inactive}(Вимагає місце)"
                 }
             },
             j_dusk = {
-                name = "Dusk",
+                name = "Сутінки",
                 text = {
-                    "Retrigger all played",
-                    "cards in {C:attention}final",
-                    "{C:attention}hand{} of round"
+                    "Повторно активує усі зіграні",
+                    "карти в {C:attention}останній",
+                    "{C:attention}руці{} раунду"
                 }
             },
             j_chaos = {
-                name = "Chaos the Clown",
+                name = "Клоун Хаос",
                 text = {
-                    "{C:attention}#1#{} free {C:green}Reroll",
-                    "per shop"
+                    "{C:attention}#1#{} безкоштовне {C:green}оновлення",
+                    "за магазин"
                 }
             },
             j_misprint = {
-                name = "Misprint",
+                name = "Помилка друку",
                 text = {
                     ""
                 }
             },
             j_raised_fist = {
-                name = "Raised Fist",
+                name = "Піднятий кулак",
                 text = {
-                    "Adds {C:attention}double{} the rank",
-                    "of {C:attention}lowest{} card held",
-                    "in hand to Mult"
+                    "Додає {C:attention}подвоєний{} номінал",
+                    "{C:attention}найнижчої{} карти, що",
+                    "утримується в руці до множ."
                 }
             },
             j_fibonacci = {
-                name = "Fibonacci",
+                name = "Фібоначчі",
                 text = {
-                    "Each played {C:attention}Ace{},",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, or {C:attention}8{} gives",
-                    "{C:mult}+#1#{} Mult when scored",
+                    "Кожен зіграний {C:attention}Туз{},",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, або {C:attention}8{} дає",
+                    "{C:mult}+#1#{} множ, якщо зіграв",
                 }
             },
             j_steel_joker = {
                 name = "Сталевий Джокер",
                 text = {
-                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
-                    "for each {C:attention}Steel Card",
-                    "in your full deck",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)",
+                    "Цей Джокер отримує {X:mult,C:white} X#1# {} множ.",
+                    "за кожну {C:attention}Сталеву карту",
+                    "у вашій повній колоді",
+                    "{C:inactive}(Зараз {X:mult,C:white} X#2# {C:inactive} множ.)",
                 }
             },
             j_scary_face = {
-                name = "Scary Face",
+                name = "Страшне обличчя",
                 text = {
                     "Played {C:attention}face{} cards",
                     "give {C:chips}+#1#{} Chips",
