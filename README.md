@@ -1,5 +1,7 @@
 # Українська локалізація Balatro
 
+Версія гри 1.0.0n-FULL
+
 ## Втановлення моду:
 
 1) Встановити модлоадер [Lovely](https://github.com/ethangreen-dev/lovely-injector) щоб мула можливість встановлювати моди
