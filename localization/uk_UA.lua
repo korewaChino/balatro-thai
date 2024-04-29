@@ -295,50 +295,50 @@ return {
             j_scary_face = {
                 name = "Страшне обличчя",
                 text = {
-                    "Played {C:attention}face{} cards",
-                    "give {C:chips}+#1#{} Chips",
-                    "when scored"
+                    "Зіграні карти з {C:attention}обличчям{}",
+                    "дають {C:chips}+#1#{} фішок",
+                    "якщо впливають на результат"
                 }
             },
             j_abstract = {
-                name = "Abstract Joker",
+                name = "Абстрактний Джокер",
                 text = {
-                    "{C:mult}+#1#{} Mult for",
-                    "each {C:attention}Joker{} card",
-                    "{C:inactive}(Currently {C:red}+#2#{C:inactive} Mult)"
+                    "{C:mult}+#1#{} множ. для",
+                    "кожного {C:attention}Джокера{}",
+                    "{C:inactive}(Зараз {C:red}+#2#{C:inactive} множ.)"
                 }
             },
             j_delayed_grat = {
-                name = "Delayed Gratification",
+                name = "Відкладене задоволення",
                 text = {
-                    "Earn {C:money}$#1#{} per {C:attention}discard{} if",
-                    "no discards are used",
-                    "by end of the round"
+                    "Надає {C:money}$#1#{} за {C:attention}скидання{}, якщо",
+                    "ні одного скидання не використано",
+                    "до кінця раунду"
                 }
             },
             j_pareidolia = {
-                name = "Pareidolia",
+                name = "Парейдолія",
                 text = {
-                    "All cards are",
-                    "considered",
-                    "{C:attention}face{} cards"
+                    "Всі карти",
+                    "вважаються за",
+                    "карти з {C:attention}обличчям{}"
                 }
             },
             j_hack = {
-                name = "Hack",
+                name = "Банальний",
                 text = {
-                    "Retrigger",
-                    "each played",
+                    "Знову задіяти",
+                    "кожну зіграну",
                     "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}, or {C:attention}5{}",
                 }
             },
             j_gros_michel = {
-                name = "Gros Michel",
+                name = "Гро-Мішель",
                 text = {
-                    "{C:mult}+#1#{} Mult",
-                    "{C:green}#2# in #3#{} chance this",
-                    "card is destroyed",
-                    "at end of round"
+                    "{C:mult}+#1#{} множ.",
+                    "{C:green}#2# з #3#{} ймовірність",
+                    "знищення карти",
+                    "наприкінці раунду"
                 }
             },
             j_even_steven = {
