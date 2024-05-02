@@ -2884,120 +2884,120 @@
         },
         Other = {
             gold_seal = {
-                name = "Gold Seal",
+                name = "Золота печатка",
                 text = {
-                    "Earn {C:money}$3{} when this",
-                    "card is played",
-                    "and scores"
+                    "Дає {C:money}$3{} коли ця",
+                    "карта зіграна",
+                    "та зарахована"
                 }
             },
             red_seal = {
-                name = "Red Seal",
+                name = "Червона печатка",
                 text = {
-                    "Retrigger this",
-                    "card {C:attention}1{} time"
+                    "Знову задіяти цю",
+                    "карту {C:attention}1{} раз"
                 }
             },
             blue_seal = {
-                name = "Blue Seal",
+                name = "Синя печатка",
                 text = {
-                    "Creates the {C:planet}Planet{} card",
-                    "for final played {C:attention}poker hand{}",
-                    "of round if {C:attention}held{} in hand",
-                    "{C:inactive}(Must have room)"
+                    "Створює карту {C:planet}Планети{}",
+                    "для останньої зіграної {C:attention}покерної руки{}",
+                    "в раунді, якщо {C:attention}залишається{} у руці",
+                    "{C:inactive}(Вимагає місце)"
                 }
             },
             purple_seal = {
-                name = "Purple Seal",
+                name = "Фіолетова печатка",
                 text = {
-                    "Creates a {C:tarot}Tarot{} card",
-                    "when {C:attention}discarded",
-                    "{C:inactive}(Must have room)"
+                    "Створює карту {C:tarot}Таро{}",
+                    "коли {C:attention}скинута",
+                    "{C:inactive}(Вимагає місце)"
                 }
             },
             eternal = {
-                name = "Eternal",
+                name = "Вічна",
                 text = {
-                    "Can't be sold",
-                    "or destroyed"
+                    "Не може бути продана",
+                    "чи знищена"
                 }
             },
             perishable = {
-                name = "Perishable",
+                name = "Тлінна",
                 text = {
-                    "Debuffed after",
-                    "{C:attention}#1#{} rounds",
-                    "{C:inactive}({C:attention}#2#{C:inactive} remaining)"
+                    "Втрачає властивості після",
+                    "{C:attention}#1#{} раундів",
+                    "{C:inactive}({C:attention}#2#{C:inactive} залишилось)"
                 }
             },
             rental = {
-                name = "Rental",
+                name = "Орендована",
                 text = {
-                    "Lose {C:money}$#1#{} at",
-                    "end of round"
+                    "Витрачає {C:money}$#1#{}t",
+                    "наприкінці раунду"
                 }
             },
             white_sticker = {
-                name = "White Sticker",
+                name = "Біла наклейка",
                 text = {
-                    "Used this Joker",
-                    "to win on {C:attention}White",
-                    "{C:attention}Stake{} difficulty"
+                    "Цей Джокер використано",
+                    "щоб виграти на складності {C:attention}Біла",
+                    "{C:attention}Ставка{}"
                 }
             },
             red_sticker = {
-                name = "Red Sticker",
+                name = "Червона наклейка",
                 text = {
-                    "Used this Joker",
-                    "to win on {C:attention}Red",
-                    "{C:attention}Stake{} difficulty"
+                    "Цей Джокер використано",
+                    "щоб виграти на складності {C:attention}Червона",
+                    "{C:attention}Ставка{}"
                 }
             },
             green_sticker = {
-                name = "Green Sticker",
+                name = "Зелена наклейка",
                 text = {
-                    "Used this Joker",
-                    "to win on {C:attention}Green",
-                    "{C:attention}Stake{} difficulty"
+                    "Цей Джокер використано",
+                    "щоб виграти на складності {C:attention}Зелена",
+                    "{C:attention}Ставка{}"
                 }
             },
             blue_sticker = {
-                name = "Blue Sticker",
+                name = "Синя наклейка",
                 text = {
-                    "Used this Joker",
-                    "to win on {C:attention}Blue",
-                    "{C:attention}Stake{} difficulty"
+                    "Цей Джокер використано",
+                    "щоб виграти на складності {C:attention}Синя",
+                    "{C:attention}Ставка{}"
                 }
             },
             black_sticker = {
-                name = "Black Sticker",
+                name = "Чорна наклейка",
                 text = {
-                    "Used this Joker",
-                    "to win on {C:attention}Black",
-                    "{C:attention}Stake{} difficulty"
+                    "Цей Джокер використано",
+                    "щоб виграти на складності {C:attention}Чорна",
+                    "{C:attention}Ставка{}"
                 }
             },
             purple_sticker = {
-                name = "Purple Sticker",
+                name = "Фіолетова наклейка",
                 text = {
-                    "Used this Joker",
-                    "to win on {C:attention}Purple",
-                    "{C:attention}Stake{} difficulty"
+                    "Цей Джокер використано",
+                    "щоб виграти на складності {C:attention}Фіолетова",
+                    "{C:attention}Ставка{}"
                 }
             },
             orange_sticker = {
-                name = "Orange Sticker",
+                name = "Помаранчева наклейка",
                 text = {
-                    "Used this Joker",
-                    "to win on {C:attention}Orange",
-                    "{C:attention}Stake{} difficulty"
+                    "Цей Джокер використано",
+                    "щоб виграти на складності {C:attention}Помаранчева",
+                    "{C:attention}Ставка{}"
                 }
             },
             gold_sticker = {
-                name = "Gold Sticker",
+                name = "Золота наклейка",
                 text = {
-                    "Used this Joker",
-                    "to win on {C:attention}Gold",
+                    "Цей Джокер використано",
+                    "щоб виграти на складності {C:attention}Золота",
                     "{C:attention}Stake{} difficulty"
                 }
             },
@@ -3008,18 +3008,18 @@
             },
             card_chips = {
                 text = {
-                    "{C:chips}+#1#{} chips"
+                    "{C:chips}+#1#{} фішок"
                 }
             },
             card_extra_chips = {
                 text = {
-                    "{C:chips}+#1#{} extra chips"
+                    "{C:chips}+#1#{} додаткових фішок"
                 }
             },
             remove_negative = {
                 name = "n",
                 text = {
-                    "{C:inactive,s:0.9}(Removes {C:dark_edition,s:0.9}Negative{C:inactive,s:0.9} from copy)"
+                    "{C:inactive,s:0.9}(Видаляє {C:dark_edition,s:0.9}Негатив{C:inactive,s:0.9} з копії)"
                 }
             },
             locked = {
@@ -3027,85 +3027,85 @@
                 text = {}
             },
             debuffed_default = {
-                name = "Debuffed",
+                name = "Послаблено",
                 text = {
-                    "All abilities",
-                    "are disabled"
+                    "Всі здібності",
+                    "відключені"
                 }
             },
             debuffed_playing_card = {
-                name = "Debuffed",
+                name = "Послаблено",
                 text = {
-                    "Scores no chips",
-                    "and all abilities",
-                    "are disabled"
+                    "не даэ фішок",
+                    "та всі здібності",
+                    "відключені"
                 }
             },
             demo_locked = {
                 name = "Заблоковано",
                 text = {
-                    "Not available",
-                    "in this demo"
+                    "Не доступно",
+                    "у цьому демо"
                 }
             },
             challenge_locked = {
                 name = "Заблоковано",
                 text = {
-                    "Win a run with at least",
-                    "#1# different decks to unlock",
-                    "Challenge mode",
+                    "Виграйте забіши з хоча б",
+                    "#1# різними колодами, щоб розблокувати",
+                    "Режим виклику",
                     "{C:attention,s:2}#2#/#1#"
                 }
             },
             demo_shop_locked = {
                 name = "Заблоковано",
                 text = {
-                    "Card from {C:attention}Jimbo's",
-                    "personal collection,",
-                    "available in the full",
-                    "version of {E:1,C:red}Balatro"
+                    "Карти з персональної",
+                    "колекції {C:attention}Джимбо,",
+                    "доступні у повній",
+                    "версії {E:1,C:red}Balatro"
                 }
             },
             wip_locked = {
                 name = "Заблоковано",
                 text = {
-                    "Work in",
-                    "progress"
+                    "Ведуться",
+                    "роботи"
                 }
             },
             deck_locked_win = {
                 name = "Заблоковано",
                 text = {
-                    "Win a run with",
+                    "Виграйте забіг з",
                     "{C:attention}#1#{}",
-                    "on any difficulty"
+                    "на будь якій складності"
                 }
             },
             deck_locked_discover = {
                 name = "Заблоковано",
                 text = {
-                    "Discover at least",
-                    "{C:attention}#1#{} items from",
-                    "your collection"
+                    "Відкрийте хоча б",
+                    "{C:attention}#1#{} елементів з",
+                    "вашої колекції"
                 }
             },
             deck_locked_stake = {
                 name = "Заблоковано",
                 text = {
-                    "Win a run with any",
-                    "deck on at least",
-                    "{V:1}#1#{} difficulty"
+                    "Виграйте забіг з будь-якою",
+                    "колодою, хоча б на ",
+                    "складності {V:1}#1#{}"
                 }
             },
             joker_locked_legendary = {
                 name = "Заблоковано",
                 text = {
-                    "Find this Joker",
-                    "from the {C:spectral}Soul{} card"
+                    "Знайдіть цей джокер",
+                    "з допомогою карти {C:spectral}Душа{}"
                 }
             },
             undiscovered_joker = {
-                name = "Not Discovered",
+                name = "Не відкрито",
                 text = {
                     "Purchase or use",
                     "this card in an",
@@ -3114,7 +3114,7 @@
                 }
             },
             undiscovered_tarot = {
-                name = "Not Discovered",
+                name = "Не відкрито",
                 text = {
                     "Purchase or use",
                     "this card in an",
@@ -3123,7 +3123,7 @@
                 }
             },
             undiscovered_planet = {
-                name = "Not Discovered",
+                name = "Не відкрито",
                 text = {
                     "Purchase or use",
                     "this card in an",
@@ -3132,7 +3132,7 @@
                 }
             },
             undiscovered_spectral = {
-                name = "Not Discovered",
+                name = "Не відкрито",
                 text = {
                     "Purchase or use",
                     "this card in an",
@@ -3141,7 +3141,7 @@
                 }
             },
             undiscovered_voucher = {
-                name = "Not Discovered",
+                name = "Не відкрито",
                 text = {
                     "Використай цей",
                     "купон в",
@@ -3150,7 +3150,7 @@
                 }
             },
             undiscovered_booster = {
-                name = "Not Discovered",
+                name = "Не відкрито",
                 text = {
                     "Open this pack",
                     "in an unseeded run",
@@ -3158,7 +3158,7 @@
                 }
             },
             undiscovered_edition = {
-                name = "Not Discovered",
+                name = "Не відкрито",
                 text = {
                     "Find this edition",
                     "in an unseeded run",
@@ -3166,7 +3166,7 @@
                 }
             },
             undiscovered_tag = {
-                name = "Not Discovered",
+                name = "Не відкрито",
                 text = {
                     "Use this tag in",
                     "an unseeded run to",
