@@ -3107,195 +3107,195 @@
             undiscovered_joker = {
                 name = "Не відкрито",
                 text = {
-                    "Purchase or use",
-                    "this card in an",
-                    "unseeded run to",
-                    "learn what it does"
+                    "Купіть або використайте",
+                    "цю карту в забігу",
+                    "без введеного зерна, щоб",
+                    "дізнатись, що вона робить"
                 }
             },
             undiscovered_tarot = {
                 name = "Не відкрито",
                 text = {
-                    "Purchase or use",
-                    "this card in an",
-                    "unseeded run to",
-                    "learn what it does"
+                     "Купіть або використайте",
+                    "цю карту в забігу",
+                    "без введеного зерна, щоб",
+                    "дізнатись, що вона робить"
                 }
             },
             undiscovered_planet = {
                 name = "Не відкрито",
                 text = {
-                    "Purchase or use",
-                    "this card in an",
-                    "unseeded run to",
-                    "learn what it does"
+                     "Купіть або використайте",
+                    "цю карту в забігу",
+                    "без введеного зерна, щоб",
+                    "дізнатись, що вона робить"
                 }
             },
             undiscovered_spectral = {
                 name = "Не відкрито",
                 text = {
-                    "Purchase or use",
-                    "this card in an",
-                    "unseeded run to",
-                    "learn what it does"
+                     "Купіть або використайте",
+                    "цю карту в забігу",
+                    "без введеного зерна, щоб",
+                    "дізнатись, що вона робить"
                 }
             },
             undiscovered_voucher = {
                 name = "Не відкрито",
                 text = {
                     "Використай цей",
-                    "купон в",
-                    "unseeded забігу",
-                    "щоб дізнатись його ефект"
+                    "купон в забігу",
+                    "без введеного зерна, щоб",
+                    "дізнатись, що він робить"
                 }
             },
             undiscovered_booster = {
                 name = "Не відкрито",
                 text = {
-                    "Open this pack",
-                    "in an unseeded run",
-                    "to learn what it does"
+                    "Відкрийте цей набір в забігу",
+                    "без введеного зерна, щоб",
+                    "дізнатись, що він робить"
                 }
             },
             undiscovered_edition = {
                 name = "Не відкрито",
                 text = {
-                    "Find this edition",
-                    "in an unseeded run",
-                    "to learn what it does"
+                    "Відкрийте це видання в забігу",
+                    "без введеного зерна, щоб",
+                    "дізнатись, що воно робить"
                 }
             },
             undiscovered_tag = {
                 name = "Не відкрито",
                 text = {
-                    "Use this tag in",
-                    "an unseeded run to",
-                    "learn what it does"
+                    "Використайте цей тег в забігу",
+                    "без введеного зерна, щоб",
+                    "дізнатись, що він робить"
                 }
             },
             p_arcana_normal = {
-                name = "Arcana Pack",
+                name = "Набір Аркан",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:tarot} Tarot{} cards to",
-                    "be used immediately"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2# карт{C:tarot} Таро{}, які",
+                    "будуть використані негайно"
                 }
             },
             p_arcana_jumbo = {
-                name = "Jumbo Arcana Pack",
+                name = "Набір Аркан Джамбо",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:tarot} Tarot{} cards to",
-                    "be used immediately"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2# карт{C:tarot} Таро{}, які",
+                    "будуть використані негайно"
                 }
             },
             p_arcana_mega = {
-                name = "Mega Arcana Pack",
+                name = "Меганабір Аркан",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:tarot} Tarot{} cards to",
-                    "be used immediately"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2# карт{C:tarot} Таро{}, які",
+                    "будуть використані негайно"
                 }
             },
             p_celestial_normal = {
-                name = "Celestial Pack",
+                name = "Небесний набір",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:planet} Planet{} cards to",
-                    "be used immediately"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2# карт{C:planet} Планет{}, які",
+                    "будуть використані негайно"
                 }
             },
             p_celestial_jumbo = {
-                name = "Jumbo Celestial Pack",
+                name = "Небесний набір Джамбо",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:planet} Planet{} cards to",
-                    "be used immediately"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2# карт{C:planet} Планет{}, які",
+                    "будуть використані негайно"
                 }
             },
             p_celestial_mega = {
-                name = "Mega Celestial Pack",
+                name = "Небесний меганабір",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:planet} Planet{} cards to",
-                    "be used immediately"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2# карт{C:planet} Планет{}, які",
+                    "будуть використані негайно"
                 }
             },
             p_spectral_normal = {
-                name = "Spectral Pack",
+                name = "Примарний набір",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:spectral} Spectral{} cards to",
-                    "be used immediately"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2# {C:spectral} Примарних{} карт, які",
+                    "будуть використані негайно"
                 }
             },
             p_spectral_jumbo = {
-                name = "Jumbo Spectral Pack",
+                name = "Примарний набір Джамбо",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:spectral} Spectral{} cards to",
-                    "be used immediately"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2# {C:spectral} Примарних{} карт, які",
+                    "будуть використані негайно"
                 }
             },
             p_spectral_mega = {
-                name = "Mega Spectral Pack",
+                name = "Примарний меганабір",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:spectral} Spectral{} cards to",
-                    "be used immediately"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2# {C:spectral} Примарних{} карт, які",
+                    "будуть використані негайно"
                 }
             },
             p_standard_normal = {
-                name = "Standard Pack",
+                name = "Стандартний набір",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:attention} Playing{} cards to",
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2#{C:attention} Ігрових{} карт, які",
                     "add to your deck"
                 }
             },
             p_standard_jumbo = {
-                name = "Jumbo Standard Pack",
+                name = "Стандартний набір Джамбо",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:attention} Playing{} cards to",
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2#{C:attention} Ігрових{} карт, які",
                     "add to your deck"
                 }
             },
             p_standard_mega = {
-                name = "Mega Standard Pack",
+                name = "Стандартний меганабір",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:attention} Playing{} cards to",
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2#{C:attention} Ігрових{} карт, які",
                     "add to your deck"
                 }
             },
             p_buffoon_normal = {
-                name = "Buffoon Pack",
+                name = "Набір блазня",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:joker} Joker{} cards"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2#{C:joker} Джокерів{}"
                 }
             },
             p_buffoon_jumbo = {
-                name = "Jumbo Buffoon Pack",
+                name = "Набір блазня Джамбо",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:joker} Joker{} cards"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2#{C:joker} Джокерів{}"
                 }
             },
             p_buffoon_mega = {
-                name = "Mega Buffoon Pack",
+                name = "Меганабір Блазня",
                 text = {
-                    "Choose {C:attention}#1#{} of up to",
-                    "{C:attention}#2#{C:joker} Joker{} cards"
+                    "Оберіть {C:attention}#1#{} з",
+                    "{C:attention}#2#{C:joker} Джокерів{}"
                 }
             },
             pinned_left = {
-                name = "Pinned",
+                name = "Закріплено",
                 text = {
-                    "This Joker stays",
-                    "pinned to the",
-                    "leftmost position"
+                    "Цей Джокер залишається",
+                    "закріплений на",
+                    "найлівішій позиції"
                 }
             }
         }
