@@ -2162,7 +2162,7 @@
                 }
             },
             c_hex = {
-                name = "Hex",
+                name = "Прокляття",
                 text = {
                     "Add {C:dark_edition}Polychrome{} to a",
                     "random {C:attention}Joker{}, destroy",
@@ -2325,31 +2325,31 @@
             stake_green = {
                 name = "Зелена ставка",
                 text = {
-                    "Required score scales",
-                    "faster for each {C:attention}Ante",
+                    "Необхідні очки збільшуються",
+                    "швидше для кожного {C:attention}анте",
                     "{s:0.8}Діють всі попередні ставки"
                 }
             },
             stake_blue = {
                 name = "Синя ставка",
                 text = {
-                    "{C:red}-1{} Discard",
+                    "{C:red}-1{} скидання",
                     "{s:0.8}Діють всі попередні ставки"
                 }
             },
             stake_black = {
                 name = "Чорна ставка",
                 text = {
-                    "Shop can have {C:attention}Eternal{} Jokers",
-                    "{C:inactive,s:0.8}(Can't be sold or destroyed)",
+                    "У магазині можуть бути {C:attention}Вічні{} Джокери",
+                    "{C:inactive,s:0.8}(Не маожуть бути продані чи знищені)",
                     "{s:0.8}Діють всі попередні ставки"
                 }
             },
             stake_purple = {
                 name = "Фіолетова ставка",
                 text = {
-                    "Required score scales",
-                    "faster for each {C:attention}Ante",
+                    "Необхідні очки збільшуються",
+                    "швидше для кожного {C:attention}анте",
                     "{s:0.8}Діють всі попередні ставки"
                 }
             },
@@ -2357,15 +2357,15 @@
                 name = "Помаранчева ставка",
                 text = {
                     "У магазині можуть бути {C:attention}Тлінні{} Джокери",
-                    "{C:inactive,s:0.8}(Дебаф після 5 рандів)",
+                    "{C:inactive,s:0.8}(Дебаф після 5 раундів)",
                     "{s:0.8}Діють всі попередні ставки"
                 }
             },
             stake_gold = {
                 name = "Золота ставка",
                 text = {
-                    "У магазині можуть бути {C:attention}Орендарські{} Джокери",
-                    "{C:inactive,s:0.8}(Вартує {C:money,s:0.8}$3{C:inactive,s:0.8} за раунд)",
+                    "У магазині можуть бути {C:attention}Орендовані{} Джокери",
+                    "{C:inactive,s:0.8}(Вартість {C:money,s:0.8}$3{C:inactive,s:0.8} за раунд)",
                     "{s:0.8}Діють всі попередні ставки"
                 }
             }
@@ -2756,46 +2756,46 @@
             b_red = {
                 name = "Червона колода",
                 text = {
-                    "{C:red}+#1#{} discard",
-                    "every round"
+                    "{C:red}+#1#{} скидань",
+                    "в усіх раундах"
                 }
             },
             b_blue = {
                 name = "Синя колода",
                 text = {
-                    "{C:blue}+#1#{} hand",
-                    "every round"
+                    "{C:blue}+#1#{} рук",
+                    "в усіх раундах"
                 }
             },
             b_yellow = {
                 name = "Жовта колода",
                 text = {
-                    "Start with",
-                    "extra {C:money}$#1#"
+                    "Почати з",
+                    "додатковими {C:money}$#1#"
                 }
             },
             b_green = {
                 name = "Зелена колода",
                 text = {
-                    "At end of each Round:",
-                    "{C:money}$#1#{s:0.85} per remaining {C:blue}Hand",
-                    "{C:money}$#2#{s:0.85} per remaining {C:red}Discard",
-                    "Earn no {C:attention}Interest"
+                    "Наприкінці кожного раунду:",
+                    "{C:money}$#1#{s:0.85} за залишкові {C:blue}руку",
+                    "{C:money}$#2#{s:0.85} за залишкові {C:red}скидання",
+                    "Без заробляння {C:attention}відсотків"
                 }
             },
             b_black = {
                 name = "Чорна колода",
                 text = {
-                    "{C:attention}+#1#{} Joker slot",
+                    "{C:attention}+#1#{} слот Джокера",
                     "",
-                    "{C:blue}-#2#{} hand",
-                    "every round"
+                    "{C:blue}-#2#{} руки",
+                    "в усіх раундах"
                 }
             },
             b_magic = {
                 name = "Магічна колода",
                 text = {
-                    "Почати забіг з",
+                    "Розпочати забіг з",
                     "купоном {C:tarot,T:v_crystal_ball}#1#{}",
                     "та {C:attention}2{} копіями",
                     "карти {C:tarot,T:c_fool}#2#"
@@ -2804,79 +2804,79 @@
             b_nebula = {
                 name = "Туманна колода",
                 text = {
-                    "Почати забіг з",
+                    "Розпочати забіг з",
                     "купоном {C:planet,T:v_telescope}#1#{}",
                     "",
                     "{C:red}#2#{} слоти споживання"
                 }
             },
             b_ghost = {
-                name = "Ghost Deck",
+                name = "Примарна колода",
                 text = {
-                    "{C:spectral}Spectral{} cards may",
-                    "appear in the shop,",
-                    "start with a {C:spectral,T:c_hex}Hex{} card",
+                    "{C:spectral}Примарні{} карти можуть",
+                    "з'являтися в магазині,",
+                    "починається з картою {C:spectral,T:c_hex}Прокляття{}",
                 }
             },
             b_abandoned = {
-                name = "Abandoned Deck",
+                name = "Покинута колода",
                 text = {
-                    "Start run with",
-                    "no {C:attention}Face Cards",
-                    "in your deck"
+                    "Розпочати забіг",
+                    "без карт з {C:attention}обличчям",
+                    "у вашій колоді"
                 }
             },
             b_checkered = {
-                name = "Checkered Deck",
+                name = "Картата колода",
                 text = {
-                    "Start run with",
-                    "{C:attention}26{C:spades} Spades{} and",
-                    "{C:attention}26{C:hearts} Hearts{} in deck"
+                    "Розпочати забіг з",
+                    "{C:attention}26{C:spades} піками{} та",
+                    "{C:attention}26{C:hearts} чирвами{} в колоді"
                 }
             },
             b_zodiac = {
-                name = "Zodiac Deck",
+                name = "Зодіакальна колода",
                 text = {
-                    "Start run with",
+                    "Розпочати забіг з",
                     "{C:tarot,T:v_tarot_merchant}#1#{},",
                     "{C:planet,T:v_planet_merchant}#2#{},",
-                    "and {C:attention,T:v_overstock_norm}#3#"
+                    "та {C:attention,T:v_overstock_norm}#3#"
                 }
             },
             b_painted = {
-                name = "Painted Deck",
+                name = "Пофарбована колода",
                 text = {
-                    "{C:attention}+#1#{} hand size,",
-                    "{C:red}#2#{} Joker slot"
+                    "{C:attention}+#1#{} розмір руки,",
+                    "{C:red}#2#{} слотів Джокера"
                 }
             },
             b_anaglyph = {
-                name = "Anaglyph Deck",
+                name = "Анагліфічна колода",
                 text = {
-                    "After defeating each",
-                    "{C:attention}Boss Blind{}, gain a",
+                    "Після перемоги над кожним",
+                    "{C:attention}Бос блайндом{}, отримати",
                     "{C:attention,T:tag_double}#1#"
                 }
             },
             b_plasma = {
-                name = "Plasma Deck",
+                name = "Плазмова колода",
                 text = {
-                    "Balance {C:blue}Chips{} and",
-                    "{C:red}Mult{} when calculating",
-                    "score for played hand",
-                    "{C:red}X#1#{} base Blind size"
+                    "Балансує {C:blue}фішки{} та",
+                    "{C:red}множник{} при підрахунку",
+                    "результату зіграної руки",
+                    "{C:red}X#1#{} базовий розмір блайнду"
                 }
             },
             b_erratic = {
-                name = "Erratic Deck",
+                name = "Непостійна колода",
                 text = {
-                    "All {C:attention}Ranks{} and",
-                    "{C:attention}Suits{} in deck",
-                    "are randomized"
+                    "Усі {C:attention}номінали{} та",
+                    "{C:attention}масті{} в колоді",
+                    "випвдкові"
                 }
             },
             b_challenge = {
-                name = "Challenge Deck",
+                name = "Колода викликів",
                 text = {
                     ""
                 }
@@ -3529,7 +3529,7 @@
             b_use = "ВИКОРИСТАТИ",
             b_select = "ОБРАТИ",
             b_buy = "КУПИТИ",
-            b_redeem = "ВИКУПИТИ",
+            b_redeem = "ПОГАСИТИ",
             b_open = "ВІДКРИТИ",
             b_and_use = "ТА ВИКОРИСТАТИ",
             b_next_round_1 = "Наступний",
@@ -3741,7 +3741,7 @@
             ph_you_win = "ВИ ПЕРЕМОГЛИ!",
             ph_you_win_demo = "ВИ ПЕРЕМОГЛИ ДЕМО!",
             ph_vouchers_redeemed = "Купонів використано під час цього забігу",
-            ph_no_vouchers = "У цьому забігу не було викуплено жодного купона",
+            ph_no_vouchers = "У цьому забігу не було погашено жодного купона",
             ph_defeat_this_blind_1 = "Переможіть цей блайнд,",
             ph_defeat_this_blind_2 = "щоб відкрити його",
             ph_click_confirm = "Натисніть ще раз, щоб підтвердити",
@@ -3771,19 +3771,19 @@
                 "на розсилку на playbalatro.com"
             },
             ml_eternal = {
-                "Eternal",
-                "Can't be sold",
-                "or destroyed"
+                "Вічний",
+                "Не можу бути проданий",
+                "чи знищений"
             },
             ml_gold_seal_desc = {
-                "Gold Seal",
-                "returns to hand",
-                "when played"
+                "Золота печатка",
+                "повертається до руки",
+                "після того як зіграна"
             },
             ml_crash_report_info = {
-                "Crash reports will be sent to the developer",
-                "to help reduce issues in the future. No",
-                "identifying or personal info will be sent."
+                "Звіти про збої будуть надсилатися розробнику,",
+                "щоб допомогти зменшити кількість проблем у майбутньому. Ніяку",
+                "ідентифікаційну або особисту інформацію не буде надіслано."
             },
             ml_play_discard_pos_opt = {
                 "Скинути/Зіграти",
@@ -3811,360 +3811,360 @@
                 "Вкл"
             },
             ml_card_stats = {
-                "карт",
-                "Статистики"
+                "Карта",
+                "Статистика"
             },
             ml_paste_seed = {
                 "Вставити",
                 "Зерно"
             },
             ml_disabled_seed = {
-                "All Unlocks and",
-                "Discoveries disabled"
+                "Всі розблокування та",
+                "досягнення вимкнені"
             },
             ml_edition_seal_enhancement_explanation = {
-                "Playing cards may each have one",
-                "Enhancement, Edition, and Seal"
+                "Гральні карти можуть мати по одному",
+                "Покращенню, Виданню, та Печатці"
             },
             ml_unlock_all_explanation = {
-                "WARNING! Unlocking the complete Collection",
-                "will disable achievements for this profile!"
+                "УВАГА! Розблокування повної колекції",
+                "вимкне досягнення для цього профілю!"
             },
             ml_unlock_all_trophies = {
-                "WARNING! Unlocking the complete Collection",
-                "will disable trophies for this profile!"
+                "УВАГА! Розблокування повної колекції",
+                "вимкне трофеї для цього профілю!"
             },
-            ['$'] = "$",
-            k_redeemed_ex = "Redeemed!",
-            k_duplicated_ex = "Duplicated!",
-            k_no_room_ex = "No Room!",
-            k_no_space_ex = "No Space!",
-            k_no_other_jokers = "No other Jokers!",
+            ['$'] = "₴",
+            k_redeemed_ex = "Погашено!",
+            k_duplicated_ex = "Продубльовано!",
+            k_no_room_ex = "Немає місця!",
+            k_no_space_ex = "Немає простору!",
+            k_no_other_jokers = "Більше ніяких Джокерів!",
             k_plus_tarot = "+1 Таро",
-            k_plus_stone = "+1 Stone",
-            k_plus_planet = "+1 Planet",
-            k_plus_spectral = "+1 Spectral",
+            k_plus_stone = "+1 Камінь",
+            k_plus_planet = "+1 Планета",
+            k_plus_spectral = "+1 Примарна",
             k_plus_joker = "+1 Джокер",
-            k_active_ex = "Active!",
-            k_level_up_ex = "Level Up!",
-            k_upgrade_ex = "Upgrade!",
-            k_again_ex = "Again!",
-            k_val_up = "Value Up!",
-            k_reset = "Reset",
-            k_extinct_ex = "Extinct!",
-            k_disabled_ex = "Disabled!",
-            k_safe_ex = "Safe!",
-            k_saved_ex = "Saved!",
-            k_swapped_ex = "Swapped!",
-            k_copied_ex = "Copied!",
-            k_melted_ex = "Melted!",
-            k_eaten_ex = "Eaten!",
-            k_drank_ex = "Drank!",
-            k_eroded_ex = "Eroded!",
+            k_active_ex = "Активно!",
+            k_level_up_ex = "Рівень підвищено!",
+            k_upgrade_ex = "Покращено!",
+            k_again_ex = "Знову!",
+            k_val_up = "Цінність зростає!",
+            k_reset = "Перезавантаження",
+            k_extinct_ex = "Зникло!",
+            k_disabled_ex = "Вимкнено!",
+            k_safe_ex = "Безпечно!",
+            k_saved_ex = "Збережено!",
+            k_swapped_ex = "Замінено!",
+            k_copied_ex = "Скопійовано!",
+            k_melted_ex = "Розплавлено!",
+            k_eaten_ex = "З'їдено!",
+            k_drank_ex = "Випито!",
+            k_eroded_ex = "Зіпсовано!",
         },
         v_dictionary = {
-            a_xmult = "X#1# Множ.",
-            a_xmult_minus = "-X#1# Mult",
-            a_mult = "+#1# Множ.",
-            a_mult_minus = "-#1# Mult",
+            a_xmult = "X#1# множ.",
+            a_xmult_minus = "-X#1# множ",
+            a_mult = "+#1# множ.",
+            a_mult_minus = "-#1# множ",
             a_chips = "+#1#",
             a_chips_minus = "-#1#",
             a_handsize = "+#1# розмір руки",
-            a_handsize_minus = "-#1# Hand Size",
+            a_handsize_minus = "-#1# розмір руки",
             a_hands = "+#1# рук",
             a_sold_tally = "#1#/#2# продано",
             a_remaining = "#1# залишилось",
             ante_x_voucher = "АНТЕ #1# КУПОН",
-            loyalty_active = "Active!",
+            loyalty_active = "Активно!",
             loyalty_inactive = "#1# залишилось",
-            deck_preview_wheel_singular = "Numbers may be lower due to the #1# card drawn face down",
-            deck_preview_wheel_plural = "Numbers may be lower due to the #1# cards drawn face down",
-            challenges_completed = "Completed #1#/#2# Challenges",
-            unlocked = "#1#/#2# Unlocked",
-            completed = "#1#/#2# Completed",
-            interest = "#1# interest per $#2# (#3# max)",
-            remaining_hand_money = "Remaining Hands ($#1# each)",
-            remaining_discard_money = "Remaining Discards ($#1# each)",
+            deck_preview_wheel_singular = "Значення можуть бути меншими через карту #1#, витягнуту лицьовою стороною вниз",
+            deck_preview_wheel_plural = "Значення можуть бути меншими через те, що картки #1# витягнуті лицьовою стороною вниз",
+            challenges_completed = "Завершено #1#/#2# викликів",
+            unlocked = "#1#/#2# розблоковано",
+            completed = "#1#/#2# завершено",
+            interest = "#1# відсотків за кожні $#2# (#3# макс.)",
+            remaining_hand_money = "Залишок рук ($#1# кожна)",
+            remaining_discard_money = "Залишок скидань ($#1# кожен)",
             ml_foil_desc = {
-                "Foil",
-                "+#1# Chips"
+                "Фольга",
+                "+#1# фішок"
             },
             ml_holo_desc = {
-                "Holographic",
-                "+#1# Mult"
+                "Голографічна",
+                "+#1# множ"
             },
             ml_polychrome_desc = {
-                "Polychrome",
-                "X#1# Mult"
+                "Поліхромна",
+                "X#1# множ"
             },
             ml_negative_desc = {
-                "Negative",
-                "+#1# Joker Slot"
+                "Негатив",
+                "+#1# слот Джокера"
             },
             ml_negative_consumable_desc = {
-                "Negative",
-                "+#1# consumable Slot"
+                "Негатив",
+                "+#1# слот споживання"
             }
         },
         v_text = {
             ch_m_dollars = {
-                "Start with {C:money}$#1#"
+                "Розпочати з {C:money}$#1#"
             },
             ch_m_hands = {
-                "{C:blue}#1#{} hands per round"
+                "{C:blue}#1#{} рук за раунд"
             },
             ch_m_discards = {
-                "{C:red}#1#{} discards per round"
+                "{C:red}#1#{} скидань за раунд"
             },
             ch_m_reroll_cost = {
-                "{C:money}$#1#{} base reroll cost"
+                "{C:money}$#1#{} базова вартість оновлення"
             },
             ch_m_joker_slots = {
-                "{C:attention}#1#{} Joker Slots"
+                "{C:attention}#1#{} слотів Джокера"
             },
             ch_m_consumable_slots = {
-                "{C:attention}#1#{} Consumable Slots"
+                "{C:attention}#1#{} слотів споживання"
             },
             ch_m_hand_size = {
-                "{C:attention}#1#{} hand size"
+                "{C:attention}#1#{} розмір руки"
             },
             ch_m_none = {
-                "{C:inactive}None"
+                "{C:inactive}Порожньо"
             },
             ch_c_no_reward = {
-                "All {C:attention}Blinds{} give no reward money"
+                "Всі {C:attention}блайнди{} не дають гроші в нагороду"
             },
             ch_c_no_reward_specific = {
-                "{C:attention}#1# Blinds{} give no reward money"
+                "{C:attention}#1# блайндів {} не дають гроші в нагороду"
             },
             ch_c_no_extra_hand_money = {
-                "Extra {C:blue}Hands{} no longer earn money"
+                "Додаткові незіграні {C:blue}руки{} більше не дають гроші"
             },
             ch_c_no_interest = {
-                "Earn no {C:attention}Interest{} at end of round"
+                "{C:attention}Відсотки{} не нараховуються в кінці раунду"
             },
             ch_c_daily = {
-                "{E:1,s:1.2,C:red}Daily Challenge!"
+                "{E:1,s:1.2,C:red}Щоденний виклик!"
             },
             ch_c_set_seed = {
-                "1 attempt with set Seed: {C:inactive}{Hidden}"
+                "1 спроба з зерном: {C:inactive}{Hidden}"
             },
             ch_c_chips_dollar_cap = {
-                "{C:blue}Chips{} cannot exceed the current {C:money}$"
+                "{C:blue}ФІшки{} не можуть перевищити кількість {C:money}$"
             },
             ch_c_none = {
-                "{C:inactive}None"
+                "{C:inactive}Порожньо"
             },
             ch_c_no_shop_jokers = {
-                "Jokers no longer appear in the {C:attention}shop"
+                "Джокери більше не з'являються в {C:attention}магазині"
             },
             ch_c_inflation = {
-                "Permanently raise prices by {C:money}$1{} on every purchase"
+                "Назавжди підвищує ціни на {C:money}$1{} при кожній покупці"
             },
             ch_c_discard_cost = {
-                "Discards each cost {C:money}$#1#{}"
+                "Кожне скидання вартує {C:money}$#1#{}"
             },
             ch_c_all_eternal = {
-                "All Jokers are {C:eternal}Eternal{}"
+                "Всі джокери {C:eternal}Вічні{}"
             },
             ch_c_flipped_cards = {
-                "{C:green}1 in #1#{} cards are drawn face down"
+                "{C:green}1 з #1#{} карт витягується лицевою стороною вниз"
             },
             ch_c_debuff_played_cards = {
-                "All {C:attention}Played{} cards become {C:attention}debuffed{} after scoring"
+                "Усі {C:attention}зіграні{} карти стають {C:attention}послабленими{} піся зарахунку"
             },
             ch_c_minus_hand_size_per_X_dollar = {
-                "Hold {C:red}-1{} cards in hand for every {C:money}$#1#{} you have"
+                "{C:red}-1{} до карт у руці за кожні {C:money}$#1#{} що у вас є"
             },
             ch_c_set_eternal_ante = {
-                "When ante {C:attention}#1#{} boss is defeated, all Jokers become {C:attention}eternal"
+                "Коли анте {C:attention}#1#{} боса переможено, усі Джокери стають {C:attention}вічними"
             },
             ch_c_set_joker_slots_ante = {
-                "When ante {C:attention}#1#{} boss is defeated, set Joker slots to {C:attention}0"
+                "Коли анте {C:attention}#1#{} боса переможено, усі Джокери стають {C:attention}0"
             }
         },
         quips = {
-            wq_1 = {"You Aced it!"},
-            wq_2 = {"You dealt with","that pretty well!"},
-            wq_3 = {"Looks like you","weren't bluffing!"},
-            wq_4 = {"Too bad these","chips are all","virtual..."},
-            wq_5 = {"Looks like I've","taught you well!"},
-            wq_6 = {"You made some", "heads up plays!"},
-            wq_7 = {"Good thing","I didn't bet", "against you!"},
-            lq_1 = {"Maybe Go Fish", "is more our", "speed..."},
-            lq_2 = {"We folded like", "a cheap suit!"},
-            lq_3 = {"Time for us", "to shuffle off", "and try again!"},
-            lq_4 = {"You know what", "they say, the", "house always wins!"},
-            lq_5 = {"Looks like we", "found out who", "the real Joker is!"},
-            lq_6 = {"Oh no, were you", "bluffing too?"},
-            lq_7 = {"Looks like the","joke's on us!"},
-            lq_8 = {"If I had hands","I would have", "covered my eyes!"},
-            lq_9 = {"I'm literally", "a fool, what's", "your excuse?"},
-            lq_10 = {"What a flop!"},
-            dq_1 = {"Yikes! I hope you","have a few tricks","up your sleeve for","this final challenge!"}
+            wq_1 = {"Ти впорався!"},
+            wq_2 = {"Ти добре","впорався з цим!"},
+            wq_3 = {"Ого! Схоже це","був не блеф!"},
+            wq_4 = {"Шкода, звичайно,","що ці фішки","віртуальні..."},
+            wq_5 = {"Схоже на те,","що я добре тебе навчив!"},
+            wq_6 = {"Ти провів кілька", "хедз-ап партій!"},
+            wq_7 = {"Добре,","що я не ставив", "проти тебе!"},
+            lq_1 = {"Можливо нам", "варто грати в", "Уно..."},
+            lq_2 = {"Ми скидали", "наче м'яч друзям!"},
+            lq_3 = {"Прийшла пора", "перетасувати колоду", "та спробувати знову!"},
+            lq_4 = {"Знаєш,", "кажуть", "казино завжди перемагає!"},
+            lq_5 = {"Схоже ми", "дізнались", "хто тут справжній Джокер!"},
+            lq_6 = {"О ні, ти", "теж блефував?"},
+            lq_7 = {"Схоже","нас розіграли!"},
+            lq_8 = {"Були б у мене руки","я б ними", "закрив мої очі!"},
+            lq_9 = {"Я буквально", "клоун, я які в тебе", "виправданя?"},
+            lq_10 = {"Яка невдача!"},
+            dq_1 = {"Ой!Я сподівають","в тебе лишилось кілька","фокусів в рукаві","для фінального виклику!"}
         },
         tutorial = {
             sb_1 = {
-                "Hello there! My name is",
-                "{C:attention}Jimbo{}, I'm here to help",
-                "you learn how to play!"
+                "Привіт!",
+                "Я {C:attention}Джимбо{}, я тут, щоб",
+                "допомогти вам навчитись грати!"
             },
             sb_2 = {
-                "Your goal is to earn",
-                "{C:blue}Chips{} to defeat",
-                "the enemy {C:attention}Blind"
+                "Ваша ціль заробляти",
+                "{C:blue}фішки{}, щоб перемогти",
+                "{C:attention}блайнд{} суперника"
             },
             sb_3 = {
-                "This here is a {C:blue}Small Blind{},",
-                "you only need to score",
-                "{C:attention}300 Chips{} to beat it."
+                "Це {C:blue}Малий блайнд{},",
+                "вам необхідно набрати",
+                "{C:attention}300 фішок{} для перемоги."
             },
             sb_4 = {
-                "Select the {C:blue}Small Blind",
-                "to start the round!"
+                "Оберіть {C:blue}Малий блайнд",
+                "для початку раунду!"
             },
             bb_1 = {
-                "Selecting the {C:attention}Big Blind",
-                "will earn some cash"
+                "Оберіть {C:attention}Великий блайнд",
+                "та заробите трохи грошей"
             },
             bb_2 = {
-                "Or choose to {C:attention}skip it",
-                "to get a {C:attention}Tag{}! Each",
-                "{C:attention}Tag{} has a unique effect"
+                "Або ж оберіть {C:attention}пропустити його",
+                "щоб отримати {C:attention}тег{}! Кожен",
+                "{C:attention}тег{} має унікальний ефект"
             },
             bb_3 = {
-                "But keep an eye on",
-                "the {C:attention}Boss Blind{}. It",
-                "has an ability you'll",
-                "need to plan around."
+                "Але слідкуйте за",
+                "{C:attention}Бос блайндом{}. Він",
+                "має здібності на які",
+                "треба звертати увагу при плануванні."
             },
             bb_4 = {
-                "if you beat it, then the",
-                "{C:attention}Ante{} goes up and all",
-                "{C:attention}Blinds{} become harder"
+                "Якщо ви його поб'єте то",
+                "{C:attention}анте{} зросте та всі",
+                "{C:attention}блайнди{} стануть важчі"
             },
             bb_5 = {
-                "Beat {C:attention}Ante{} #1# to win.",
-                "Now choose your path!"
+                "Побийте {C:attention}анте{} #1# для перемоги.",
+                "Виберіть свій шлях!"
             },
             fh_1 = {
-                "You earn chips by",
-                "playing {C:attention}Poker hands"
+                "Ви отримуєте фішки",
+                "розігруючи {C:attention}покерні руки"
             },
             fh_2 = {
-                "Each {C:attention}Poker hand{} earns a",
-                "base amount of {C:blue}Chips",
-                "multiplied by some {C:red}Mult"
+                "Кожна {C:attention}покерна рука{} приносить",
+                "базову кількість {C:blue}фішок",
+                "помножену на певний {C:red}множник"
             },
             fh_3 = {
-                "See your {C:attention}Poker hands",
-                "in the {C:attention}Run Info{} area,",
-                "along with other info",
-                "about your current run"
+                "Переглянути {C:attention}покерні руки",
+                "можна в зоні {C:attention}Дані забігу{},",
+                "разом з іншою інформацієюo",
+                "щодо забігу"
             },
             fh_4 = {
-                "Cards also earn",
-                "you some {C:blue}Chips{},",
-                "hover over to see!"
+                "Карти також дають",
+                "певну кількість {C:blue}фішок{},",
+                "наведіть курсор, щоб це побачити!"
             },
             fh_5 = {
-                "Now select up to",
-                "{C:attention}5{} cards to play",
-                "and press {C:blue}'Play Hand'"
+                "Тепер оберіть до {C:attention}5{} карт,",
+                "щоб сформувати покерну руку",
+                "та натисніть {C:blue}'Зіграти руку'"
             },
             fh_6 = {
-                "You can also {C:red}'Discard'{} up",
-                "to {C:attention}5{} selected cards",
-                "to try and make even",
-                "stronger hands. Try it!"
+                "Також можна {C:red}'Скинути'{}",
+                "до {C:attention}5{} обраних карт,",
+                "щоб спробути отримати",
+                "сильніші руки. Спробуйте!"
             },
             fh_7 = {
-                "Careful! You only have a",
-                "limited number of {C:blue}Hands",
-                "and {C:red}Discards{} per round"
+                "Обережно! У вас є лише",
+                "обмежен кількість {C:blue}рук",
+                "та {C:red}скидань{} на раунд"
             },
             fh_8 = {
-                "Earn {C:attention}300 Chips{} before",
-                "you run out of {C:blue}Hands",
-                "to win this round.",
-                "Good luck!"
+                "Заробіть {C:attention}300 фішрк{} до того",
+                "як закінчаться {C:blue}руки",
+                "для перемоги у ццьому раунді.",
+                "Удачі!"
             },
             sh_1 = {
-                "When you get more cards,",
-                "remember you can rearrange",
-                "them. {C:attention}Jokers{} trigger in",
-                "order from left to right"
+                "Коли отримаєте більше карт,",
+                "пам'ятайте що можете змінювати їх порядок",
+                "{C:attention}Джокери{} задіюються",
+                "зліва направо"
             },
             sh_2 = {
-                "And make sure that you",
-                "{C:attention}USE{} your consumables!"
+                "Також переконайтесь що не забуваєте",
+                "{C:attention}ВИКОРИСТОВУВАТИ{} ваші предмети споживання!"
             },
             sh_3 = {
-                "Select up to {C:attention}2{} cards",
-                "in your hand and press",
-                "{C:attention}'USE'{} on the {C:tarot}Tarot{} card",
-                "to enhance them!"
+                "Оберіть до {C:attention}2{} карт",
+                "в вашій руці та натисніть",
+                "{C:attention}'ВИКОРИСТАТИ'{} на карті {C:tarot}Таро{}",
+                "для того щоб покращити карти!"
             },
             s_1 = {
-                "Nicely done! Now that",
-                "you're {E:1}flush{} with {C:money}Cash{},",
-                "you can buy some new",
-                "cards from the {C:attention}Shop"
+                "Чудово! Тепер, коли",
+                "ви {E:1}туз{} з {C:money}грошима{},",
+                "можете купити нові",
+                "карти з {C:attention}магазину"
             },
             s_2 = {
-                "Try buying this",
-                "handsome Devil"
+                "спробуйте купити цього,
+                "Диявола красунчика"
             },
             s_3 = {
-                "This is one of the {C:attention}#1#",
-                "{C:attention}Jokers{} you can add to",
-                "your run. Every {C:attention}Joker",
-                "does something different"
+                "Це один з {C:attention}#1#",
+                "{C:attention}Джокерів{}, яких можна додати",
+                "в ваш забіг. Кожен {C:attention}Джокер",
+                "робить різні речі"
             },
             s_4 = {
-                "This one adds {C:red}+4 Mult{} to",
-                "every hand you play!"
+                "Цей додає {C:red}+4 инож.{} до",
+                "кожної зіграної руки!"
             },
             s_5 = {
-                "Be picky, you can only",
-                "carry {C:attention}5 Joker{} cards",
-                "at a time"
+                "Будьте вибагливі, ви можете",
+                "мати лише {C:attention}5 Джокерів{}",
+                "одночасно"
             },
             s_6 = {
-                "Now buy the other",
-                "card from the {C:attention}Shop"
+                "Тепер купіть іншу",
+                "карту з {C:attention}магазину"
             },
             s_7 = {
-                "This {C:tarot}Tarot{} card is a",
-                "{C:attention}consumable{}. This one will",
-                "enhance your playing",
-                "cards! Hold on to it."
+                "Ця карта {C:tarot}Таро{} є предметом",
+                "{C:attention}споживання{}. Вона",
+                "покращить ваші гральні",
+                "карти! Не забувайте про це."
             },
             s_8 = {
-                "You can carry up to",
-                "{C:attention}2 consumable{} cards",
-                "with you at a time"
+                "У вас може бути до",
+                "{C:attention}2 карт споживання{}",
+                "одночасно"
             },
             s_9 = {
-                "If you save up enough,",
-                "you can buy a {C:attention}купон{}.",
+                "Якщо ви накопичите достатньо,",
+                "то зможете купити {C:attention}купон{}.",
                 "{C:attention}Купони{} пасивно",
-                "покращують твій забіг!"
+                "покращують ваш забіг!"
             },
             s_10 = {
                 "{C:attention}Купони{} оновлюються",
                 "після перемоги над",
-                "{C:attention}Босом Блайнду{}."
+                "{C:attention}Босом блайнду{}."
             },
             s_11 = {
-                "And check out both of",
-                "the {C:booster}Booster Packs{} in",
-                "every shop. They're",
-                "full of goodies!"
+                "Також перевіряйте обидва",
+                "{C:booster}Бустерні набори{} в",
+                "кожному магазині. В них",
+                "повно смаколиків!"
             },
             s_12 = {
-                "Let's move on to",
-                "the {C:attention}next round{}."
+                "Переходимо до",
+                "{C:attention}наступного раунду{}."
             }
         }
     }
