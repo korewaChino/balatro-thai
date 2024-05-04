@@ -343,164 +343,164 @@
                 }
             },
             j_even_steven = {
-                name = "Even Steven",
+                name = "Івен Стівен",
                 text = {
-                    "Played cards with",
-                    "{C:attention}even{} rank give",
-                    "{C:mult}+#1#{} Mult when scored",
+                    "Зіграні карти з",
+                    "{C:attention}парним{} номіналом дають",
+                    "{C:mult}+#1#{} множ. коли зараховані",
                     "{C:inactive}(10, 8, 6, 4, 2)"
                 }
             },
             j_odd_todd = {
-                name = "Odd Todd",
+                name = "Одд Тодд",
                 text = {
-                    "Played cards with",
-                    "{C:attention}odd{} rank give",
-                    "{C:chips}+#1#{} Chips when scored",
+                    "Зіграні карти з",
+                    "{C:attention}непарним{}  номіналом дають",
+                    "{C:chips}+#1#{} фішок, коли зараховані",
                     "{C:inactive}(A, 9, 7, 5, 3)"
                 }
             },
             j_scholar = {
-                name = "Scholar",
+                name = "Студент",
                 text = {
-                    "Played {C:attention}Aces{}",
-                    "give {C:chips}+#2#{} Chips",
-                    "and {C:mult}+#1#{} Mult",
-                    "when scored"
+                    "Зіграні {C:attention}Тузи{}",
+                    "дають {C:chips}+#2#{} фішок",
+                    "та {C:mult}+#1#{} множ.",
+                    "коли зараховані"
                 }
             },
             j_business = {
-                name = "Business Card",
+                name = "Візитна картка",
                 text = {
-                    "Played {C:attention}face{} cards have",
-                    "a {C:green}#1# in #2#{} chance to",
-                    "give {C:money}$2{} when scored"
+                    "Зіграні карти з{C:attention}обличчям{} мають",
+                    "{C:green}#1# з #2#{} ймовірніть",
+                    "дати {C:money}$2{} коли зараховані"
                 }
             },
             j_supernova = {
                 name = "Наднова",
                 text = {
-                    "Adds the number of times",
-                    "{C:attention}poker hand{} has been",
-                    "played this run to Mult"
+                    "Додає кількість разів, які",
+                    "{C:attention}покерна рука{} була",
+                    "зіграна під час цього забігу до множ."
                 }
             },
             j_superposition = {
                 name = "Superposition",
                 text = {
-                    "Create a {C:tarot}Tarot{} card if",
-                    "poker hand contains an",
-                    "{C:attention}Ace{} and a {C:attention}Straight{}",
-                    "{C:inactive}(Must have room)"
+                    "Створює карту {C:tarot}Таро{}, якшщо",
+                    "покерна рука містить",
+                    "{C:attention}Туз{} та {C:attention}Стрейт{}",
+                    "{C:inactive}(Вимагає місце)"
                 }
             },
             j_ride_the_bus = {
-                name = "Ride the Bus",
+                name = "Поїздка на автобусі",
                 text = {
-                    "This Joker gains {C:mult}+#1#{} Mult",
-                    "per {C:attention}consecutive{} hand",
-                    "played without a",
-                    "scoring {C:attention}face{} card",
-                    "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)"
+                    "Цей джокер отримує {C:mult}+#1#{} множ.",
+                    "за {C:attention}піослідовно{} зіграні",
+                    "руку без",
+                    "зарахування карт з {C:attention}обличчям{}",
+                    "{C:inactive}(Зараз {C:mult}+#2#{C:inactive} множ.)"
                 }
             },
             j_space = {
                 name = "Космічний джокер",
                 text = {
-                    "{C:green}#1# in #2#{} chance to",
-                    "upgrade level of",
-                    "played {C:attention}poker hand{}"
+                    "{C:green}#1# з #2#{} ймовірність",
+                    "покращити рівень",
+                    "зіграної {C:attention}покерної руки{}"
                 }
             },
             j_egg = {
                 name = "Яйце",
                 text = {
-                    "Gains {C:money}$#1#{} of",
-                    "{C:attention}sell value{} at",
-                    "end of round"
+                    "Здобуває {C:money}$#1#{} до",
+                    "{C:attention}вартості продажу{}",
+                    "наприкінці раунду"
                 }
             },
             j_burglar = {
-                name = "Burglar",
+                name = "Грабіжник",
                 text = {
-                    "When {C:attention}Blind{} is selected,",
-                    "gain {C:blue}+#1#{} Hands and",
-                    "{C:attention}lose all discards"
+                    "Коли обрано {C:attention}Блайнд{},",
+                    "отримайте {C:blue}+#1#{} руку та",
+                    "{C:attention}втратьте всі скидання"
                 }
             },
             j_blackboard = {
-                name = "Blackboard",
+                name = "Класна дошка",
                 text = {
-                    "{X:red,C:white} X#1# {} Mult if all",
-                    "cards held in hand",
-                    "are {C:spades}#2#{} or {C:clubs}#3#{}"
+                    "{X:red,C:white} X#1# {} множ., якщо всі",
+                    "карти що лишаються в руці",
+                    "є {C:spades}#2#{} або {C:clubs}#3#{}"
                 }
             },
             j_runner = {
                 name = "Бігун",
                 text = {
-                    "Gains {C:chips}+#2#{} Chips",
-                    "if played hand",
-                    "contains a {C:attention}Straight{}",
-                    "{C:inactive}(Currently {C:chips}+#1#{C:inactive} Chips)"
+                    "Здобуває {C:chips}+#2#{} фішок,",
+                    "якщо зіграна рука",
+                    "містить {C:attention}Стрейт{}",
+                    "{C:inactive}(Зараз {C:chips}+#1#{C:inactive} фішок)"
                 }
             },
             j_ice_cream = {
                 name = "Морозиво",
                 text = {
-                    "{C:chips}+#1#{} Chips",
-                    "{C:chips}-#2#{} Chips for",
-                    "every hand played"
+                    "{C:chips}+#1#{} фішок",
+                    "{C:chips}-#2#{} фішок за",
+                    "кожну зіграну руку"
                 }
             },
             j_dna = {
                 name = "ДНК",
                 text = {
-                    "If {C:attention}first hand{} of round",
-                    "has only {C:attention}1{} card, add a",
-                    "permanent copy to deck",
-                    "and draw it to {C:attention}hand"
+                    "Якщо {C:attention}перша покерна рука{} у раунді",
+                    "складається з {C:attention}1{} карти, додає",
+                    "її постійну копію в колоду",
+                    "та витягує її в {C:attention}руку"
                 }
             },
             j_splash = {
-                name = "Splash",
+                name = "Сплеск",
                 text = {
-                    "Every {C:attention}played card",
-                    "counts in scoring"
+                    "Кожна {C:attention}зіграна карта",
+                    "бере участь в рахунку"
                 }
             },
             j_blue_joker = {
-                name = "Blue Joker",
+                name = "Синій Джокер",
                 text = {
-                    "{C:chips}+#1#{} Chips for each",
-                    "remaining card in {C:attention}deck",
-                    "{C:inactive}(Currently {C:chips}+#2#{C:inactive} Chips)"
+                    "{C:chips}+#1#{} фішок за кожну",
+                    "карту що залишається в {C:attention}колоді",
+                    "{C:inactive}(Зараз {C:chips}+#2#{C:inactive} фішок)"
                 }
             },
             j_sixth_sense = {
-                name = "Sixth Sense",
+                name = "Шосте Чуття",
                 text = {
-                    "If {C:attention}first hand{} of round is",
-                    "a single {C:attention}6{}, destroy it and",
-                    "create a {C:spectral}Spectral{} card",
-                    "{C:inactive}(Must have room)"
+                    "Якщо {C:attention}перша зіграна рука{} раунду",
+                    "це одна {C:attention}6{}, знищує її та",
+                    "створює {C:spectral}Примарну{} карту",
+                    "{C:inactive}(Вимагає місце)"
                 }
             },
             j_constellation = {
                 name = "Сузір'я",
                 text = {
-                    "This Joker gains",
-                    "{X:mult,C:white} X#1# {} Mult every time",
-                    "a {C:planet}Planet{} card is used",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
+                    "Цей Джокер здобуває",
+                    "{X:mult,C:white} X#1# {} множ. щоразу, коли",
+                    "використовується карта {C:planet}Планети{}",
+                    "{C:inactive}(Зараз {X:mult,C:white} X#2# {C:inactive} множ.)"
                 }
             },
             j_hiker = {
-                name = "Hiker",
+                name = "Мандрівник",
                 text = {
-                    "Every played {C:attention}card{}",
-                    "permanently gains",
-                    "{C:chips}+#1#{} Chips when scored"
+                    "Кожна зіграна {C:attention}карта{}",
+                    "назавжди отримує",
+                    "{C:chips}+#1#{} фішок, коли зарахована"
                 }
             },
             j_faceless = {
@@ -515,414 +515,413 @@
             j_todo_list = {
                 name = "To Do List",
                 text = {
-                    "Earn {C:money}$#1#{} if {C:attention}poker hand{}",
-                    "is a {C:attention}#2#{},",
-                    "poker hand changes",
-                    "at end of round"
+                    "Отримайте {C:money}$#1#{} якщо {C:attention}покерна рука{}",
+                    "це {C:attention}#2#{},",
+                    "покерна рука змінюється",
+                    "наприкінці раунду"
                 }
             },
             j_ticket = {
-                name = "Golden Ticket",
+                name = "Золотий квиток",
                 text = {
-                    "Played {C:attention}Gold{} cards",
-                    "earn {C:money}$#1#{} when scored",
+                    "Зіграні {C:attention}Золоті{} карти",
+                    "дають {C:money}$#1#{} коли зараховані",
                 },
                 unlock = {
-                    "Play a 5 card hand",
-                    "that contains only",
-                    "{C:attention,E:1}Gold{} cards"
+                    "Зіграйте руку з 5 карт",
+                    "яка містить лише",
+                    "{C:attention,E:1}Золоті{} карти"
                 }
             },
             j_mr_bones = {
-                name = "Mr. Bones",
+                name = "Містер Кістяк",
                 text = {
-                    "Prevents Death",
-                    "if chips scored",
-                    "are at least {C:attention}25%",
-                    "of required chips",
-                    "{S:1.1,C:red,E:2}self destructs{}"
+                    "Запобігає смерті",
+                    "якщо набрані фішки",
+                    "складають хоча б {C:attention}25%",
+                    "від необхідних фішок",
+                    "{S:1.1,C:red,E:2}самознищується{}"
                 },
                 unlock = {
-                    "Lose {C:attention,E:1}#1#{} runs",
+                    "Програйте {C:attention,E:1}#1#{} забігів",
                     "{C:inactive}(#2#)"
                 }
             },
             j_acrobat = {
-                name = "Acrobat",
+                name = "Акробат",
                 text = {
-                    "{X:red,C:white} X#1# {} Mult on {C:attention}final",
-                    "{C:attention}hand{} of round"
+                    "{X:red,C:white} X#1# {} множ. на {C:attention}останній",
+                    "зіграній {C:attention}руці{} у раунді"
                 },
                 unlock = {
-                    "Play {C:attention,E:1}#1#{} hands",
+                    "Зіграйте {C:attention,E:1}#1#{} рук",
                     "{C:inactive}(#2#)"
                 }
             },
             j_sock_and_buskin = {
-                name = "Sock and Buskin",
+                name = "Комедія та трагедія",
                 text = {
-                    "Retrigger all",
-                    "played {C:attention}face{} cards"
+                    "Повторно активує усі",
+                    "зіграні карти з {C:attention}обличчям{}"
                 },
                 unlock = {
-                    "Play a total of",
-                    "{C:attention,E:1}#1#{} face cards",
+                    "Зіграйте в загальному",
+                    "{C:attention,E:1}#1#{} карт з обличчям",
                     "{C:inactive}(#2#)"
                 }
             },
             j_green_joker = {
-                name = "Green Joker",
+                name = "Зелений Джокер",
                 text = {
-                    "{C:mult}+#1#{} Mult per hand played",
-                    "{C:mult}-#2#{} Mult per discard",
-                    "{C:inactive}(Currently {C:mult}+#3#{C:inactive} Mult)"
+                    "{C:mult}+#1#{} множ. за зіграну руку",
+                    "{C:mult}-#2#{} множ. за скидання",
+                    "{C:inactive}(Зараз {C:mult}+#3#{C:inactive} множ.)"
                 }
             },
             j_swashbuckler = {
-                name = "Swashbuckler",
+                name = "Шибайголова",
                 text = {
-                    "Adds the sell value",
-                    "of all other owned",
-                    "{C:attention}Jokers{} to Mult",
-                    "{C:inactive}(Currently {C:mult}+#1#{C:inactive} Mult)"
+                    "Додає вартість продажу",
+                    "усіх інших наявних",
+                    "{C:attention}Джокерів{} до множ.",
+                    "{C:inactive}(Зараз {C:mult}+#1#{C:inactive} множ.)"
                 },
                 unlock = {
-                    "Sell a total of",
-                    "{C:attention,E:1}#1#{} Joker cards",
+                    "Продайте загалом",
+                    "{C:attention,E:1}#1#{} карт Джокерів",
                     "{C:inactive}(#2#)"
                 }
             },
             j_troubadour = {
                 name = "Трубадур",
                 text = {
-                    "{C:attention}+#1#{} hand size,",
-                    "{C:blue}-#2#{} hand each round"
+                    "{C:attention}+#1#{} до розміру руки,",
+                    "{C:blue}-#2#{} рук на всі раунди"
                 },
                 unlock = {
-                    "Win {C:attention,E:1}#1#{} consecutive",
-                    "rounds by playing",
-                    "only 1 hand"
+                    "Виграйте {C:attention,E:1}#1#{} послідовних",
+                    "раундів граючи",
+                    "лише 1 руку"
                 }
             },
             j_certificate = {
-                name = "Certificate",
+                name = "Сертифікат",
                 text = {
-                    "When round begins,",
-                    "add a random {C:attention}playing",
-                    "{C:attention}card{} with a random",
-                    "{C:attention}seal{} to your hand"
+                    "На початку раунду",
+                    "додає випадкову {C:attention}гральну",
+                    "{C:attention}карту{} з випадковою",
+                    "{C:attention}печаткою{} у вашу руку"
                 },
                 unlock = {
-                    "Have a Gold",
-                    "playing card with",
-                    "a {C:attention,E:1}Gold Seal"
+                    "Майте золоту",
+                    "гральну карту з",
+                    "{C:attention,E:1}Золотою печаткою"
                 }
             },
             j_smeared = {
-                name = "Smeared Joker",
+                name = "Змазаний Джокер",
                 text = {
-                    "{C:hearts}Hearts{} and {C:diamonds}Diamonds",
-                    "count as the same suit,",
-                    "{C:spades}Spades{} and {C:clubs}Clubs",
-                    "count as the same suit"
+                    "{C:hearts}Чирви{} та {C:diamonds}Бубни",
+                    "рахуються як одна масть,",
+                    "{C:spades}Піки{} та {C:clubs}Трефи",
+                    "рахуються як одна масть"
                 },
                 unlock = {
-                    "Have at least {C:attention}#1#",
-                    "{E:1,C:attention}#2#{} in",
-                    "your deck"
+                    "Майте хоча б {C:attention}#1#",
+                    "{E:1,C:attention}#2#{} у",
+                    "вашій колоді"
                 }
             },
             j_throwback = {
-                name = "Throwback",
+                name = "Атавізм",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult for each",
-                    "{C:attention}Blind{} skipped this run",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
+                    "{X:mult,C:white} X#1# {} множ. за кожен",
+                    "пропущений під час забігу {C:attention}Блайнд{}",
+                    "{C:inactive}(Зараз {X:mult,C:white} X#2# {C:inactive} множ.)"
                 },
                 unlock = {
-                    "Continue a saved run",
-                    "from the main menu"
+                    "Продовжіть збережений забіг",
+                    "з головного меню"
                 }
             },
             j_hanging_chad = {
-                name = "Hanging Chad",
+                name = "Висячий чад",
                 text = {
-                    "Retrigger {C:attention}first{} played",
-                    "card used in scoring",
-                    "{C:attention}#1#{} additional times"
+                    "Повторно активує {C:attention}першу{} зараховану",
+                    "зіграну карту",
+                    "{C:attention}#1#{} додаткових разів"
                 },
                 unlock = {
-                    "Beat a Boss Blind",
-                    "with a {E:1,C:attention}#1#"
+                    "Переможіть Бос Блайнд",
+                    "з {E:1,C:attention}#1#"
                 }
             },
             j_rough_gem = {
-                name = "Rough Gem",
+                name = "Необроблений самоцвіт",
                 text = {
-                    "Played cards with",
-                    "{C:diamonds}Diamond{} suit earn",
-                    "{C:money}$#1#{} when scored", 
+                    "Зіграні та зараховані карти",
+                    "{C:diamonds}Бубен{} дають",
+                    "{C:money}$#1#{}",
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck"
+                    "Майте хоча б {E:1,C:attention}#1#",
+                    "карт {E:1,C:attention}#2#",
+                    "масті у вашій колоді"
                 }
             },
             j_bloodstone = {
-                name = "Bloodstone",
+                name = "Кривавий камінь",
                 text = {
-                    "{C:green}#1# in #2#{} chance for",
-                    "played cards with",
-                    "{C:hearts}Heart{} suit to give",
-                    "{X:mult,C:white} X#3# {} Mult when scored", 
+                    "{C:green}#1# з #2#{} ймовірність для",
+                    "зіграної та зарахованої карти",
+                    "{C:hearts}Чирв{} дати",
+                    "{X:mult,C:white} X#3# {} множ.",
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck"
+                    "Майте хоча б {E:1,C:attention}#1#",
+                    "карт {E:1,C:attention}#2#",
+                    "масті у вашій колоді"
                 }
             },
             j_arrowhead = {
-                name = "Arrowhead",
+                name = "Наконечник стріли",
                 text = {
-                    "Played cards with",
-                    "{C:spades}Spade{} suit give",
-                    "{C:chips}+#1#{} Chips when scored",
+                    "Зіграні та зараховані карти",
+                    "{C:spades}Пік{} дають",
+                    "{C:chips}+#1#{} фішок",
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck"
+                    "Майте хоча б {E:1,C:attention}#1#",
+                    "карт {E:1,C:attention}#2#",
+                    "масті у вашій колоді"
                 }
             },
             j_onyx_agate = {
-                name = "Onyx Agate",
+                name = "Оніксовий Агат",
                 text = {
-                    "Played cards with",
-                    "{C:clubs}Club{} suit give",
-                    "{C:mult}+#1#{} Mult when scored", 
+                    "Зіграні та зараховані",
+                    "{C:clubs}Трефи{} дають",
+                    "{C:mult}+#1#{} множ.",
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "cards with {E:1,C:attention}#2#",
-                    "suit in your deck"
+                    "Майте хоча б {E:1,C:attention}#1#",
+                    "карт {E:1,C:attention}#2#",
+                    "масті у вашій колоді"
                 }
             },
             j_glass = {
                 name = "Скляний Джокер",
                 text = {
-                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
-                    "for every {C:attention}Glass Card",
-                    "that is destroyed",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
+                    "Цей Джокер здобуває {X:mult,C:white} X#1# {} множ.",
+                    "за кожну знищену {C:attention}Скляну карту",
+                    "{C:inactive}(Зараз {X:mult,C:white} X#2# {C:inactive} множ.)"
                 },
                 unlock = {
-                    "Have at least {E:1,C:attention}#1#",
-                    "{E:1,C:attention}#2#s{} in",
-                    "your deck"
+                    "Майте хоча б {E:1,C:attention}#1#",
+                    "{E:1,C:attention}#2#s{} у",
+                    "вашій колоді"
                 }
             },
             j_ring_master = {
-                name = "Showman",
+                name = "Шоумен",
                 text = {
-                    "{C:attention}Joker{}, {C:tarot}Tarot{}, {C:planet}Planet{},",
-                    "and {C:spectral}Spectral{} cards may",
-                    "appear multiple times"
+                    "Однакові карти {C:attention}Джокера{}, {C:tarot}Таро{}, {C:planet}Планет{},",
+                    "та {C:spectral}Примарні{} карти можуть",
+                    "з'являтися кілька разів"
                 },
                 unlock = {
-                    "Reach Ante",
-                    "level {E:1,C:attention}#1#"
+                    "Досягніть рівня",
+                    "анте {E:1,C:attention}#1#"
                 }
             },
             j_flower_pot = {
-                name = "Flower Pot",
+                name = "Квітковий горщик",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult if poker",
-                    "hand contains a",
-                    "{C:diamonds}Diamond{} card, {C:clubs}Club{} card,",
-                    "{C:hearts}Heart{} card, and {C:spades}Spade{} card"
+                    "{X:mult,C:white} X#1# {} множ., якщо покерна",
+                    "рука містить одночасно",
+                    "карту {C:diamonds}Бубни{}, {C:clubs}Трефи{} card,",
+                    "{C:hearts}Чирви{} card, and {C:spades}Піки{} card"
                 },
                 unlock = {
-                    "Reach Ante",
-                    "level {E:1,C:attention}#1#"
+                    "Досягніть рівня",
+                    "анте {E:1,C:attention}#1#"
                 }
             },
             j_blueprint = {
-                name = "Blueprint",
+                name = "Креслення",
                 text = {
-                    "Copies ability of",
-                    "{C:attention}Joker{} to the right"
+                    "Копією здібності",
+                    "{C:attention}Джокера{} справа"
                 },
                 unlock = {
-                    "Win a run"
+                    "Виграйте забіг"
                 }
             },
             j_wee = {
-                name = "Wee Joker",
+                name = "Маленький Джокер",
                 text = {
-                    "This Joker gains",
-                    "{C:chips}+#2#{} Chips when each",
-                    "played {C:attention}2{} is scored",
-                    "{C:inactive}(Currently {C:chips}+#1#{C:inactive} Chips)"
+                    "Цей Джокер здобуває",
+                    "{C:chips}+#2#{} фішок щоразу коли",
+                    "зіграна {C:attention}2{} зараховується",
+                    "{C:inactive}(Зараз {C:chips}+#1#{C:inactive} фішок)"
                 },
                 unlock = {
-                    "Win a run in {E:1,C:attention}#1#",
-                    "or fewer rounds"
+                    "Виграйте забіг за {E:1,C:attention}#1#",
+                    "або менше раундів"
                 }
             },
             j_merry_andy = {
-                name = "Merry Andy",
+                name = "Веселий Енді",
                 text = {
-                    "{C:red}+#1#{} discards",
-                    "each round,",
-                    "{C:red}#2#{} hand size"
+                    "{C:red}+#1#{} скидань",
+                    "на усі раунди,",
+                    "{C:red}#2#{} до розміру руки"
                 },
                 unlock = {
-                    "Win a run in {E:1,C:attention}#1#",
-                    "or fewer rounds"
+                    "Виграйте забіг за {E:1,C:attention}#1#",
+                    "або менше раундів"
                 }
             },
             j_oops = {
-                name = "Oops! All 6s",
+                name = "Ой! Усі шістки",
                 text = {
-                    "Doubles all {C:attention}listed",
-                    "{C:green,E:1,S:1.1}probabilities",
-                    "{C:inactive}(ex: {C:green}1 in 3{C:inactive} -> {C:green}2 in 3{C:inactive})"
+                    "Подвоює усі {C:attention}вказані",
+                    "{C:green,E:1,S:1.1}ймовірності",
+                    "{C:inactive}(напр: {C:green}1 з 3{C:inactive} -> {C:green}2 з 3{C:inactive})"
                 },
                 unlock = {
-                    "In one hand,",
-                    "earn at least",
-                    "{E:1,C:attention}#1#{} chips"
+                    "За одну руку",
+                    "Заробіть хоча б",
+                    "{E:1,C:attention}#1#{} фішок"
                 }
             },
             j_idol = {
-                name = "The Idol",
+                name = "Ідол",
                 text = {
-                    "Each played {C:attention}#2#",
-                    "of {V:1}#3#{} gives",
-                    "{X:mult,C:white} X#1# {} Mult when scored",
-                    "{s:0.8}Card changes every round"
+                    "Кожна зіграна та зарахована {C:attention}#2#",
+                    "{V:1}#3#{} дає",
+                    "{X:mult,C:white} X#1# {} множ.",
+                    "{s:0.8}Карта змінюється щораунду"
                 },
                 unlock = {
-                    "In one hand,",
-                    "earn at least",
-                    "{E:1,C:attention}#1#{} chips"
+                    "За одну руку",
+                    "Заробіть хоча б",
+                    "{E:1,C:attention}#1#{} фішок"
                 }
             },
             j_seeing_double = {
-                name = "Seeing Double",
+                name = "Подвійне бачення",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult if played",
-                    "hand has a scoring",
-                    "{C:clubs}Club{} card and a scoring",
-                    "card of any other {C:attention}suit",
+                    "{X:mult,C:white} X#1# {} множ., якщо зіграна",
+                    "рука має зараховану",
+                    "карту {C:clubs}Треф{} та зараховану",
+                    "карту будь-якої іншої {C:attention}масті",
                 },
                 unlock = {
-                    "Play a hand",
-                    "that contains",
+                    "Зіграйте руку",
+                    "що містить",
                     "{E:1,C:attention}#1#"
                 }
             },
             j_matador = {
-                name = "Matador",
+                name = "Матадор",
                 text = {
-                    "Earn {C:money}$#1#{} if played",
-                    "hand triggers the",
-                    "{C:attention}Boss Blind{} ability"
+                    "Отримайте {C:money}$#1#{}, якщо зіграна",
+                    "рука активує здібність",
+                    "{C:attention}Бос Блайнду{}"
                 },
                 unlock = {
-                    "Defeat a Boss Blind",
-                    "in {E:1,C:attention}1 hand{} without",
-                    "using any discards"
+                    "Виграйте Бос Блайнд",
+                    "за {E:1,C:attention}1 руку{} без",
+                    "використання скидань"
                 }
             },
             j_hit_the_road = {
-                name = "Hit the Road",
+                name = "Вирушай в дорогу (Джек)",
                 text = {
-                    "This Joker gains {X:mult,C:white} X#1# {} Mult",
-                    "for every {C:attention}Jack{}",
-                    "discarded this round",
-                    "{C:inactive}(Currently {X:mult,C:white} X#2# {C:inactive} Mult)"
+                    "Цей Джокер здобуває {X:mult,C:white} X#1# {} множ.",
+                    "за кожен {C:attention}Валет{}",
+                    "скинутий у цьому раунді",
+                    "{C:inactive}(Зараз {X:mult,C:white} X#2# {C:inactive} множ.)"
                 },
                 unlock = {
-                    "Discard {E:1,C:attention}5",
-                    "{E:1,C:attention}Jacks{} at the",
-                    "same time"
+                    "Скиньте {E:1,C:attention}5",
+                    "{E:1,C:attention}Валетів{}",
+                    "одночасно"
                 }
             },
             j_duo = {
-                name = "The Duo",
+                name = "Дует",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult if played",
+                    "{X:mult,C:white} X#1# {} множ, якщо зіграна",
                     "рука містить",
-                    "a {C:attention}#2#"
+                    "{C:attention}#2#"
                 },
                 unlock = {
-                    "Win a run",
-                    "without playing",
-                    "a {E:1,C:attention}#1#"
+                    "Виграйте забіг",
+                    "не граючи",
+                    "{E:1,C:attention}#1#"
                 }
             },
             j_trio = {
-                name = "The Trio",
+                name = "Тріо",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult if played",
+                    "{X:mult,C:white} X#1# {} множ, якщо зіграна",
                     "рука містить",
-                    "a {C:attention}#2#"
+                    "{C:attention}#2#"
                 },
                 unlock = {
-                    "Win a run",
-                    "without playing",
-                    "a {E:1,C:attention}#1#"
+                    "Виграйте забіг",
+                    "не граючи",
+                    "{E:1,C:attention}#1#"
                 }
             },
             j_family = {
-                name = "The Family",
+                name = "Сім'я",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult if played",
+                    "{X:mult,C:white} X#1# {} множ, якщо зіграна",
                     "рука містить",
-                    "a {C:attention}#2#"
+                    "{C:attention}#2#"
                 },
                 unlock = {
-                    "Win a run",
-                    "without playing",
-                    "a {E:1,C:attention}#1#"
+                    "Виграйте забіг",
+                    "не граючи",
+                    "{E:1,C:attention}#1#"
                 }
             },
             j_order = {
                 name = "Порядок",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult if played",
+                    "{X:mult,C:white} X#1# {} множ, якщо зіграна",
                     "рука містить",
-                    "a {C:attention}#2#"
+                    "{C:attention}#2#"
                 },
                 unlock = {
-                    "Win a run",
-                    "without playing",
-                    "a {E:1,C:attention}#1#"
+                    "Виграйте забіг",
+                    "не граючи",
+                    "{E:1,C:attention}#1#"
                 }
             },
             j_tribe = {
-                name = "The Tribe",
+                name = "Плем'я",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult if played",
+                    "{X:mult,C:white} X#1# {} множ, якщо зігран",
                     "рука містить",
-                    "a {C:attention}#2#"
+                    "{C:attention}#2#"
                 },
                 unlock = {
-                    "Win a run",
-                    "without playing",
-                    "a {E:1,C:attention}#1#"
+                    "Виграйте забіг",
+                    "не граючи",
+                    "{E:1,C:attention}#1#"
                 }
             },
             j_cavendish = {
-                name = "Cavendish",
+                name = "Кавендіш",
                 text = {
-                    "{X:mult,C:white} X#1# {} Mult",
-                    "{C:green}#2# in #3#{} chance this",
-                    "card is destroyed",
-                    "at end of round"
+                    "{X:mult,C:white} X#1# {}множ.",
+                    "{C:green}#2# з #3#{} ймовірність",
+                    "того, що ця карта буде знищена",
+                    "наприкінці раунду"
                 }
             },
             j_card_sharp = {
@@ -1523,7 +1522,7 @@
                 text = {
                     "Збільшує ліміт",
                     "отриманих відсотків",
-                    "в кожному раунді до {C:money}$#1#{}"
+                    "в усіх раундах до {C:money}$#1#{}"
                 }
             },
             v_blank = {
@@ -1544,8 +1543,8 @@
                 name = "Ієрогліф",
                 text = {
                     "{C:attention}-#1#{} Анте,",
-                    "{C:blue}-#1#{} кількості рук",
-                    "кожен раунд"
+                    "{C:blue}-#1#{} до кількості рук",
+                    "на усі раунди"
                 }
             },
             v_directors_cut = {
@@ -1687,7 +1686,7 @@
                 text = {
                     "Постійний ефект",
                     "дає {C:red}+#1#{} до кількості скидань",
-                    "на кожен раунд"
+                    "на усі раунди"
                 },
                 unlock = {
                     "Скинути в загальному",
@@ -1739,7 +1738,7 @@
                 text = {
                     "{C:attention}-#1#{} анте,",
                     "{C:red}-#1#{} скидань",
-                    "на кожен раунд"
+                    "на усі раунди"
                 },
                 unlock = {
                     "Досягнути рівня анте",
@@ -3412,7 +3411,7 @@
             clairvoyance = "Відкрийте кожну Примарну картку",
             extreme_couponer = "Відкрийте кожен купон",
             completionist = "Відкрийте 100% своєї колекції",
-            completionist_plus = "Виграцте з кожною колодою на складності Золота ставка",
+            completionist_plus = "Виграйте з кожною колодою на складності Золота ставка",
             completionist_plus_plus = "Отримайте золоту наклейку на кожному Джокері", 
         },
         challenge_names = {
@@ -3747,7 +3746,7 @@
             ph_click_confirm = "Натисніть ще раз, щоб підтвердити",
             ph_choose_blind_1 = "Оберіть",
             ph_choose_blind_2 = "наступний блайнд",
-            ph_mr_bones = "Врятовані містером Боунсом",
+            ph_mr_bones = "Врятовані містером Кістяком",
             ph_score_at_least = "Потрібно набрати:",
             ph_all_poker_hand = "Всі покерні руки",
             ph_1_level = "+1 рівень",
