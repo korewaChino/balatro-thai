@@ -1475,7 +1475,7 @@
             v_hone = {
                 name = "Відточення",
                 text = {
-                    "{C:dark_edition}Фольга{}, {C:dark_edition}Голографічні{}, та",
+                    "{C:dark_edition}Фольговані{}, {C:dark_edition}Голографічні{}, та",
                     "{C:dark_edition}Поліхромні{} карти",
                     "з'являються частіше на {C:attention}#1#X{}"
                 }
@@ -1617,14 +1617,14 @@
             v_glow_up = {
                 name = "Осяяння",
                 text = {
-					"{C:dark_edition}Фольга{}, {C:dark_edition}Голографічні{}, та",
+					"{C:dark_edition}Фольговані{}, {C:dark_edition}Голографічні{}, та",
                     "{C:dark_edition}Поліхромні{} карти",
                     "з'являються частіше на {C:attention}#1#X{}"
                 },
                 unlock = {
                     "Мати хоча б {C:attention}#1#",
                     "карт {C:attention}Джокера{} з",
-                    "{C:dark_edition}Фольга{}, {C:dark_edition}Голографічним{}, або",
+                    "{C:dark_edition}Фольгованим{}, {C:dark_edition}Голографічним{}, або",
                     "{C:dark_edition}Поліхромним{} виданням"
                 }
             },
@@ -1855,7 +1855,7 @@
                 text = {
                     "{C:green}#1# з #2#{} ймовірність покращення",
 					"випадкового {C:attention}Джокера до:",
-                    "{C:dark_edition}Фольга{}, {C:dark_edition}Голографічний{}, або",
+                    "{C:dark_edition}Фольгований{}, {C:dark_edition}Голографічний{}, або",
                     "{C:dark_edition}Поліхромний{}",
 
                 }
@@ -2062,151 +2062,151 @@
         },
         Spectral = {
             c_familiar = {
-                name = "Familiar",
+                name = "Фамільяр",
                 text = {
-                    "Destroy {C:attention}1{} random",
-                    "card in your hand, add",
-                    "{C:attention}#1#{} random {C:attention}Enhanced face",
-                    "{C:attention}cards{} to your hand"
+                    "Знищує {C:attention}1{} випадкову",
+                    "карту у вашій руці, додає",
+                    "{C:attention}#1#{} випадкових {C:attention}покращених",
+                    "{C:attention}карт з обличчям{} у вашу руку"
                 }
             },
             c_grim = {
-                name = "Grim",
+                name = "Зловісність",
                 text = {
-                    "Destroy {C:attention}1{} random",
-                    "card in your hand,",
-                    "add {C:attention}#1#{} random {C:attention}Enhanced",
-                    "{C:attention}Aces{} to your hand"
+                    "Знищує {C:attention}1{} випадкову",
+                    "карту у вашій руці,",
+                    "додає {C:attention}#1#{} випадкових {C:attention}покращених",
+                    "{C:attention}Тузів{} у вашу руку"
                 }
             },
             c_incantation = {
-                name = "Incantation",
+                name = "Заклинання",
                 text = {
-                    "Destroy {C:attention}1{} random",
-                    "card in your hand, add {C:attention}#1#",
-                    "random {C:attention}Enhanced numbered",
-                    "{C:attention}cards{} to your hand"
+                    "Знищує {C:attention}1{} випадкову",
+                    "карту у вашій руці, додає {C:attention}#1#",
+                    "випадкових {C:attention}покращених числових",
+                    "{C:attention}карт{} у вашу руку"
                 }
             },
             c_talisman = {
-                name = "Talisman",
+                name = "Талісман",
                 text = {
-                    "Add a {C:attention}Gold Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand"
+                    "Додає {C:attention}Золоту печатку{}",
+                    "до {C:attention}1{} обраної",
+                    "карти у руці"
                 }
             },
             c_aura = {
-                name = "Aura",
+                name = "Аура",
                 text = {
-                    "Add {C:dark_edition}Foil{}, {C:dark_edition}Holographic{},",
-                    "or {C:dark_edition}Polychrome{} effect to",
-                    "{C:attention}1{} selected card in hand"
+                    "Додає {C:dark_edition}Фольгований{}, {C:dark_edition}Голографічний{},",
+                    "або {C:dark_edition}Поліхромний{} ефект доo",
+                    "{C:attention}1{} обраної карти у руці"
                 }
             },
             c_wraith = {
-                name = "Wraith",
+                name = "Мара",
                 text = {
-                    "Creates a random",
-                    "{C:red}Rare{C:attention} Joker{},",
-                    "sets money to {C:money}$0"
+                    "Створює випадкового",
+                    "{C:red}рідкісного{C:attention} Джокера{},",
+                    "скидає гроші до {C:money}$0"
                 }
             },
             c_sigil = {
-                name = "Sigil",
+                name = "Сигіл",
                 text = {
-                    "Converts all cards",
-                    "in hand to a single",
-                    "random {C:attention}suit"
+                    "Перетворює усі карти",
+                    "в руці в одну",
+                    "випадкову {C:attention}масть"
                 }
             },
             c_ouija = {
-                name = "Ouija",
+                name = "Віджа",
                 text = {
-                    "Converts all cards",
-                    "in hand to a single",
-                    "random {C:attention}rank",
-                    "{C:red}-1{} hand size"
+                    "Перетворює усі карти",
+                    "в руці в один",
+                    "випадковий {C:attention}номінал",
+                    "{C:red}-1{} до розміру руки"
                 }
             },
             c_ectoplasm = {
-                name = "Ectoplasm",
+                name = "Ектоплазма",
                 text = {
-                    "Add {C:dark_edition}Negative{} to",
-                    "a random {C:attention}Joker,",
-                    "{C:red}-#1#{} hand size"
+                    "Додає {C:dark_edition}Негатив{} до",
+                    "випадкового {C:attention}Джокера,",
+                    "{C:red}-#1#{} до розміру руки"
                 }
             },
             c_immolate = {
-                name = "Immolate",
+                name = "Жертвоприношення",
                 text = {
-                    "Destroys {C:attention}#1#{} random",
-                    "cards in hand,",
-                    "gain {C:money}$#2#"
+                    "Знищує {C:attention}#1#{} випадкові",
+                    "карти в руці,",
+                    "дає {C:money}$#2#"
                 }
             },
             c_ankh = {
-                name = "Ankh",
+                name = "Анкх",
                 text = {
-                    "Create a copy of a",
-                    "random {C:attention}Joker{}, destroy",
-                    "all other Jokers"
+                    "Створює копію",
+                    "випадкового {C:attention}Джокера{}, знищує",
+                    "решту Джокерів"
                 }
             },
             c_deja_vu = {
-                name = "Deja Vu",
+                name = "Дежавю",
                 text = {
-                    "Add a {C:red}Red Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand"
+                    "Додає {C:red}Червону печатку{}",
+                    "до {C:attention}1{} обраної",
+                    "карти у вашій руці"
                 }
             },
             c_hex = {
                 name = "Прокляття",
                 text = {
-                    "Add {C:dark_edition}Polychrome{} to a",
-                    "random {C:attention}Joker{}, destroy",
-                    "all other Jokers"
+                    "AdДодаєd {C:dark_edition}Поліхром{} до",
+                    "випадкового {C:attention}Джокера{}, знищує",
+                    "решту Джокерів"
                 }
             },
             c_trance = {
-                name = "Trance",
+                name = "Транс",
                 text = {
-                    "Add a {C:blue}Blue Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand"
+                    "Додає {C:blue}Синю печатку{}",
+                    "до {C:attention}1{} обраної",
+                    "карти у вашій руці"
                 }
             },
             c_medium = {
-                name = "Medium",
+                name = "Медіум",
                 text = {
-                    "Add a {C:purple}Purple Seal{}",
-                    "to {C:attention}1{} selected",
-                    "card in your hand"
+                    "Додає {C:purple}Фіолетову печатку{}",
+                    "до {C:attention}1{} обраної",
+                    "карти у вашій руці"
                 }
             },
             c_cryptid = {
-                name = "Cryptid",
+                name = "Криптид",
                 text = {
-                    "Create {C:attention}#1#{} copies of",
-                    "{C:attention}1{} selected card",
-                    "in your hand"
+                    "Створює {C:attention}#1#{} копію",
+                    "{C:attention}1{} обраної",
+                    "карти у вашій руці"
                 }
             },
             c_soul = {
-                name = "The Soul",
+                name = "Душа",
                 text = {
-                    "Creates a",
-                    "{C:legendary,E:1}Legendary{} Joker",
-                    "{C:inactive}(Must have room)"
+                    "Створює",
+                    "{C:legendary,E:1}легендарного{} Джокера",
+                    "{C:inactive}(Вимагає місце)"
                 }
             },
             c_black_hole = {
-                name = "Black Hole",
+                name = "Чорна діра",
                 text = {
-                    "Upgrade every",
-                    "{C:legendary,E:1}poker hand",
-                    "by {C:attention}1{} level"
+                    "Покращує кожну",
+                    "{C:legendary,E:1}покерну руку",
+                    "на {C:attention}1{} рівень"
                 }
             }
         },
@@ -2218,7 +2218,7 @@
                 }
             },
             e_foil = {
-                name = "Фольга",
+                name = "Фольгована",
                 text = {
                     "{C:chips}+#1#{} фішок"
                 }
@@ -2372,182 +2372,182 @@
         },
         Tag = {
             tag_uncommon = {
-                name = "Uncommon Tag",
+                name = "Незвичайний тег",
                 text = {
-                    "Shop has a free",
-                    "{C:green}Uncommon Joker"
+                    "У магазині буде",
+                    "{C:green}Незвичний Джокер"
                 }
             },
             tag_rare = {
-                name = "Rare Tag",
+                name = "Рідкісний тег",
                 text = {
-                    "Shop has a free",
-                    "{C:red}Rare Joker"
+                    "У магазині буде",
+                    "{C:red}Рідкісний"
                 }
             },
             tag_negative = {
-                name = "Negative Tag",
+                name = "Негативний тег",
                 text = {
-                    "Next base edition shop",
-                    "Joker is free and",
-                    "becomes {C:dark_edition}Negative"
+                    "Наступний Джокер стандартного видання",
+                    "У магазині бекоштовний та",
+                    "стає {C:dark_edition}Негативом"
                 }
             },
             tag_foil = {
-                name = "Foil Tag",
+                name = "Фольгований тег",
                 text = {
-                    "Next base edition shop",
-                    "Joker is free and",
-                    "becomes {C:dark_edition}Foil"
+                    "Наступний Джокер стандартного видання",
+                    "У магазині бекоштовний та",
+                    "стає {C:dark_edition}фольгованим"
                 }
             },
             tag_holo = {
-                name = "Holographic Tag",
+                name = "Голографічний тег",
                 text = {
-                    "Next base edition shop",
-                    "Joker is free and",
-                    "becomes {C:dark_edition}Holographic"
+                    "Наступний Джокер стандартного видання",
+                    "У магазині бекоштовний та",
+                    "стає {C:dark_edition}Голографічним"
                 }
             },
             tag_polychrome = {
-                name = "Polychrome Tag",
+                name = "Поліхромний тег",
                 text = {
-                    "Next base edition shop",
-                    "Joker is free and",
-                    "becomes {C:dark_edition}Polychrome"
+                    "Наступний Джокер стандартного видання",
+                    "У магазині бекоштовний та",
+                    "стає {C:dark_edition}Поліхромним"
                 }
             },
             tag_investment = {
-                name = "Investment Tag",
+                name = "Інвестиційний тег",
                 text = {
-                    "After defeating",
-                    "the Boss Blind,",
-                    "gain {C:money}$#1#"
+                    "Після перемоги над",
+                    "Бос блайндом,",
+                    "дає {C:money}$#1#"
                 }
             },
             tag_voucher = {
-                name = "Voucher Tag",
+                name = "Тег ваучера",
                 text = {
-                    "Додає {C:voucher}купон",
+                    "Додає один {C:voucher}купон",
                     "в наступному магазині"
                 }
             },
             tag_boss = {
-                name = "Boss Tag",
+                name = "Бос Тег",
                 text = {
-                    "Rerolls the",
-                    "{C:attention}Boss Blind"
+                    "Оновлює",
+                    "{C:attention}Бос блайнд"
                 }
             },
             tag_standard = {
-                name = "Standard Tag",
+                name = "Стандартний тег",
                 text = {
-                    "Gives a free",
-                    "{C:attention}Mega Standard Pack"
+                    "Дає безкоштовний",
+                    "{C:attention}Стандартний меганабір"
                 }
             },
             tag_charm = {
-                name = "Charm Tag",
+                name = "Чарівний тег",
                 text = {
-                    "Gives a free",
-                    "{C:tarot}Mega Arcana Pack"
+                    "Дає безкоштовний",
+                    "{C:tarot}Меганабір Аркан"
                 }
             },
             tag_meteor = {
-                name = "Meteor Tag",
+                name = "Тег метеора",
                 text = {
-                    "Gives a free",
-                    "{C:planet}Mega Celestial Pack"
+                    "Дає безкоштовний",
+                    "{C:planet}Небесний меганабір"
                 }
             },
             tag_buffoon = {
-                name = "Buffoon Tag",
+                name = "Тег блазня",
                 text = {
-                    "Gives a free",
-                    "{C:attention}Mega Buffoon Pack"
+                    "Дає безкоштовний",
+                    "{C:attention}Меганабір Блазня"
                 }
             },
             tag_handy = {
-                name = "Handy Tag",
+                name = "зРучний тег",
                 text = {
-                    "Gives {C:money}$#1#{} per played",
-                    "{C:blue}hand{} this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})"
+                    "Дає {C:money}$#1#{} за зіграну",
+                    "під час цього забігу {C:blue}руку{}",
+                    "{C:inactive}(Дасть {C:money}$#2#{C:inactive})"
                 }
             },
             tag_garbage = {
-                name = "Garbage Tag",
+                name = "Сміттєвий тег",
                 text = {
-                    "Gives {C:money}$#1#{} per unused",
-                    "{C:red}discard{} this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})",
+                    "Дає {C:money}$#1#{} за невикористані",
+                    "під час цього забігу {C:red}скидання{}",
+                    "{C:inactive}(Дасть {C:money}$#2#{C:inactive})",
                 }
             },
             tag_coupon = {
-                name = "Coupon Tag",
+                name = "Тег купона",
                 text = {
-                    "Initial cards and",
-                    "booster packs in next",
-                    "shop are free"
+                    "Початкові карти та",
+                    "бустерні паки в наступному",
+                    "магазині безкоштовні"
                 }
             },
             tag_double = {
-                name = "Double Tag",
+                name = "Подвійний тег",
                 text = {
-                    "Gives a copy of the",
-                    "next selected {C:attention}Tag{}",
-                    "{s:0.8,C:attention}Double Tag{s:0.8} excluded"
+                    "Дає копію наступного",
+                    "вибраного {C:attention}Тегу{}",
+                    "{s:0.8} за виключенням {s:0.8,C:attention}Подвійного тега"
                 }
             },
             tag_juggle = {
-                name = "Juggle Tag",
+                name = "Жонглерський тег",
                 text = {
-                    "{C:attention}+#1#{} hand size",
-                    "next round"
+                    "{C:attention}+#1#{} до розміру руки",
+                    "наступного раунду"
                 }
             },
             tag_d_six = {
-                name = "D6 Tag",
+                name = "Тег D6",
                 text = {
-                    "Rerolls in next shop",
-                    "start at {C:money}$0"
+                    "Оновлення в наступному магазині",
+                    "починаються з {C:money}$0"
                 }
             },
             tag_top_up = {
-                name = "Top-up Tag",
+                name = "Тег поповнення",
                 text = {
-                    "Create up to {C:attention}#1#",
-                    "{C:blue}Common{} Jokers",
-                    "{C:inactive}(Must have room)"
+                    "Створює до {C:attention}#1#",
+                    "{C:blue}Звичайних{} Джокерів",
+                    "{C:inactive}(Вимагає місце)"
                 }
             },
             tag_skip = {
-                name = "Speed Tag",
+                name = "Швидкісний тег",
                 text = {
-                    "Gives {C:money}$#1#{} per skipped",
-                    "Blind this run",
-                    "{C:inactive}(Will give {C:money}$#2#{C:inactive})"
+                    "Дає {C:money}$#1#{} за пропущений",
+                    "Bблайнд під час цього забігу",
+                    "{C:inactive}(Дасть {C:money}$#2#{C:inactive})"
                 }
             },
             tag_orbital = {
-                name = "Orbital Tag",
+                name = "Орбітальний тег",
                 text = {
-                    "Upgrade {C:attention}#1#",
-                    "by {C:attention}#2# levels"
+                    "Покращує {C:attention}#1#",
+                    "на {C:attention}#2# рів."
                 }
             },
             tag_economy = {
-                name = "Economy Tag",
+                name = "Економічний тег",
                 text = {
-                    "Doubles your money",
-                    "{C:inactive}(Max of {C:money}$#1#{C:inactive})"
+                    "Подвоює ваші гроші",
+                    "{C:inactive}(Максимум {C:money}$#1#{C:inactive})"
                 }
             },
             tag_ethereal = {
-                name = "Ethereal Tag",
+                name = "Ефірний тег",
                 text = {
-                    "Gives a free",
-                    "{C:spectral}Spectral Pack"
+                    "Дає безкоштовний",
+                    "{C:spectral}Примарний набір"
                 }
             }
         },
@@ -2561,194 +2561,194 @@
                 text = {}
             },
             bl_hook = {
-                name = "The Hook",
+                name = "Гак",
                 text = {
-                    "Discards 2 random",
-                    "cards per hand played"
+                    "Скидає дві випадкові",
+                    "карти щоразу як зіграна рука"
                 }
             },
             bl_wall = {
-                name = "The Wall",
+                name = "Стіна",
                 text = {
-                    "Extra large blind"
+                    "Дуже великий блайнд"
                 }
             },
             bl_wheel = {
-                name = "The Wheel",
+                name = "Колесо",
                 text = {
-                    " in 7 cards get",
-                    "drawn face down"
+                    " з 7 карт",
+                    "витягуються обличчям вниз"
                 }
             },
             bl_arm = {
-                name = "The Arm",
+                name = "Рука",
                 text = {
-                    "Decrease level of",
-                    "played poker hand"
+                    "Зменшує рівень",
+                    "зіграної покерної руки"
                 }
             },
             bl_psychic = {
-                name = "The Psychic",
+                name = "Екстрасенс",
                 text = {
-                    "Must play 5 cards"
+                    "Потрібно зіграти 5 карт"
                 }
             },
             bl_goad = {
-                name = "The Goad",
+                name = "Стимул",
                 text = {
-                    "All Spade cards",
-                    "are debuffed"
+                    "Усі карти пік",
+                    "послаблені"
                 }
             },
             bl_water = {
-                name = "The Water",
+                name = "Вода",
                 text = {
-                    "Start with",
-                    "0 discards"
+                    "Почати з",
+                    "0 скидань"
                 }
             },
             bl_eye = {
-                name = "The Eye",
+                name = "Око",
                 text = {
-                    "No repeat hand",
-                    "types this round"
+                    "Без повторюваних типів",
+                    "рук цього раунду"
                 }
             },
             bl_mouth = {
-                name = "The Mouth",
+                name = "Рот",
                 text = {
-                    "Play only 1 hand",
-                    "type this round"
+                    "Грайте тільки 1 тип",
+                    "руки цього раунду"
                 }
             },
             bl_plant = {
-                name = "The Plant",
+                name = "Планета",
                 text = {
-                    "All face cards",
-                    "are debuffed"
+                    "Всі карти з обличчям",
+                    "послаблені"
                 }
             },
             bl_needle = {
-                name = "The Needle",
+                name = "Голка",
                 text = {
-                    "Play only 1 hand"
+                    "Зіграйте лише 1 руку"
                 }
             },
             bl_head = {
-                name = "The Head",
+                name = "Голова",
                 text = {
-                    "All Heart cards",
-                    "are debuffed"
+                    "Усі карти чирв",
+                    "послаблені"
                 }
             },
             bl_tooth = {
-                name = "The Tooth",
+                name = "Зуб",
                 text = {
-                    "Lose $1 per",
-                    "card played"
+                    "Втрачайте $1 за",
+                    "кожну зіграну карту"
                 }
             },
             bl_final_leaf = {
-                name = "Verdant Leaf",
+                name = "Зелений лист",
                 text = {
-                    "All cards debuffed",
-                    "until 1 Joker sold"
+                    "Усі карти будуть послаблені",
+                    "допоки не буде продано 1 Джокер"
                 }
             },
             bl_final_vessel = {
-                name = "Violet Vessel",
+                name = "Фіолетова чаша",
                 text = {
-                    "Very large blind"
+                    "Дуже великий блайнд"
                 }
             },
             bl_ox = {
-                name = "The Ox",
+                name = "Віл",
                 text = {
-                    "Playing a #1#",
-                    "sets money to $0"
+                    "Зіграна #1#",
+                    "скидає гроші до $0"
                 }
             },
             bl_house = {
-                name = "The House",
+                name = "Будинок",
                 text = {
-                    "First hand is",
-                    "drawn face down"
+                    "Перша рука витягується",
+                    "обличчям униз"
                 }
             },
             bl_club = {
-                name = "The Club",
+                name = "Палиця",
                 text = {
-                    "All Club cards",
-                    "are debuffed"
+                    "Усі карти треф",
+                    "послаблені"
                 }
             },
             bl_fish = {
-                name = "The Fish",
+                name = "Риба",
                 text = {
-                    "Cards drawn face down",
-                    "after each hand played"
+                    "Карти витягуються обличчям донизу",
+                    "після кожної зіграної руки"
                 }
             },
             bl_window = {
-                name = "The Window",
+                name = "Вікно",
                 text = {
-                    "All Diamond cards",
-                    "are debuffed"
+                    "Усі карти бубни",
+                    "послаблені"
                 }
             },
             bl_manacle = {
-                name = "The Manacle",
+                name = "Кайдани",
                 text = {
-                    "-1 Hand Size"
+                    "-1 до розміру руки"
                 }
             },
             bl_serpent = {
-                name = "The Serpent",
+                name = "Змій",
                 text = {
-                    "After Play or Discard,",
-                    "always draw 3 cards"
+                    "Після скидання чи гри,",
+                    "завжди витягуєте 3 карти"
                 }
             },
             bl_pillar = {
-                name = "The Pillar",
+                name = "Стовп",
                 text = {
-                    "Cards played previously",
-                    "this Ante are debuffed"
+                    "Зіграні раніше у цьому анте",
+                    "карти послаблені"
                 }
             },
             bl_flint = {
-                name = "The Flint",
+                name = "Кремінь",
                 text = {
-                    "Base Chips and",
-                    "Mult are halved"
+                    "Базові фішки та",
+                    "множ. зменшені вдвоє"
                 }
             },
             bl_mark = {
-                name = "The Mark",
+                name = "Відмітка",
                 text = {
-                    "All face cards are",
-                    "drawn face down"
+                    "Усі карти витягуються",
+                    "обличчям униз"
                 }
             },
             bl_final_acorn = {
-                name = "Amber Acorn",
+                name = "Бурштиновий жолудь",
                 text = {
-                    "Flips and shuffles",
-                    "all Joker cards"
+                    "Перевертає та перемішує",
+                    "усі карти Джокерів"
                 }
             },
             bl_final_heart = {
-                name = "Crimson Heart",
+                name = "Багряне серце",
                 text = {
-                    "One random Joker",
-                    "disabled every hand"
+                    "Один випадковий Джокер",
+                    "виключений для кожної руки"
                 }
             },
             bl_final_bell = {
-                name = "Cerulean Bell",
+                name = "Блакитний дзвін",
                 text = {
-                    "Forces 1 card to",
-                    "always be selected"
+                    "Змушує 1 карту",
+                    "завжди бути вибраною"
                 }
             }
         },
@@ -3504,13 +3504,13 @@
         labels = {
             common = "Звичайна",
             uncommon = "Незвична",
-            rare = "Рідка",
+            rare = "Рідкісна",
             legendary = "Легендарна",
             tarot = "Таро",
             planet = "Планета",
             pluto_planet = "Карликова планета",
             voucher = "Купон",
-            foil = "Фольга",
+            foil = "Фольгована",
             holographic = "Голографічна",
             polychrome = "Поліхромна",
             negative = "Негатив",
@@ -3636,7 +3636,7 @@
             k_stake = "Ставка",
             k_common = "Звичайна",
             k_uncommon = "Незвична",
-            k_rare = "Рідка",
+            k_rare = "Рідкісна",
             k_legendary = "Легендарна",
             k_debuffed = "Послаблено",
             k_locked = "Заблоковано",
@@ -3886,7 +3886,7 @@
             remaining_hand_money = "Залишок рук ($#1# кожна)",
             remaining_discard_money = "Залишок скидань ($#1# кожен)",
             ml_foil_desc = {
-                "Фольга",
+                "Фольгована",
                 "+#1# фішок"
             },
             ml_holo_desc = {
