@@ -2129,7 +2129,7 @@
             c_ectoplasm = {
                 name = "Ектоплазма",
                 text = {
-                    "Додає {C:dark_edition}Негатив{} до",
+                    "Додає {C:dark_edition}Негативний{} до",
                     "випадкового {C:attention}Джокера,",
                     "{C:red}-#1#{} до розміру руки"
                 }
@@ -2233,13 +2233,13 @@
                 }
             },
             e_negative = {
-                name = "Негатив",
+                name = "Негативна",
                 text = {
                     "{C:dark_edition}+#1#{} слот Джокера"
                 }
             },
             e_negative_consumable = {
-                name = "Негатив",
+                name = "Негативна",
                 text = {
                     "{C:dark_edition}+#1#{} слот consumable"
                 }
@@ -2387,7 +2387,7 @@
                 text = {
                     "Наступний Джокер стандартного видання",
                     "У магазині бекоштовний та",
-                    "стає {C:dark_edition}Негативом"
+                    "стає {C:dark_edition}Негативним"
                 }
             },
             tag_foil = {
@@ -3016,7 +3016,7 @@
             remove_negative = {
                 name = "n",
                 text = {
-                    "{C:inactive,s:0.9}(Видаляє {C:dark_edition,s:0.9}Негатив{C:inactive,s:0.9} з копії)"
+                    "{C:inactive,s:0.9}(Видаляє {C:dark_edition,s:0.9}Негативний{C:inactive,s:0.9} з копії)"
                 }
             },
             locked = {
@@ -3510,7 +3510,7 @@
             foil = "Фольгована",
             holographic = "Голографічна",
             polychrome = "Поліхромна",
-            negative = "Негатив",
+            negative = "Негативна",
             gold_seal = "Золота печатка",
             blue_seal = "Синя печатка",
             red_seal = "Червона печатка",
@@ -3895,11 +3895,11 @@
                 "X#1# множ"
             },
             ml_negative_desc = {
-                "Негатив",
+                "Негативна",
                 "+#1# слот Джокера"
             },
             ml_negative_consumable_desc = {
-                "Негатив",
+                "Негативна",
                 "+#1# слот витратників"
             }
         },
