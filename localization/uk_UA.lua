@@ -1166,8 +1166,8 @@
                 name = "Колекційна картка",
                 text = {
                     "Якщо {C:attention}перше скидання{} у раунді",
-                    "has only {C:attention}1{} card, destroy",
-                    "it and earn {C:money}₴#1#"
+                    "є лише {C:attention}1{} картою, знищіть",
+                    "її та отримайте {C:money}₴#1#"
                 }
             },
             j_flash = {
