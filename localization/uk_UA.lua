@@ -716,7 +716,7 @@
                 },
                 unlock = {
                     "Майте хоча б {E:1,C:attention}#1#",
-                    "{E:1,C:attention}#2#s{} у",
+                    "{E:1,C:attention}#2#{} у",
                     "вашій колоді"
                 }
             },
@@ -1795,7 +1795,7 @@
                 text = {
                     "Покращує {C:attention}#1#",
                     "вибрану карту до:",
-                    "{C:attention}#2#s"
+                    "{C:attention}#2#"
                 }
             },
             c_emperor = {
@@ -1811,7 +1811,7 @@
                 text = {
                     "Покращує {C:attention}#1#",
                     "вибрані карти до:",
-                    "{C:attention}#2#s"
+                    "{C:attention}#2#"
                 }
             },
             c_lovers = {
