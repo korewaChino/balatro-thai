@@ -29,6 +29,12 @@
 Також замінений шрифт на [PixeloidSans-Bold](https://ggbot.itch.io/pixeloid-font), якщо хочете спробувати замінити шрифт на інший
 можна замінити файл у папці `resources\fonts` на інший, залишивши ту саму назву `NotoSans-Bold.ttf`
 
+## Альтернативний переклад
+Також є альтернативний переклад від [@ItzDFPlayer](https://github.com/ItzDFPlayer)
+
+https://github.com/ItzDFPlayer/balatro_ukrainian
+
+## Скриншоти
 ![photo_1_2024-05-05_13-28-18](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/3deb5332-c60a-41c8-b20b-2a97293eec65)
 ![photo_3_2024-05-05_14-05-23](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/59cd1d43-f84a-4aad-a649-5a93e12bf815)
 ![photo_2_2024-05-05_14-05-23](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/ab731823-a83d-4d56-bc28-6aafea76b21f)
