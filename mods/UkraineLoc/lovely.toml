@@ -37,7 +37,7 @@ match_indent = true
 target = "functions/UI_definitions.lua"
 pattern = '''{n=G.UIT.T, config={text = localize('k_round'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
 position = "at"
-payload = '''{n=G.UIT.T, config={text = "Рахунок", scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
+payload = '''{n=G.UIT.T, config={text = G.SETTINGS.language == "uk_UA" and "Рахунок" or localize('k_round'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
 overwrite = true
 match_indent = true
 [[patches]]
@@ -45,7 +45,7 @@ match_indent = true
 target = "functions/UI_definitions.lua"
 pattern = '''{n=G.UIT.T, config={text =localize('k_lower_score'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
 position = "at"
-payload = '''{n=G.UIT.T, config={text = "раунду", scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
+payload = '''{n=G.UIT.T, config={text = G.SETTINGS.language == "uk_UA" and  "раунду" or localize('k_lower_score'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
 overwrite = true
 match_indent = true
 
@@ -56,7 +56,7 @@ match_indent = true
 target = "cardarea.lua"
 pattern = '''{n=G.UIT.T, config={text = localize('k_deck'), scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
 position = "at"
-payload = '''{n=G.UIT.T, config={text = "колоди", scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
+payload = '''{n=G.UIT.T, config={text = G.SETTINGS.language == "uk_UA" and "колоди" or localize('k_deck'), scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
 overwrite = true
 match_indent = true
 
@@ -66,6 +66,6 @@ match_indent = true
 target = "functions/UI_definitions.lua"
 pattern = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'dollars', prefix = localize('$')}}, maxw = 1.35, colours = {G.C.MONEY}, font = G.LANGUAGES['en-us'].font, shadow = true,spacing = 2, bump = true, scale = 2.2*scale}), id = 'dollar_text_UI'}}'''
 position = "at"
-payload = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'dollars', prefix = localize('$')}}, maxw = 1.35, colours = {G.C.MONEY}, font = G.LANGUAGES['uk_UA'].font, shadow = true,spacing = 2, bump = true, scale = 2.2*scale}), id = 'dollar_text_UI'}}'''
+payload = '''{n=G.UIT.O, config={object = DynaText({string = {{ref_table = G.GAME, ref_value = 'dollars', prefix = localize('$')}}, maxw = 1.35, colours = {G.C.MONEY}, font = G.SETTINGS.language == "uk_UA" and  G.LANGUAGES['uk_UA'].font or G.LANGUAGES['en-us'].font, shadow = true,spacing = 2, bump = true, scale = 2.2*scale}), id = 'dollar_text_UI'}}'''
 overwrite = true
 match_indent = true
