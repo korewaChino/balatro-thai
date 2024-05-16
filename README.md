@@ -35,8 +35,10 @@
 https://github.com/ItzDFPlayer/balatro_ukrainian
 
 ## Скриншоти
-![photo_1_2024-05-05_13-28-18](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/3deb5332-c60a-41c8-b20b-2a97293eec65)
-![photo_3_2024-05-05_14-05-23](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/59cd1d43-f84a-4aad-a649-5a93e12bf815)
-![photo_2_2024-05-05_14-05-23](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/ab731823-a83d-4d56-bc28-6aafea76b21f)
-![photo_1_2024-05-05_14-05-23](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/a763b072-4f38-4940-aa66-1ea073af3d14)
-![photo_4_2024-05-05_14-05-23](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/89052fa1-0adf-4de0-ae1e-cb28123c4d0b)
+![photo_3_2024-05-16_22-26-42](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/d8a0640a-5c4e-4262-b34c-247de6bd5a28)
+![photo_1_2024-05-16_22-26-42](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/c9a27575-e556-41e0-a4ab-5ece9fa471b1)
+![photo_5_2024-05-16_22-26-42](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/698285a8-6d1b-4316-ae44-b2344854eefe)
+![photo_4_2024-05-16_22-26-42](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/ed513c2a-dfb7-4542-9b42-726c927adeb9)
+![photo_2_2024-05-16_22-26-42](https://github.com/darksidecat/balatro_ukrainian/assets/58224121/584fd604-e7fc-4e46-a1eb-60b675903a30)
+
+
