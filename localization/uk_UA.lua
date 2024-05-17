@@ -3945,7 +3945,7 @@
                 "1 спроба з зерном: {C:inactive}{Hidden}"
             },
             ch_c_chips_dollar_cap = {
-                "{C:blue}ФІшки{} не можуть перевищити кількість {C:money}₴"
+                "{C:blue}Фішки{} не можуть перевищити кількість {C:money}₴"
             },
             ch_c_none = {
                 "{C:inactive}Порожньо"
