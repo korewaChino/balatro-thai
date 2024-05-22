@@ -3758,7 +3758,7 @@
             ph_score_cards_discarded = "Скинуті карти",
             ph_score_times_rerolled = "Разів оновлено",
             ph_score_cards_purchased = "Придбані картки",
-            ph_unscored_hand = "Ркуа не принесе очки",
+            ph_unscored_hand = "Рука не принесе очки",
             ph_alert_debuff_confirm = "Натисніть 'Грати' ще раз, щоб підтвердити",
             ml_demo_thanks_message = {
                 "Будь ласка, розгляньте добавленя",
