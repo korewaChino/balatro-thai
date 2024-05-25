@@ -386,7 +386,7 @@
             j_superposition = {
                 name = "Superposition",
                 text = {
-                    "Створює карту {C:tarot}Таро{}, якшщо",
+                    "Створює карту {C:tarot}Таро{}, якщо",
                     "покерна рука містить",
                     "{C:attention}Туз{} та {C:attention}Стрейт{}",
                     "{C:inactive}(Вимагає місце)"
