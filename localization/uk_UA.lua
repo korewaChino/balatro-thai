@@ -3435,7 +3435,7 @@
         poker_hands = {
             ['Flush Five'] = "Флаш-п'ятірка",
             ['Flush House'] = "Флаш-хаус",
-            ['Five of a Kind'] = "п'ятірка",
+            ['Five of a Kind'] = "П'ятірка",
             ['Royal Flush'] = "Роял-флаш",
             ['Straight Flush'] = "Стрейт-флаш",
             ['Four of a Kind'] = "Каре",
