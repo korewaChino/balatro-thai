@@ -3333,6 +3333,24 @@
             ['3'] = "3",
             ['2'] = "2"
         },
+        collabs = {
+                    Spades = {
+                        ['1'] = 'Default',
+                        ['2'] = 'The Witcher',
+                    },
+                    Hearts = {
+                        ['1'] = 'Default',
+                        ['2'] = 'Among Us'
+                    },
+                    Clubs = {
+                        ['1'] = 'Default',
+                        ['2'] = 'Vampire Survivors'
+                    },
+                    Diamonds = {
+                        ['1'] = 'Default',
+                        ['2'] = 'Dave the Diver'
+                    },
+                },
         high_scores = {
             hand = "Найкраща рука",
             furthest_round = "Найвищий раунд",
@@ -3547,6 +3565,7 @@
             b_copy = "Копіювати",
             b_credits = "Творці",
             b_stats = "Статистика",
+            b_customize_deck = "Налаштувати колоду",
             b_settings = "Налаштування",
             b_set_game = "Гра",
             b_set_video = "Відео",
@@ -3715,6 +3734,7 @@
             k_choose = "Вибрати",
             k_achievements_disabled = "Досягнення вимкнені",
             k_trophies_disabled = "Трофеї вимкнені",
+            ph_display_stickers = "Відображати стікери ставок під час забігу",
             ph_improve_run = "Покращіть ваш забіг!",
             ph_no_boss_active = "бос не активний",
             ph_sneak_peek = "Підглянути",
