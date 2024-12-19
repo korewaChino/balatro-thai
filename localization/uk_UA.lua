@@ -281,7 +281,7 @@
                 text = {
                     "Кожен зіграний {C:attention}Туз{},",
                     "{C:attention}2{}, {C:attention}3{}, {C:attention}5{}, або {C:attention}8{} дає",
-                    "{C:mult}+#1#{} множ, якщо зіграв",
+                    "{C:mult}+#1#{} множ, якщо зарахований",
                 }
             },
             j_steel_joker = {
@@ -329,7 +329,7 @@
                 text = {
                     "Повторно задіяти",
                     "кожну зіграну",
-                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}, or {C:attention}5{}",
+                    "{C:attention}2{}, {C:attention}3{}, {C:attention}4{}, або {C:attention}5{}",
                 }
             },
             j_gros_michel = {
@@ -1039,7 +1039,7 @@
                 text = {
                     "Цей Джокер здобуває {X:mult,C:white} X#1# {} множ.",
                     "за кожну {C:attention}послідовно{} зіграну руку",
-                    "без гри найчастіше",
+                    "без розігравання найчастіше",
                     "зіграної {C:attention}покерної руки",
                     "{C:inactive}(Зараз {X:mult,C:white} X#2# {C:inactive} множ.)"
                 }
@@ -3046,7 +3046,7 @@
             challenge_locked = {
                 name = "Заблоковано",
                 text = {
-                    "Виграйте забіши з хоча б",
+                    "Виграйте забіг з хоча б",
                     "#1# різними колодами, щоб розблокувати",
                     "Режим виклику",
                     "{C:attention,s:2}#2#/#1#"
@@ -3732,10 +3732,10 @@
             k_balanced = "Збалансовано",
             k_view = "Огляд",
             k_all_hands = "Усі руки",
-            k_high_score_ex = "Високий бал!",
+            k_high_score_ex = "Рекорд!",
             k_demo_version_ex = "Демо-версія!",
             k_playing_as = "Граючи за",
-            k_choose = "Вибрати",
+            k_choose = "Виберіть",
             k_achievements_disabled = "Досягнення вимкнені",
             k_trophies_disabled = "Трофеї вимкнені",
             ph_display_stickers = "Відображати стікери ставок під час забігу",
@@ -3778,10 +3778,10 @@
             ph_score_hand = "Найкраща рука",
             ph_score_poker_hand = "Найчастіше зіграна рука",
             ph_score_new_collection = "Нові відкриття",
-            ph_score_cards_played = "Зіграні карти",
-            ph_score_cards_discarded = "Скинуті карти",
+            ph_score_cards_played = "Зіграно карт",
+            ph_score_cards_discarded = "Скинуто карт",
             ph_score_times_rerolled = "Разів оновлено",
-            ph_score_cards_purchased = "Придбані картки",
+            ph_score_cards_purchased = "Придбано карт",
             ph_unscored_hand = "Рука не принесе очки",
             ph_alert_debuff_confirm = "Натисніть 'Грати' ще раз, щоб підтвердити",
             ml_demo_thanks_message = {
@@ -3814,20 +3814,20 @@
                 "Без рамок"
             },
             ml_vsync_opt = {
-                "VSync вкл.",
-                "VSync викл."
+                "VSync увімк..",
+                "VSync вимк."
             },
             ml_shadow_opt = {
-                "Вкл",
-                "Викл"
+                "Увімк",
+                "Вимк"
             },
             ml_smoothing_opt = {
-                "Викл",
-                "Вкл"
+                "Вимк",
+                "Увімк"
             },
             ml_bloom_opt = {
-                "Викл",
-                "Вкл"
+                "Вимк",
+                "Увімк"
             },
             ml_card_stats = {
                 "Карта",
