@@ -88,7 +88,7 @@ match_indent = true
 target = "cardarea.lua"
 pattern = '''{n=G.UIT.T, config={text = localize('k_deck'), scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
 position = "at"
-payload = '''{n=G.UIT.T, config={text = "บันทึก", scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
+payload = '''{n=G.UIT.T, config={text = "สำรับ", scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
 overwrite = true
 match_indent = true
 
@@ -250,6 +250,33 @@ target = "functions/UI_definitions.lua"
 pattern = '''label = localize('Diamonds', 'suits_plural'),'''
 position = "at"
 payload = '''label = localize('Diamonds', 'suits_singular'),'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''{n=G.UIT.O, config={id = 'hand_name', func = 'hand_text_UI_set',object = DynaText({string = {{ref_table = G.GAME.current_round.current_hand, ref_value = "handname_text"}}, colours = {G.C.UI.TEXT_LIGHT}, shadow = true, float = true, scale = scale*1.4})}},'''
+position = "at"
+payload = '''{n=G.UIT.O, config={id = 'hand_name', func = 'hand_text_UI_set',object = DynaText({string = {{ref_table = G.GAME.current_round.current_hand, ref_value = "handname_text"}}, colours = {G.C.UI.TEXT_LIGHT}, shadow = true, float = true, scale = scale*1.7})}},'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''button_contents = {n=G.UIT.T, config={text = localize('b_use'),colour = G.C.WHITE, scale = 0.5}}'''
+position = "at"
+payload = '''button_contents = {n=G.UIT.T, config={text = localize('b_use'),colour = G.C.WHITE, scale = 0.4}}'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''button_contents = {n=G.UIT.T, config={text = localize('b_buy'),colour = G.C.WHITE, scale = 0.5}}'''
+position = "at"
+payload = '''button_contents = {n=G.UIT.T, config={text = localize('b_buy'),colour = G.C.WHITE, scale = 0.4}}'''
 overwrite = true
 match_indent = true
 
