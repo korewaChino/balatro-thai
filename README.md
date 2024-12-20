@@ -1,4 +1,4 @@
-# Thai Balatro - Improved
+# Thai Balatro - Sober Edition
 
 This mod is a fork of the [Thai Balatro mod] by [maimaomaiplae](https://www.facebook.com/maimaomaiplae). It aims to improve and further localize the game for Thai players.
 
