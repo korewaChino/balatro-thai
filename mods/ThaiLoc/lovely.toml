@@ -32,8 +32,6 @@ overwrite = true
 match_indent = true
 
 
-
-
 # แก้ไขการอยู่ตรงกลางของปุ่ม "รีเซ็ต"
 [[patches]]
 [patches.pattern]
@@ -103,6 +101,7 @@ position = "at"
 payload = '''{n=G.UIT.T, config={text = 'ส่วนที่เหลือ", scale = 0.35, colour = G.C.WHITE, shadow = true}}'''
 overwrite = true
 match_indent = true
+
 [[patches]]
 [patches.pattern]
 target = "cardarea.lua"
@@ -111,6 +110,7 @@ position = "at"
 payload = '''{n=G.UIT.T, config={text = 'ไพ่', scale = 0.4, colour = G.C.WHITE, shadow = true}}'''
 overwrite = true
 match_indent = true
+
 [[patches]]
 [patches.pattern]
 target = "cardarea.lua"
@@ -148,9 +148,27 @@ match_indent = true
 [[patches]]
 [patches.pattern]
 target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'DEFEAT', scale = 0.6, colour = G.C.WHITE}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = 'เอาชนะ', scale = 0.6, colour = G.C.WHITE}}'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
+pattern = '''{n=G.UIT.T, config={text = 'BOSS BLIND', scale = 0.4, colour = G.C.WHITE}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={text = 'บอสบลายด์', scale = 0.4, colour = G.C.WHITE}}'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "cardarea.lua"
 pattern = '''{n=G.UIT.T, config={text = 'TO RESTOCK', scale = 0.4, colour = G.C.WHITE}}'''
 position = "at"
-payload = '''{n=G.UIT.T, config={text = 'เติมไพ่', scale = 0.4, colour = G.C.WHITE}}'''
+payload = '''{n=G.UIT.T, config={text = 'เพื่อเติมของ', scale = 0.4, colour = G.C.WHITE}}'''
 overwrite = true
 match_indent = true
 

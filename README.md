@@ -1,4 +1,44 @@
-# Thai Balatro - Sober Edition
+# Thai Balatro - Sober Edition บาลาโทรภาษาไทยฉบับสร่างเมา
+
+พาสาปะกิดอยู่ข้างล่าง - English README is below
+
+ม็อดนี้เป็นฟอร์กของ [Thai Balatro mod] โดย [ไม่เมาไม่แปล](https://www.facebook.com/maimaomaiplae) บนเฟซบุ๊ค เพื่อที่จะให้การแปลในเกมมีคุณภาพมากขึ้น
+
+ใช้เกมเวอร์ชัน 1.0.1n-FULL
+
+## สิ่งที่เปลี่ยนไปจากม็อดเดิม
+
+> [!NOTE]  
+> ยังไม่เสร็จสมบูรณ์ 
+- แปลให้มันไม่เมาและเข้าใจง่ายขึ้น
+- เปลี่ยนฟ้อนที่ให้มาจาก `Mali` เป็น `2005_iannnnnAMD` เพื่อที่จะได้พอเข้ากับเกมเดิม
+- แปลชิป Small Blind และ Big Blind (วาดเอง)
+
+
+
+## วิธีการลงบน Windows
+
+1. โหลด [Lovely Injector] โดยการแตกไฟล์ `lovely-x86_64-pc-windows-msvc.zip` และนำไฟล์ `version.dll` ไปวางในโฟลเดอร์ของเกม
+
+2. ไปที่ `%APPDATA%\Balatro` และคัดลอกโฟลเดอร์ `resources`, `mods`, และ `localization` ไปวางที่นั่น
+
+3. เปิดเกมแล้ว Lovely Injector จะบอกว่าแพชเข้า `game.lua` แล้ว
+
+4. เลือกภาษาไทยในเกม
+
+## สำหรับผู้เล่นบน Proton (Linux)
+
+1. ทำตามข้างบน แต่อาจจะเปลี่ยน %APPDATA% เป็น `~/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/`.
+
+2. ตั้งค่า Launch Options ใน Steam เป็น `WINEDLLOVERRIDES="version.dll=n,b" %command%` เพื่อให้ Proton โหลด DLL ของ Lovely Injector
+
+## อยากช่วยเหรอ
+
+ถ้าอยากช่วยเพิ่มเติมในม็อดก็ Fork และส่ง Pull Request มาได้ หรือถ้ามีข้อสงสัยก็สามารถเปิด Issue ได้เลย :D
+
+---
+
+English
 
 This mod is a fork of the [Thai Balatro mod] by [maimaomaiplae](https://www.facebook.com/maimaomaiplae). It aims to improve and further localize the game for Thai players.
 
