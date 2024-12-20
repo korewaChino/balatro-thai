@@ -1,6 +1,6 @@
 [manifest]
 version = "1.2"
-dump_lua = false
+dump_lua = true
 priority = 0
 
 [[patches]]
@@ -31,23 +31,7 @@ payload = '''{file = "resources/fonts/2005_iannnnnAMD.ttf", render_scale = self.
 overwrite = true
 match_indent = true
 
-# "Рахунок раунду" замість "Раунд рахунок"
-[[patches]]
-[patches.pattern]
-target = "functions/UI_definitions.lua"
-pattern = '''{n=G.UIT.T, config={text = localize('k_round'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
-position = "at"
-payload = '''{n=G.UIT.T, config={text = G.SETTINGS.language == "th_TH" and "Рахунок" or localize('k_round'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
-overwrite = true
-match_indent = true
-[[patches]]
-[patches.pattern]
-target = "functions/UI_definitions.lua"
-pattern = '''{n=G.UIT.T, config={text =localize('k_lower_score'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
-position = "at"
-payload = '''{n=G.UIT.T, config={text = G.SETTINGS.language == "th_TH" and  "раунду" or localize('k_lower_score'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
-overwrite = true
-match_indent = true
+
 
 
 # แก้ไขการอยู่ตรงกลางของปุ่ม "รีเซ็ต"
@@ -79,6 +63,8 @@ position = "at"
 payload = '''{n=G.UIT.T, config={text = "คะแนน", scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
 overwrite = true
 match_indent = true
+
+
 [[patches]]
 [patches.pattern]
 target = "functions/UI_definitions.lua"
