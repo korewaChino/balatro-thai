@@ -23,9 +23,9 @@ function zip_dir {
     popd
 }
 
-
 function prepare {
-    cp -av resources $OUTPUT_DIR_PATH/assets
+    cp -av resources/textures $OUTPUT_DIR_PATH/assets
+    cp -av resources/fonts $OUTPUT_DIR_PATH/assets/fonts
     cp -av localization $OUTPUT_DIR_PATH/localization
 }
 
