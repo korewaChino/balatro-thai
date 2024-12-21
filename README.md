@@ -1,4 +1,4 @@
-# Thai Balatro - Sober Edition บาลาโทรภาษาไทยฉบับสร่างเมา
+# Thai Balatro - Soberized Edition บาลาโทรภาษาไทยฉบับสร่างเมา
 
 ![image](./preview/screenshot-1.png)
 ![image](./preview/screenshot-2.png)
