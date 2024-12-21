@@ -1,19 +1,9 @@
---- STEAMODDED HEADER
---- MOD_NAME: Thai Balatro: Soberized Edition
---- MOD_ID: THLocale
---- MOD_AUTHOR: [Aikoyori, korewaChino]
---- MOD_DESCRIPTION: A Thai localization mod for Balatro, uses 2005_iannnnnAMD
---- PRIORITY: 9999999999
---- DISPLAY_NAME: Thai Balatro: Soberized Edition
---- DEPENDENCIES: [Steamodded>=1.0.0~ALPHA-1217c]
---- PREFIX: thloc
-
 ----------------------------------------------
 ------------MOD CODE -------------------------
 
 
 sendDebugMessage("Loading Thai Language Pack")
-SMODS.Atlas{key = "blind_chips", path = "BlindChips.png", px = 34, py = 34, prefix_config = { key = false }, atlas_table = 'ANIMATION_ATLAS', frames = 21}
+SMODS.Atlas { key = "blind_chips", path = "BlindChips.png", px = 34, py = 34, prefix_config = { key = false }, atlas_table = 'ANIMATION_ATLAS', frames = 21 }
 
 SMODS.Language({
     key = "th_TH",
