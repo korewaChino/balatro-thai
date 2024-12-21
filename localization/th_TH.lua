@@ -461,7 +461,7 @@ return {
         },
       },
       j_arrowhead = {
-        name = "Arrowhead",
+        name = "หัวลูกศร",
         text = {
           "เมื่อเล่นไพ่และมี",
           "หน้าไพ่{C:spades}โพธิ์ดำ{}",
@@ -848,7 +848,7 @@ return {
         },
       },
       j_erosion = {
-        name = "Erosion",
+        name = "การกัดกร่อน",
         text = {
           "ตัวคูณ{C:red}+#1#{} เมื่อจำนวนไพ่ในสำรับ",
           "{C:attention}#3#{}",
@@ -875,7 +875,7 @@ return {
         },
       },
       j_family = {
-        name = "The Family",
+        name = "ไพ่โฟร์",
         text = {
           "ตัวคูณ{X:mult,C:white} X#1# {}",
           "เมื่อเล่นไพ่",
@@ -1122,7 +1122,7 @@ return {
         name = "บัตรสมาชิก",
         text = {
           "เพิ่มตัวคูณ{X:red,C:white} X#1# {}",
-          "{C:attention}#2#{} ทุกๆมือที่เล่น",
+          "ทุกๆ {C:attention}#2#{} มือ",
           "{C:inactive}#3#",
         },
       },
@@ -2111,7 +2111,7 @@ return {
         },
       },
       perishable = {
-        name = "ใช้ชั่วคราว",
+        name = "เสื่อมสภาพ",
         text = {
           "หลังจากเล่นไป {C:attention}#1#{} รอบ",
           "นับจากรอบที่ใช้การ์ดใบนี้ครั้งแรก การ์ดจะโดนดีบัฟ",
@@ -2654,7 +2654,7 @@ return {
         },
       },
       tag_investment = {
-        name = "แท็กการลงทุน",
+        name = "แท็กลงทุน",
         text = {
           "รับ {C:money}$#1#",
           "หลังจากชนะบอสบลายด์",
@@ -3501,7 +3501,7 @@ return {
       k_no_reward = "ไม่มีรางวัล",
       k_no_room_ex = "ไม่มีที่ว่าง!",
       k_no_space_ex = "ไม่มีที่ว่าง!",
-      k_none = "None",
+      k_none = "ไม่มี",
       k_nope_ex = "ไม่!",
       k_not_allowed_ex = "ไม่อนุญาตให้ใช้!",
       k_not_discovered = "ยังไม่ค้นพบ",
@@ -3714,15 +3714,15 @@ return {
       legendary = "ตำนาน",
       locked = "ล็อค",
       negative = "เนกาทีฟ",
-      perishable = "คงทน",
-      pinned_left = "พินด์",
+      perishable = "เสื่อมสภาพ",
+      pinned_left = "ตรึงซ้าย",
       planet = "ดาวเคราะห์",
       pluto_planet = "ดาวเคราะห์แคระ",
       polychrome = "โพลีโครม",
       purple_seal = "ตราประทับม่วง",
       rare = "หายาก",
       red_seal = "ตราประทับแดง",
-      rental = "ให้เช่า",
+      rental = "เช่า",
       tarot = "ทาโรต์",
       uncommon = "ไม่ธรรมดา",
       voucher = "วอยเชอร์",
