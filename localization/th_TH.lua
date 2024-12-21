@@ -1612,7 +1612,7 @@ return {
         text = {
           "เพิ่มตัวคูณ {X:red,C:white} X1 {}สำหรับช่อง",
           "{C:attention}โจ๊กเกอร์{}  ที่ว่างแต่ละช่อง",
-          "รวม {s:0.8}Joker Stencil",
+          "รวมทั้ง{s:0.8}แม่พิมพ์โจ๊กเกอร์",
           "{C:inactive}(ปัจจุบันตัวคูณ {X:red,C:white} X#1# {C:inactive})",
         },
       },
