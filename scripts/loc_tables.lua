@@ -1,33 +1,38 @@
 ---@diagnostic disable: need-check-nil
 -- This script is a helper tool that builds the final Thai language pack
 -- for Thai Balatro: Soberized Edition by merging the 2 language tables
--- from steamodded and the base game
+-- from steamodded and the base game.
+-- The script will output a file to dist/localization/th_TH.lua.
+-- This is the final language pack that will be used in the mod.
 
---
 
 -- Compare two tables and return missing keys recursively
 
 
 -- Compares two tables and returns a table of missing keys
 -- Will compare T2 to T1, and return a table of keys that are in T1 but not in T2
+-- Ignores numeric keys because arrays are usually flexible line-delimited strings
 local function compare_tables(t1, t2)
     local missing_keys = {}
     for k, v in pairs(t1) do
-        if type(v) == "table" then
-            if t2[k] == nil then
-                -- If key doesn't exist in t2, copy entire subtable
-                missing_keys[k] = v
-            else
-                -- Recursively compare subtables
-                local sub_missing = compare_tables(v, t2[k])
-                if next(sub_missing) then -- Only add if there are missing keys
-                    missing_keys[k] = sub_missing
+        -- Only process non-numeric keys
+        if type(k) == "string" then
+            if type(v) == "table" then
+                if t2[k] == nil then
+                    -- If key doesn't exist in t2, copy entire subtable
+                    missing_keys[k] = v
+                else
+                    -- Recursively compare subtables
+                    local sub_missing = compare_tables(v, t2[k])
+                    if next(sub_missing) then -- Only add if there are missing keys
+                        missing_keys[k] = sub_missing
+                    end
                 end
-            end
-        else
-            if t2[k] == nil then
-                -- If key doesn't exist in t2, copy value
-                missing_keys[k] = v
+            else
+                if t2[k] == nil then
+                    -- If key doesn't exist in t2, copy value
+                    missing_keys[k] = v
+                end
             end
         end
     end
@@ -35,27 +40,27 @@ local function compare_tables(t1, t2)
 end
 --- Merge two tables together recursively
 
-local function merge_tables(into,from)
-	local stack = {}
-	local node1 = into
-	local node2 = from
-	while (true) do
-		for k,v in pairs(node2) do
-			if (type(v) == "table" and type(node1[k]) == "table") then
-				table.insert(stack,{node1[k],node2[k]})
-			else
-				node1[k] = v
-			end
-		end
-		if (#stack > 0) then
-			local t = stack[#stack]
-			node1,node2 = t[1],t[2]
-			stack[#stack] = nil
-		else
-			break
-		end
-	end
-	return into
+local function merge_tables(into, from)
+    local stack = {}
+    local node1 = into
+    local node2 = from
+    while (true) do
+        for k, v in pairs(node2) do
+            if (type(v) == "table" and type(node1[k]) == "table") then
+                table.insert(stack, { node1[k], node2[k] })
+            else
+                node1[k] = v
+            end
+        end
+        if (#stack > 0) then
+            local t = stack[#stack]
+            node1, node2 = t[1], t[2]
+            stack[#stack] = nil
+        else
+            break
+        end
+    end
+    return into
 end
 -- load table from lua scripts
 -- the l10n strings are literally stored as a lua script that returns a table
@@ -124,8 +129,17 @@ print("Merging Localization tables...")
 local final_output = merge_tables(th_script_stm, th_script)
 
 local lint = compare_tables(en_script_stm, final_output)
-warn("Missing keys from steamodded: " .. table_to_string(lint))
+local lint2 = compare_tables(en_script, final_output)
 
+if next(lint) then
+    write_to_file(lint, "dist/missing_keys_steamodded.lua")
+    print("Missing keys from steamodded dumped to dist/missing_keys_steamodded.lua")
+end
+
+if next(lint2) then
+    write_to_file(lint2, "dist/missing_keys_base.lua")
+    print("Missing keys from base game dumped to dist/missing_keys_base.lua")
+end
 
 write_to_file(final_output, output_file)
 
