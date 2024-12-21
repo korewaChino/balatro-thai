@@ -1,12 +1,9 @@
 ---@diagnostic disable: need-check-nil
--- This script is a helper tool that builds the final Thai language pack
--- for Thai Balatro: Soberized Edition by merging the 2 language tables
+-- This script is a tool that builds the final Thai language pack
+-- for Thai Balatro: Soberized Edition by merging language tables into one big table.
 -- from steamodded and the base game.
 -- The script will output a file to dist/localization/th_TH.lua.
 -- This is the final language pack that will be used in the mod.
-
-
--- Compare two tables and return missing keys recursively
 
 
 -- Compares two tables and returns a table of missing keys
@@ -38,8 +35,8 @@ local function compare_tables(t1, t2)
     end
     return missing_keys
 end
---- Merge two tables together recursively
 
+--- Merge two tables together recursively
 local function merge_tables(into, from)
     local stack = {}
     local node1 = into
@@ -74,22 +71,6 @@ local function load_table(script)
     return nil
 end
 
-
--- Tables to load
-local th_script = load_table("localization/th_TH.lua")
-local th_script_stm = load_table("localization/th_TH-stm.lua")
-
-
--- Original English scripts
-local en_script = load_table("original_text/en-us.lua")
-local en_script_stm = load_table("original_text/en-us-stm.lua")
-
-
--- Output file location
-local output_file = "dist/localization/th_TH.lua"
-
-
--- Export to table to a script
 local function export_table(tbl, indent)
     indent = indent or ""
     local result = "{\n"
@@ -123,23 +104,58 @@ local function write_to_file(tbl, filename)
     file:close()
 end
 
+-- Tables to load
+local th_script = load_table("localization/th_TH.lua")
+local th_script_stm = load_table("localization/th_TH-stm.lua")
+
+
+-- Original English scripts
+local en_script = load_table("original_text/en-us.lua")
+local en_script_stm = load_table("original_text/en-us-stm.lua")
+
+local scripts = {
+    localized = "localization/th_TH.lua",
+    original_text = {
+        basegame = "original_text/en-us.lua",
+        steamodded = "original_text/en-us-stm.lua",
+    },
+    localized_extras = {
+        steamodded = "localization/extras/steamodded.lua",
+    }
+}
+
+-- Output file location
+local output_file = "dist/localization/th_TH.lua"
+
+-- Load all scripts, extensible for future use
+local function load_scripts()
+    local final_script = load_table(scripts.localized)
+
+    print("Loaded main script")
+    for k, script_path in pairs(scripts.localized_extras) do
+        print("Loading extra script `" .. k .. "`: " .. script_path)
+        final_script = merge_tables(final_script, load_table(script_path))
+    end
+
+    -- Linter
+    for k, script_path in pairs(scripts.original_text) do
+        local script = load_table(script_path)
+        local lint = compare_tables(script, final_script)
+        if next(lint) then
+            write_to_file(lint, "dist/missing_keys_" .. k .. ".lua")
+            print("Missing keys from " .. k .. " dumped to dist/missing_keys_" .. k .. ".lua")
+        end
+    end
+
+    return final_script
+end
+
+
+-- Export to table to a script
 
 print("Merging Localization tables...")
 
-local final_output = merge_tables(th_script_stm, th_script)
-
-local lint = compare_tables(en_script_stm, final_output)
-local lint2 = compare_tables(en_script, final_output)
-
-if next(lint) then
-    write_to_file(lint, "dist/missing_keys_steamodded.lua")
-    print("Missing keys from steamodded dumped to dist/missing_keys_steamodded.lua")
-end
-
-if next(lint2) then
-    write_to_file(lint2, "dist/missing_keys_base.lua")
-    print("Missing keys from base game dumped to dist/missing_keys_base.lua")
-end
+local final_output = load_scripts()
 
 write_to_file(final_output, output_file)
 

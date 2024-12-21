@@ -25,7 +25,7 @@ function cleanup {
     rm -rf $DIST_DIR/localization/*
 
     # Remove l10n lints
-    rm -rf $DIST_DIR/missing_keys.lua
+    rm -rf $DIST_DIR/missing_keys*
 }
 
 function zip_dir {
@@ -42,6 +42,8 @@ function prepare {
     cp -av $DIST_DIR/localization $OUTPUT_DIR_PATH/localization
     # Remove standalone-only files
     rm -rfv $OUTPUT_DIR_PATH/lovely/standalone.toml
+    # Remove localization extras
+    rm -rfv $OUTPUT_DIR_PATH/localization/extras
 }
 
 cleanup
