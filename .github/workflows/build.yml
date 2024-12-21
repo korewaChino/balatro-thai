@@ -1,0 +1,23 @@
+name: Build
+
+on:
+  push:
+
+jobs:
+  build-steamodded:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Lua
+        uses: leafo/gh-actions-lua@v10
+
+      - name: Pack mod
+        run: |
+          scripts/pack_steamodded.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: steamodded-${{ github.sha }}
+          path: dist/*Steamodded.zip
