@@ -14,7 +14,6 @@ function cleanup {
     rm -f $OUTPUT_FILE_PATH
     rm -rf $OUTPUT_DIR_PATH/*
 
-    cp -av mods/ThaiLoc/. $OUTPUT_DIR_PATH
 }
 
 function zip_dir {
@@ -24,9 +23,12 @@ function zip_dir {
 }
 
 function prepare {
+    cp -av mods/ThaiLoc/. $OUTPUT_DIR_PATH
     cp -av resources/textures $OUTPUT_DIR_PATH/assets
     cp -av resources/fonts $OUTPUT_DIR_PATH/assets/fonts
     cp -av localization $OUTPUT_DIR_PATH/localization
+    # Remove standalone-only files
+    rm -rfv $OUTPUT_DIR_PATH/lovely/standalone.toml
 }
 
 cleanup

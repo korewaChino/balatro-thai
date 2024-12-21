@@ -6,15 +6,15 @@ priority = 0
 # Uncomment below if you would like to install this mod
 # standalone of Steamodded
 
-[[patches]]
-[patches.pattern]
-target = "game.lua"
-pattern = '''['en-us'] = {font = 1, label = "English", key = 'en-us', button = "Language Feedback", warning = {'This language is still in Beta. To help us','improve it, please click on the feedback button.', 'Click again to confirm'}},'''
-position = "at"
-payload = '''['en-us'] = {font = 1, label = "English", key = 'en-us', button = "Language Feedback", warning = {'This language is still in Beta. To help us','improve it, please click on the feedback button.', 'Click again to confirm'}},
-['th_TH'] = {font = 6, label = "ไทย", key = 'th_TH', beta = true, button = "ข้อเสนอแนะ", warning = {'ภาษานี้ยังอยู่ในช่วงทดสอบ เพื่อช่วยเรา','ปรับปรุงโปรดคลิกที่ปุ่มข้อเสนอแนะ', 'คลิกอีกครั้งเพื่อยืนยัน'}},'''
-overwrite = true
-match_indent = true
+# [[patches]]
+# [patches.pattern]
+# target = "game.lua"
+# pattern = '''['en-us'] = {font = 1, label = "English", key = 'en-us', button = "Language Feedback", warning = {'This language is still in Beta. To help us','improve it, please click on the feedback button.', 'Click again to confirm'}},'''
+# position = "at"
+# payload = '''['en-us'] = {font = 1, label = "English", key = 'en-us', button = "Language Feedback", warning = {'This language is still in Beta. To help us','improve it, please click on the feedback button.', 'Click again to confirm'}},
+# ['th_TH'] = {font = 6, label = "ไทย", key = 'th_TH', beta = true, button = "ข้อเสนอแนะ", warning = {'ภาษานี้ยังอยู่ในช่วงทดสอบ เพื่อช่วยเรา','ปรับปรุงโปรดคลิกที่ปุ่มข้อเสนอแนะ', 'คลิกอีกครั้งเพื่อยืนยัน'}},'''
+# overwrite = true
+# match_indent = true
 
 # [[patches]]
 # [patches.pattern]
@@ -290,14 +290,4 @@ pattern = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_
 position = "at"
 payload = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_value = 2, scale = scale*0.8, colour = G.C.UI.TEXT_LIGHT, id = 'HUD_blind_debuff_2', func = 'HUD_blind_debuff'}}'''
 overwrite = true
-match_indent = true
-
-# เวอร์ชันการแปลปัจจุบัน
-[[patches]]
-[patches.pattern]
-target = "globals.lua"
-pattern = "VERSION = VERSION..'-FULL'"
-position = "after"
-payload = "VERSION = VERSION..'-TH-0.1'"
-overwrite = false
 match_indent = true

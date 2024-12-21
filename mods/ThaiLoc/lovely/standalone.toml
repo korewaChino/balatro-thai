@@ -1,0 +1,23 @@
+[manifest]
+version = "1.2"
+dump_lua = true
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''['en-us'] = {font = 1, label = "English", key = 'en-us', button = "Language Feedback", warning = {'This language is still in Beta. To help us','improve it, please click on the feedback button.', 'Click again to confirm'}},'''
+position = "at"
+payload = '''['en-us'] = {font = 1, label = "English", key = 'en-us', button = "Language Feedback", warning = {'This language is still in Beta. To help us','improve it, please click on the feedback button.', 'Click again to confirm'}},
+['th_TH'] = {font = 6, label = "ไทย", key = 'th_TH', beta = true, button = "ข้อเสนอแนะ", warning = {'ภาษานี้ยังอยู่ในช่วงทดสอบ เพื่อช่วยเรา','ปรับปรุงโปรดคลิกที่ปุ่มข้อเสนอแนะ', 'คลิกอีกครั้งเพื่อยืนยัน'}},'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+pattern = '''{file = "resources/fonts/NotoSans-Bold.ttf", render_scale = self.TILESIZE*7, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.12, squish = 1, DESCSCALE = 1},'''
+position = "at"
+payload = '''{file = "assets/fonts/2005_iannnnnAMD.ttf", render_scale = self.TILESIZE*16, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.13, squish = 1, DESCSCALE = 1},'''
+overwrite = true
+match_indent = true
