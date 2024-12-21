@@ -19,6 +19,14 @@
 - แปลให้มันไม่เมาและเข้าใจง่ายขึ้น
 - เปลี่ยนฟ้อนที่ให้มาจาก `Mali` เป็น `2005_iannnnnAMD` เพื่อที่จะได้พอเข้ากับเกมเดิม
 - แปลชิป Small Blind และ Big Blind (วาดเอง)
+- แปลชื่อและคำอธิบายของไอเทมให้ครบถ้วน
+- เปลี่ยนชื่อบอสบลายน์ให้เป็นภาษาไทย/เขมร/ปาลี-สันสกฎต (ขอบคุณ @Aikoyori)
+- เปลี่ยนชื่อและคำอธิบายของ Achievement และ Challenge ให้ครบถ้วน
+- แปลคำนำและวิธีการเล่นครบถ้วน เรียบเรียงบทเกมใหม่จากเดิม
+- แปลข้อความส่งท้ายเมื่อสิ้นสุดรัน
+- ปรับปรุง UI ให้เข้ากับภาษาไทย
+- รองรับ Steamodded และเวอร์ชันสแตนโอลน์
+- รองรับม็อดจากภายนอก (สามารถส่ง Issue/PR มาได้ถ้าอยากให้เราแปลม็อดของคุณด้วย!)
 
 ## วิธีการลงบน Windows (ไม่ใช้ Steamodded)
 
@@ -58,6 +66,15 @@ Updated for 1.0.1n-FULL
 
 - Properly localize item names and descriptions
 - Replaced default typeface from `Mali` to `2005_iannnnnAMD` for a more consistent pixel art look
+- Boss Blind titles have now been fully localized with custom Thai/Khmer/Pali/Sanskrit names (Special thanks @Aikoyori)
+- Fixed broken grammar in descriptions
+- Fully-localized card names and descriptions, including Tarot, Jokers, Spectrals, and more.
+- Fully-localized Achievements and Challenges, with Thai jokes and references
+- Localized tutorial and help text
+- Localized Game Over quips
+- Steamodded support + standalone version
+- Extensible third-party mod support (Send an issue/PR if you want to localize your mod!)
+- Slight UI patches to accomodate Thai text
 
 ## Installing the mod on Windows (Without Steamodded)
 
