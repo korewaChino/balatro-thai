@@ -3,6 +3,10 @@ name: Build
 on:
   push:
 
+permissions:
+  contents: write
+  packages: write
+
 jobs:
   build-steamodded:
     runs-on: ubuntu-latest
@@ -21,3 +25,37 @@ jobs:
         with:
           name: steamodded-${{ github.sha }}
           path: dist/*Steamodded.zip
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          draft: true
+          files: |
+            dist/*Steamodded.zip
+
+  build-standalone:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Lua
+        uses: leafo/gh-actions-lua@v10
+
+      - name: Pack mod
+        run: |
+          scripts/pack_standalone.sh
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: standalone-${{ github.sha }}
+          path: dist/*Standalone.zip
+
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          draft: true
+          files: |
+            dist/*Standalone.zip
