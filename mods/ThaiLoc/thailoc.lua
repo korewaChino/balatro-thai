@@ -9,6 +9,11 @@
 
 ----------------------------------------------
 ------------MOD CODE -------------------------
+
+
+sendDebugMessage("Loading Thai Language Pack")
+SMODS.Atlas{key = "blind_chips", path = "BlindChips.png", px = 34, py = 34, prefix_config = { key = false }, atlas_table = 'ANIMATION_ATLAS', frames = 21}
+
 SMODS.Language({
     key = "th_TH",
     label = "ไทย",
@@ -27,13 +32,15 @@ SMODS.Language({
     path = "th_TH.lua",
 })
 if SMODS.Atlas then
-    SMODS.Atlas({
-        key = "modicon",
-        path = "icon.png",
-        px = 32,
-        py = 32
-    })
+    -- SMODS.Atlas({
+    --     key = "modicon",
+    --     path = "icon.png",
+    --     px = 32,
+    --     py = 32
+    -- })
+    SMODS.Atlas { key = "blind_chips", path = "textures/BlindChips.png", px = 34, py = 34, prefix_config = { key = false }, atlas_table = 'ANIMATION_ATLAS', frames = 21 }
 end
+
 
 ----------------------------------------------
 ------------MOD CODE END----------------------
