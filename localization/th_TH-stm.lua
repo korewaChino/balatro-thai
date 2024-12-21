@@ -99,7 +99,7 @@ return {
             b_author = 'เจ้าของ',
             b_authors = 'เจ้าของ',
             b_unknown = 'ไม่รู้',
-            b_lovely_mod = '(ม็อด Lovely) ',
+            b_lovely_mod = '(ม็อด Lovely)',
             b_by = ' โดย: ',
 			b_config = "ตั้งค่า",
 			b_additions = 'สิ่งที่เพิ่ม',
