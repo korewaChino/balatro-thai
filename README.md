@@ -46,8 +46,6 @@
 
 ถ้าอยากช่วยเพิ่มเติมในม็อดก็ Fork และส่ง Pull Request มาได้ หรือถ้ามีข้อสงสัยก็สามารถเปิด Issue ได้เลย :D
 
-
-
 ---
 
 English
@@ -82,6 +80,44 @@ Updated for 1.0.1n-FULL
 1. Follow Step 1 and 2 from the Windows instructions. You may replace %APPDATA% with `~/.steam/steam/steamapps/compatdata/2379780/pfx/drive_c/users/steamuser/AppData/Roaming/Balatro/`.
 
 2. Set Steam's launch options to `WINEDLLOVERRIDES="version.dll=n,b" %command%` so Proton loads the Lovely Injector DLL
+
+## Building the mod for Steamodded
+
+The Standalone version can be simply copied from source, but the Steamodded version has a merge script that eases development by allowing multiple input files for the translation keys. To build the mod for Steamodded, you will need the Lua interpreter. You may simply run the package script to generate the mod files.
+
+```sh
+scripts/pack_steamodded.sh
+```
+
+### On Windows without the helper script
+
+Download the Lua interpreter from the official website and run the script using the interpreter. Open Windows Terminal and navigate to the project directory and follow the steps below.
+
+1. Create the necessary directories
+
+    ```cmd
+    mkdir dist
+    mkdir dist\THLocale-Steamodded
+    mkdir dist\localization
+    ```
+
+2. Run the Lua script to compile the strings
+
+    ```cmd
+    lua scripts\pack_steamodded.lua
+    ```
+
+3. Copy/move/delete the necessary files
+
+    `mods/ThaiLoc` -> `dist/THLocale-Steamodded`
+
+    `resources/textures` -> `dist/THLocale-Steamodded/assets`
+
+    `resources/fonts` -> `dist/THLocale-Steamodded/assets/fonts`
+
+    `dist/localization` -> `dist/THLocale-Steamodded/localization`
+
+    Delete the `lovely` folder from `dist/THLocale-Steamodded` since it's a patch exclusive for the non-Steamodded version
 
 ## Contributing
 
