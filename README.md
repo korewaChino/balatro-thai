@@ -1,5 +1,10 @@
 # Thai Balatro - Sober Edition บาลาโทรภาษาไทยฉบับสร่างเมา
 
+![image](./preview/screenshot-1.png)
+![image](./preview/screenshot-2.png)
+![image](./preview/screenshot-3.png)
+![image](./preview/screenshot-4.png)
+
 พาสาปะกิดอยู่ข้างล่าง - English README is below
 
 ม็อดนี้เป็นฟอร์กของ [Thai Balatro mod] โดย [ไม่เมาไม่แปล](https://www.facebook.com/maimaomaiplae) บนเฟซบุ๊ค เพื่อที่จะให้การแปลในเกมมีคุณภาพมากขึ้น
@@ -40,6 +45,8 @@
 ## อยากช่วยเหรอ
 
 ถ้าอยากช่วยเพิ่มเติมในม็อดก็ Fork และส่ง Pull Request มาได้ หรือถ้ามีข้อสงสัยก็สามารถเปิด Issue ได้เลย :D
+
+
 
 ---
 
