@@ -2,7 +2,7 @@
 --- MOD_NAME: Thai Balatro
 --- MOD_ID: THLocale
 --- MOD_AUTHOR: [Aikoyori, korewaChino]
---- MOD_DESCRIPTION: A Thai translation mod for Balatro, uses 2005_iannnnnAMD
+--- MOD_DESCRIPTION: A Thai localization mod for Balatro, uses 2005_iannnnnAMD
 --- PRIORITY: 9999999999
 --- DISPLAY_NAME: Thai Balatro: Soberized Edition
 --- DEPENDENCIES: [Steamodded>=1.0.0~ALPHA-1217c]
