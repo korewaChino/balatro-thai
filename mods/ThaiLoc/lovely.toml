@@ -58,7 +58,7 @@ match_indent = true
 target = "functions/UI_definitions.lua"
 pattern = '''{n=G.UIT.T, config={text = localize('k_round'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
 position = "at"
-payload = '''{n=G.UIT.T, config={text = "คะแนน", scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
+payload = '''{n=G.UIT.T, config={text = "แต้ม", scale = 0.3, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
 overwrite = true
 match_indent = true
 
@@ -68,7 +68,7 @@ match_indent = true
 target = "functions/UI_definitions.lua"
 pattern = '''{n=G.UIT.T, config={text =localize('k_lower_score'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
 position = "at"
-payload = '''{n=G.UIT.T, config={text = "รอบ", scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
+payload = '''{n=G.UIT.T, config={text = "รอบ", scale = 0.3, colour = G.C.UI.TEXT_LIGHT, shadow = true}}'''
 overwrite = true
 match_indent = true
 
@@ -277,6 +277,24 @@ target = "functions/UI_definitions.lua"
 pattern = '''button_contents = {n=G.UIT.T, config={text = localize('b_buy'),colour = G.C.WHITE, scale = 0.5}}'''
 position = "at"
 payload = '''button_contents = {n=G.UIT.T, config={text = localize('b_buy'),colour = G.C.WHITE, scale = 0.4}}'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_value = 1, scale = scale*0.9, colour = G.C.UI.TEXT_LIGHT, id = 'HUD_blind_debuff_1', func = 'HUD_blind_debuff'}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_value = 1, scale = scale*0.8, colour = G.C.UI.TEXT_LIGHT, id = 'HUD_blind_debuff_1', func = 'HUD_blind_debuff'}}'''
+overwrite = true
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+pattern = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_value = 1, scale = scale*0.9, colour = G.C.UI.TEXT_LIGHT, id = 'HUD_blind_debuff_1', func = 'HUD_blind_debuff'}}'''
+position = "at"
+payload = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_value = 2, scale = scale*0.8, colour = G.C.UI.TEXT_LIGHT, id = 'HUD_blind_debuff_2', func = 'HUD_blind_debuff'}}'''
 overwrite = true
 match_indent = true
 
