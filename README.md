@@ -15,7 +15,7 @@
 - เปลี่ยนฟ้อนที่ให้มาจาก `Mali` เป็น `2005_iannnnnAMD` เพื่อที่จะได้พอเข้ากับเกมเดิม
 - แปลชิป Small Blind และ Big Blind (วาดเอง)
 
-## วิธีการลงบน Windows
+## วิธีการลงบน Windows (ไม่ใช้ Steamodded)
 
 1. โหลด [Lovely Injector] โดยการแตกไฟล์ `lovely-x86_64-pc-windows-msvc.zip` และนำไฟล์ `version.dll` ไปวางในโฟลเดอร์ของเกม
 
@@ -24,6 +24,12 @@
 3. เปิดเกมแล้ว Lovely Injector จะบอกว่าแพชเข้า `game.lua` แล้ว
 
 4. เลือกภาษาไทยในเกม
+
+## วิธีการลงบน Windows (ใช้ Steamodded)
+
+1. ลง [Steamodded] ตามขั้นตอนที่เขาให้
+
+2. โหลดม็อดเวอร์ชัน Steamodded จากหน้า Releases และแตกไฟล์ไปที่ `%APPDATA%\Balatro\Mods`
 
 ## สำหรับผู้เล่นบน Proton (Linux)
 
@@ -48,7 +54,7 @@ Updated for 1.0.1n-FULL
 - Properly localize item names and descriptions
 - Replaced default typeface from `Mali` to `2005_iannnnnAMD` for a more consistent pixel art look
 
-## Installing the mod on Windows
+## Installing the mod on Windows (Without Steamodded)
 
 1. Install [Lovely Injector] by downloading the latest release and placing the `version.dll` file in the game folder
 
@@ -57,6 +63,12 @@ Updated for 1.0.1n-FULL
 3. Launch the game. Lovely Injector should notify that patches have been applied to `game.lua`
 
 4. Select Thai in the game settings
+
+## Installing the mod on Windows (With Steamodded)
+
+1. Follow upstream instructions on how to install [Steamodded]
+
+2. Download the Steammodded distribution from the releases page and extract it to `%APPDATA%\Balatro\Mods`
 
 ## Proton-specific instructions
 
@@ -70,3 +82,4 @@ If you'd like to contribute to the mod, feel free to fork the repository and sub
 
 [Lovely Injector]: https://github.com/ethangreen-dev/lovely-injector
 [Thai balatro mod]: https://www.nexusmods.com/balatro/mods/37
+[Steamodded]: https://github.com/Steamopollys/Steamodded

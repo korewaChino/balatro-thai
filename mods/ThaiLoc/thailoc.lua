@@ -1,5 +1,5 @@
 --- STEAMODDED HEADER
---- MOD_NAME: Thai Balatro
+--- MOD_NAME: Thai Balatro: Soberized Edition
 --- MOD_ID: THLocale
 --- MOD_AUTHOR: [Aikoyori, korewaChino]
 --- MOD_DESCRIPTION: A Thai localization mod for Balatro, uses 2005_iannnnnAMD
@@ -26,14 +26,14 @@ SMODS.Language({
     warning = { 'ภาษานี้ยังอยู่ในช่วงทดสอบ เพื่อช่วยเรา', 'ปรับปรุงโปรดคลิกที่ปุ่มข้อเสนอแนะ', 'คลิกอีกครั้งเพื่อยืนยัน' },
     path = "th_TH.lua",
 })
--- if SMODS.Atlas then
---     SMODS.Atlas({
---         key = "modicon",
---         path = "icon.png",
---         px = 32,
---         py = 32
---     })
--- end
+if SMODS.Atlas then
+    SMODS.Atlas({
+        key = "modicon",
+        path = "icon.png",
+        px = 32,
+        py = 32
+    })
+end
 
 ----------------------------------------------
 ------------MOD CODE END----------------------
