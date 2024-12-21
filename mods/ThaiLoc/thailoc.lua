@@ -6,6 +6,7 @@
 --- PRIORITY: 9999999999
 --- DISPLAY_NAME: Thai Balatro: Soberized Edition
 --- DEPENDENCIES: [Steamodded>=1.0.0~ALPHA-1217c]
+--- PREFIX: thloc
 
 ----------------------------------------------
 ------------MOD CODE -------------------------
