@@ -3501,6 +3501,7 @@ return {
       k_no_other_jokers = "ไม่มีโจ๊กเกอร์อื่นแล้ว!",
       k_no_reward = "ไม่มีรางวัล",
       k_no_room_ex = "ไม่มีที่ว่าง!",
+      k_no_space_ex = "ไม่มีที่ว่าง!",
       k_none = "None",
       k_nope_ex = "ไม่!",
       k_not_allowed_ex = "ไม่อนุญาตให้ใช้!",

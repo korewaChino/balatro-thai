@@ -1,6 +1,13 @@
 #!/bin/bash -x
 
 # Pack the mod for Steamodded distribution
+# Also runs the loc_tables.lua script to compile the localization files
+# into a single file for mods to use
+
+# NOTE: This script is meant to be run from the root of the repository,
+# so call it like this:
+# ./scripts/pack_steamodded.sh
+
 DIST_DIR=dist
 OUTPUT_FILE=THLocale-Steamodded.zip
 OUTPUT_DIR=THLocale-Steamodded
@@ -14,6 +21,11 @@ function cleanup {
     rm -f $OUTPUT_FILE_PATH
     rm -rf $OUTPUT_DIR_PATH/*
 
+    mkdir -p $DIST_DIR/localization
+    rm -rf $DIST_DIR/localization/*
+
+    # Remove l10n lints
+    rm -rf $DIST_DIR/missing_keys.lua
 }
 
 function zip_dir {
@@ -26,7 +38,8 @@ function prepare {
     cp -av mods/ThaiLoc/. $OUTPUT_DIR_PATH
     cp -av resources/textures $OUTPUT_DIR_PATH/assets
     cp -av resources/fonts $OUTPUT_DIR_PATH/assets/fonts
-    cp -av localization $OUTPUT_DIR_PATH/localization
+    lua $(dirname $0)/loc_tables.lua
+    cp -av $DIST_DIR/localization $OUTPUT_DIR_PATH/localization
     # Remove standalone-only files
     rm -rfv $OUTPUT_DIR_PATH/lovely/standalone.toml
 }
