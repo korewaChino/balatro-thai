@@ -34,7 +34,7 @@
 
 1. ลง [Steamodded] ตามขั้นตอนที่เขาให้
 
-2. โหลดม็อดเวอร์ชัน Steamodded จากหน้า Releases และแตกไฟล์ไปที่ `%APPDATA%\Balatro\Mods`
+2. โหลดม็อดเวอร์ชัน Steamodded จากหน้า Releases (หรือ [Actions](https://github.com/korewaChino/balatro-thai/actions)) และแตกไฟล์ไปที่ `%APPDATA%\Balatro\Mods`
 
 ## สำหรับผู้เล่นบน Proton (Linux)
 
@@ -73,7 +73,7 @@ Updated for 1.0.1n-FULL
 
 1. Follow upstream instructions on how to install [Steamodded]
 
-2. Download the Steammodded distribution from the releases page and extract it to `%APPDATA%\Balatro\Mods`
+2. Download the Steammodded distribution from the releases page (or [CI](https://github.com/korewaChino/balatro-thai/actions)) and extract it to `%APPDATA%\Balatro\Mods`
 
 ## Proton-specific instructions
 
