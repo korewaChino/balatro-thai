@@ -291,3 +291,12 @@ position = "at"
 payload = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_value = 2, scale = scale*0.8, colour = G.C.UI.TEXT_LIGHT, id = 'HUD_blind_debuff_2', func = 'HUD_blind_debuff'}}'''
 overwrite = true
 match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "functions/state_events.lua"
+pattern = '''play_area_status_text("Not Allowed!")--localize('k_not_allowed_ex'), true)'''
+position = "at"
+payload = '''play_area_status_text("ไม่อนุญาต!")'''
+overwrite = true
+match_indent = true
