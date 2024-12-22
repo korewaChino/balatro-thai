@@ -59,10 +59,29 @@ local function merge_tables(into, from)
     end
     return into
 end
+
+-- List files in a directory, returns a table of filenames + paths
+-- @param directory: string
+-- @return table
+-- Example output:
+-- ```lua
+-- { "filename" = "path", ...}
+--
+-- { filename = path, ...}
+-- ```
+local function list_files(directory)
+    local i, t, popen = 0, {}, io.popen
+    for filename in popen('ls -a "' .. directory .. '"'):lines() do
+        i = i + 1
+        t[filename] = directory .. "/" .. filename
+    end
+    return t
+end
+
+
+
 -- load table from lua scripts
 -- the l10n strings are literally stored as a lua script that returns a table
-
-
 local function load_table(script)
     local f = loadfile(script)
     if f then
@@ -70,6 +89,7 @@ local function load_table(script)
     end
     return nil
 end
+
 
 local function export_table(tbl, indent)
     indent = indent or ""
@@ -104,24 +124,18 @@ local function write_to_file(tbl, filename)
     file:close()
 end
 
--- Tables to load
-local th_script = load_table("localization/th_TH.lua")
-local th_script_stm = load_table("localization/th_TH-stm.lua")
-
-
--- Original English scripts
-local en_script = load_table("original_text/en-us.lua")
-local en_script_stm = load_table("original_text/en-us-stm.lua")
+local extra_scripts = list_files("localization/extras")
+local extra_scripts_og = list_files("original_text")
 
 local scripts = {
     localized = "localization/th_TH.lua",
-    original_text = {
-        basegame = "original_text/en-us.lua",
-        steamodded = "original_text/en-us-stm.lua",
-    },
-    localized_extras = {
-        steamodded = "localization/extras/steamodded.lua",
-    }
+    -- original_text = {
+    --     basegame = "original_text/en-us.lua",
+    --     steamodded = "original_text/en-us-stm.lua",
+    -- },
+    -- localized_extras = {
+    --     steamodded = "localization/extras/steamodded.lua",
+    -- }
 }
 
 -- Output file location
@@ -131,20 +145,37 @@ local output_file = "dist/localization/th_TH.lua"
 local function load_scripts()
     local final_script = load_table(scripts.localized)
 
+    print(table_to_string(extra_scripts))
+
     print("Loaded main script")
-    for k, script_path in pairs(scripts.localized_extras) do
-        print("Loading extra script `" .. k .. "`: " .. script_path)
-        final_script = merge_tables(final_script, load_table(script_path))
+    for k, script_path in pairs(extra_scripts) do
+        -- print("Loading extra script `" .. k .. "`: " .. script_path)
+        if k ~= "." and k ~= ".." then
+            local key = k:match("(.+).lua")
+            print("Loading extra script `" .. key .. "`: " .. script_path)
+            local table = load_table(script_path)
+            if table ~= nil then
+                final_script = merge_tables(final_script, table)
+            end
+        end
     end
 
     -- Linter
-    for k, script_path in pairs(scripts.original_text) do
-        local script = load_table(script_path)
-        local lint = compare_tables(script, final_script)
-        if next(lint) then
-            write_to_file(lint, "dist/missing_keys_" .. k .. ".lua")
-            print("Missing keys from " .. k .. " dumped to dist/missing_keys_" .. k .. ".lua")
+    for k, script_path in pairs(extra_scripts_og) do
+        if k ~= "." and k ~= ".." then
+            local key = k:match("(.+).lua")
+            print("Linting extra script `" .. key .. "`: " .. script_path)
+
+            local script = load_table(script_path)
+            if table ~= nil then
+                local lint = compare_tables(script, final_script)
+                if next(lint) then
+                    write_to_file(lint, "dist/missing_keys_" .. key .. ".lua")
+                    print("Missing keys from " .. key .. " dumped to dist/missing_keys_" .. key .. ".lua")
+                end
+            end
         end
+
     end
 
     return final_script

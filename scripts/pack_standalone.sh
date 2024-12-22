@@ -27,7 +27,8 @@ function zip_dir {
 function prepare {
     cp -av mods/ThaiLoc/. $OUTPUT_DIR_PATH/mods/THLocale
     cp -av resources/ $OUTPUT_DIR_PATH/resources
-    cp -av localization $OUTPUT_DIR_PATH/localization
+    lua $(dirname $0)/loc_tables.lua
+    cp -av $DIST_DIR/localization $OUTPUT_DIR_PATH/localization
 }
 
 cleanup
