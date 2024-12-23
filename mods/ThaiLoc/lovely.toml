@@ -86,25 +86,6 @@ payload = '''{n=G.UIT.T, config={text = "สำรับ", scale = 0.38, colour 
 overwrite = true
 match_indent = true
 
-# การแปลและตำแหน่งของบรรทัด "PEEK DECK" เมื่อเล่นกับเกมแพด
-[[patches]]
-[patches.pattern]
-target = "cardarea.lua"
-pattern = '''{n=G.UIT.T, config={text = 'แอบดู', scale = 0.48, colour = G.C.WHITE, shadow = true}}'''
-position = "at"
-payload = '''{n=G.UIT.T, config={text = 'ส่วนที่เหลือ", scale = 0.35, colour = G.C.WHITE, shadow = true}}'''
-overwrite = true
-match_indent = true
-
-[[patches]]
-[patches.pattern]
-target = "cardarea.lua"
-pattern = '''{n=G.UIT.T, config={text = 'สำรับ', scale = 0.38, colour = G.C.WHITE, shadow = true}}'''
-position = "at"
-payload = '''{n=G.UIT.T, config={text = 'ไพ่', scale = 0.4, colour = G.C.WHITE, shadow = true}}'''
-overwrite = true
-match_indent = true
-
 [[patches]]
 [patches.pattern]
 target = "cardarea.lua"
@@ -123,22 +104,7 @@ position = "at"
 payload = '''elseif G.SETTINGS.language == 'zh_TW' then'''
 overwrite = true
 match_indent = true
-[[patches]]
-[patches.pattern]
-target = "cardarea.lua"
-pattern = '''{n=G.UIT.T, config={text = 'พ่ายแพ้', scale = 0.6, colour = G.C.WHITE}}'''
-position = "at"
-payload = '''{n=G.UIT.T, config={text = 'พ่ายแพ้', scale = 0.4, colour = G.C.WHITE}}'''
-overwrite = true
-match_indent = true
-[[patches]]
-[patches.pattern]
-target = "cardarea.lua"
-pattern = '''{n=G.UIT.T, config={text = 'บอส บลายด์', scale = 0.4, colour = G.C.WHITE}}'''
-position = "at"
-payload = '''{n=G.UIT.T, config={text = 'บอส บลายด์', scale = 0.4, colour = G.C.WHITE}}'''
-overwrite = true
-match_indent = true
+
 [[patches]]
 [patches.pattern]
 target = "cardarea.lua"
@@ -286,7 +252,7 @@ match_indent = true
 [[patches]]
 [patches.pattern]
 target = "functions/UI_definitions.lua"
-pattern = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_value = 1, scale = scale*0.9, colour = G.C.UI.TEXT_LIGHT, id = 'HUD_blind_debuff_1', func = 'HUD_blind_debuff'}}'''
+pattern = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_value = 2, scale = scale*0.9, colour = G.C.UI.TEXT_LIGHT, id = 'HUD_blind_debuff_1', func = 'HUD_blind_debuff'}}'''
 position = "at"
 payload = '''{n=G.UIT.T, config={ref_table = G.GAME.blind.loc_debuff_lines, ref_value = 2, scale = scale*0.8, colour = G.C.UI.TEXT_LIGHT, id = 'HUD_blind_debuff_2', func = 'HUD_blind_debuff'}}'''
 overwrite = true
