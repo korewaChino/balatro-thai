@@ -80,8 +80,19 @@ do
     function table.export(tbl, indent)
         local indent = indent or ""
         local result = "{\n"
+        
+        -- Create a sorted array of keys
+        local keys = {}
+        for k in pairs(tbl) do
+            table.insert(keys, k)
+        end
+        table.sort(keys, function(a, b)
+            return tostring(a) < tostring(b)
+        end)
 
-        for k, v in pairs(tbl) do
+        -- Use the sorted keys to build the string
+        for _, k in ipairs(keys) do
+            local v = tbl[k]
             local key = type(k) == "string" and string.format('["%s"]', k) or string.format("[%s]", k)
             local value
 
