@@ -3,6 +3,10 @@ name: Build
 on:
   push:
 
+env:
+  MOD_ID: "85"
+  GAMEID: "balatro"
+
 permissions:
   contents: write
   packages: write
@@ -34,6 +38,19 @@ jobs:
           files: |
             dist/*Steamodded.zip
 
+      - name: Upload to Nexus
+        uses: hmlendea/nexusmods-update@latest
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          account_email_address: ${{secrets.NEXUS_UPLOADER_EMAIL_ADDRESS}}
+          account_password: ${{secrets.NEXUS_UPLOADER_PASSWORD}}
+          nexus_game_id: ${{env.GAMEID}}
+          nexus_mod_id: ${{env.MOD_ID}}
+          mod_file_name: "Steamodded Distribution"
+          mod_version: ${{github.ref_name}}
+          file_description: "Changelog: https://github.com/${{github.repository}}/releases/${{github.ref_name}}"
+          file_path: "dist/THLocale-Steamodded.zip"
+
   build-standalone:
     runs-on: ubuntu-latest
     steps:
@@ -59,3 +76,16 @@ jobs:
           draft: true
           files: |
             dist/*Standalone.zip
+
+      - name: Upload to Nexus
+        uses: hmlendea/nexusmods-update@latest
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          account_email_address: ${{secrets.NEXUS_UPLOADER_EMAIL_ADDRESS}}
+          account_password: ${{secrets.NEXUS_UPLOADER_PASSWORD}}
+          nexus_game_id: ${{env.GAMEID}}
+          nexus_mod_id: ${{env.MOD_ID}}
+          mod_file_name: "Standalone Distribution"
+          mod_version: ${{github.ref_name}}
+          file_description: "Changelog: https://github.com/${{github.repository}}/releases/${{github.ref_name}}"
+          file_path: "dist/THLocale-Standalone.zip"
