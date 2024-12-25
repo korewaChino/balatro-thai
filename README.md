@@ -54,6 +54,13 @@
 
 ถ้าอยากช่วยเพิ่มเติมในม็อดก็ Fork และส่ง Pull Request มาได้ หรือถ้ามีข้อสงสัยก็สามารถเปิด Issue ได้เลย :D
 
+## เครดิต
+- @korewaChino แปลกับปล่อยม็อด
+- @Aikoyori แปล
+- AemAem และ LustHeart พิสูจน์อักษรและช่วยให้คำแปลในเซิฟ Discord Balatro
+- Co9ski ทดสอบเล่น (แล้วดันติดเฉย), พิสูจน์อักษร, และช่วยให้คำแปล
+- [ไม่เมาไม่แปล](https://www.facebook.com/maimaomaiplae) ม็อดเดิมที่แปลได้ส้นตีน
+
 ---
 
 English
@@ -139,6 +146,13 @@ Download the Lua interpreter from the official website and run the script using 
 ## Contributing
 
 If you'd like to contribute to the mod, feel free to fork the repository and submit a pull request. If you have any questions, feel free to open an issue! :D
+
+## Credit
+- @korewaChino for main translation and publishing
+- @Aikoyori for translation
+- AemAem and LustHeart for proofreading and translation aides in the Balatro Discord server
+- Co9ski for blind playtesting (and got addicted in the process), proofreading, and translation aides
+- [maimaomaiplae](https://www.facebook.com/maimaomaiplae) for the original mod with questionable translations
 
 [Lovely Injector]: https://github.com/ethangreen-dev/lovely-injector
 [Thai balatro mod]: https://www.nexusmods.com/balatro/mods/37
