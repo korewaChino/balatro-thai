@@ -18,6 +18,6 @@ match_indent = true
 target = "game.lua"
 pattern = '''{file = "resources/fonts/NotoSans-Bold.ttf", render_scale = self.TILESIZE*7, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.12, squish = 1, DESCSCALE = 1},'''
 position = "at"
-payload = '''{file = "resources/fonts/2005_iannnnnAMD.ttf", render_scale = self.TILESIZE*16, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.13, squish = 1, DESCSCALE = 1},'''
+payload = '''{file = "resources/fonts/ThemPixels9x16mix.ttf.ttf", render_scale = self.TILESIZE*16, TEXT_HEIGHT_SCALE = 0.65, TEXT_OFFSET = {x=0,y=-40}, FONTSCALE = 0.13, squish = 1, DESCSCALE = 1},'''
 overwrite = true
 match_indent = true

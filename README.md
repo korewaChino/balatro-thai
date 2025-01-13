@@ -17,7 +17,7 @@
 > ยังไม่เสร็จสมบูรณ์
 
 - แปลให้มันไม่เมาและเข้าใจง่ายขึ้น
-- เปลี่ยนฟ้อนที่ให้มาจาก `Mali` เป็น `2005_iannnnnAMD` เพื่อที่จะได้พอเข้ากับเกมเดิม
+- เปลี่ยนฟ้อนที่ให้มาจาก `Mali` เป็น `ThemPixels9x16` ที่ทำขึ่นมาเพื่อที่จะได้พอเข้ากับเกมเดิม
 - แปลชิป Small Blind และ Big Blind (วาดเอง)
 - แปลชื่อและคำอธิบายของไอเทมให้ครบถ้วน
 - เปลี่ยนชื่อบอสบลายน์ให้เป็นภาษาไทย/เขมร/ปาลี-สันสกฎต (ขอบคุณ @Aikoyori)
@@ -56,10 +56,11 @@
 
 ## เครดิต
 - @korewaChino แปลกับปล่อยม็อด
-- @Aikoyori แปล
+- @Aikoyori แปลและทำฟ้อน
 - AemAem และ LustHeart พิสูจน์อักษรและช่วยให้คำแปลในเซิฟ Discord Balatro
 - Co9ski ทดสอบเล่น (แล้วดันติดเฉย), พิสูจน์อักษร, และช่วยให้คำแปล
 - [ไม่เมาไม่แปล](https://www.facebook.com/maimaomaiplae) ม็อดเดิมที่แปลได้ส้นตีน
+- [ฟ้อนเดิม m6x11](https://managore.itch.io/m6x11) ฟ้อนที่ใช้ในเกมและนำมารวมในม็อดนี้
 
 ---
 
@@ -72,7 +73,7 @@ Updated for 1.0.1n-FULL
 ## Changes from the original mod
 
 - Properly localize item names and descriptions
-- Replaced default typeface from `Mali` to `2005_iannnnnAMD` for a more consistent pixel art look
+- Replaced default typeface from `Mali` to `ThemPixels9x16` (a custom made typeface) for a more consistent pixel art look
 - Boss Blind titles have now been fully localized with custom Thai/Khmer/Pali/Sanskrit names (Special thanks @Aikoyori)
 - Fixed broken grammar in descriptions
 - Fully-localized card names and descriptions, including Tarot, Jokers, Spectrals, and more.
@@ -149,10 +150,11 @@ If you'd like to contribute to the mod, feel free to fork the repository and sub
 
 ## Credit
 - @korewaChino for main translation and publishing
-- @Aikoyori for translation
+- @Aikoyori for translation and font
 - AemAem and LustHeart for proofreading and translation aides in the Balatro Discord server
 - Co9ski for blind playtesting (and got addicted in the process), proofreading, and translation aides
 - [maimaomaiplae](https://www.facebook.com/maimaomaiplae) for the original mod with questionable translations
+- [Original m6x11 Font](https://managore.itch.io/m6x11) the font used in the game and what we based the font of
 
 [Lovely Injector]: https://github.com/ethangreen-dev/lovely-injector
 [Thai balatro mod]: https://www.nexusmods.com/balatro/mods/37
